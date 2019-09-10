@@ -1,0 +1,11 @@
+site_name: Documentação - Interação Humano Computador - Codeforces
+
+nav:
+    - Home: index.md
+    
+repo_url: https://github.com/IHC-2019-2/CodeForces
+
+docs_dir: codeforces_docs/
+site_dir: docs/
+
+theme: yeti
