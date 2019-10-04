@@ -1,3 +1,5 @@
+<span style="margin-left: 0%;">![Codeforces Logo](../images/codeforces.png)</span>
+
 ## 1.1 Objetivo do Guia de Estilo
 O objetivo desse guia de estilo é reunir os princípios e as diretrizes para a avaliação e para a sugestão de melhorias no design da interação humano-computador do CodeForces.
 <p> Além disso, aqui são definidos os padrões visuais utilizados pelo sítio, de forma que tudo isso citado anteriormente forme um guia consistente que sirva de ferramenta de comunicação entre toda a equipe.
@@ -18,11 +20,18 @@ O público-alvo desse trabalho, que consequentemente é o mesmo do CodeForces, n
 Adotaremos para o desenvolvimento desse projeto o processo de design de interação humano-computador conhecido como Engenharia de Usabilidade de Mayhew. Esse ciclo é dado pela figura abaixo : 
 <p>
 
-<p align="center">
-  <img width="500" height="600" src="https://github.com/IHC-2019-2/CodeForces/blob/master/codeforces_docs/images/eng_usa_mayhew.jpg">
-</p>
+
+<span style="align: center; margin-left: 20%;">![Ciclo Mayhew](../images/eng_usa_mayhew.jpg)</span>
+
 
 Dessa forma, à cada etapa do ciclo acima, ou seja, ao término de cada nível, aplica-se o guia de estilo ao projeto.
 
 ## 1.5 Como manter o Guia
 A manutenibilidade desse guia segue o processo de engenharia de usabilidade de Mayhew, sendo que deve-se atualizá-lo sempre que possível.
+
+
+***
+## Versionamento de edições desta página
+| Data | Autor | Descrição | Versão |
+|------|-------|-----------|--------|
+| 04/10/2019 | Fernando Aguilar | Criação e edição inicial da página. | 0.1 |

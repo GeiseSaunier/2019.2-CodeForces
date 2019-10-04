@@ -9,6 +9,8 @@ nav:
         - 4. Elementos De Interação: guia_de_estilo/elementos_interacao.md
         - 5. Elementos De Ação: guia_de_estilo/elementos_de_acao.md
         - 6. Vocabularios E Padrões: guia_de_estilo/vocabularios_e_padroes.md
+    - Artefatos: 
+        - StoryBoard: artefatos/storyboard.md
 
 repo_url: https://github.com/IHC-2019-2/2019.2-CodeForces
 

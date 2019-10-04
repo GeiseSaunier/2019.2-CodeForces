@@ -1,17 +1,10 @@
 <span style="margin-left: 0%;">![Codeforces Logo](../images/codeforces.png)</span>
 
+***
+# Para o Codeforces :
 
-## 3.1 Disposição espacial e grid
+<span style="margin-right: 40%;">![STORYBOARD](images/storyboard.png)</span>
 
-## 3.2 Janelas
-
-## 3.3 Tipografia
-
-## 3.4 Símbolos não tipográficos
-
-## 3.5 Cores
-
-## 3.6 Animações
 
 
 ***

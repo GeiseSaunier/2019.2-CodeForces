@@ -1,3 +1,6 @@
+<span style="margin-left: 0%;">![Codeforces Logo](../images/codeforces.png)</span>
+
+
 ## 4.1 Estilos de interação
 O
 usuário 
@@ -51,3 +54,9 @@ criar
 estes. 
 
 
+
+***
+## Versionamento de edições desta página
+| Data | Autor | Descrição | Versão |
+|------|-------|-----------|--------|
+| 04/10/2019 | Fernando Aguilar | Criação e edição inicial da página. | 0.1 |

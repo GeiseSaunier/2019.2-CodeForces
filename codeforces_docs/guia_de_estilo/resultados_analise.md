@@ -1,3 +1,5 @@
+<span style="margin-left: 0%;">![Codeforces Logo](../images/codeforces.png)</span>
+
 ## 2.1 Descrição do ambiente de trabalho do usuário
 O CodeForces é um sítio da web no qual o usuário interage com o sistema por meio de clicks em links e em botões. Dessa forma, o ambiente de trabalho do usuário é um navegador web da preferência dele, o qual o permita interagir com o website.
 ## 2.2 Metas de usabilidade
@@ -287,3 +289,11 @@ Perspectiva do projeto: | Problema Falso ( ) | Problema Novo ( ) | Não se aplic
 Contexto | Causa | Efeito sobre o usuário | Efeito sobre a tarefa | Correção Possível |
 :---------: | :------: | :-------: | :--------: | :--------: |
 Há um FAC para auxílio em dúvidas mais comuns sobre a plataforma, mas não há um manual de uso | Não há uma documentação mais precisa disponível   | Nenhum | Gera dúvidas | Documentação sobre funcionamento de campeonatos, formação de score e classificação de questões por estágio de dificuldade... |
+
+
+
+***
+## Versionamento de edições desta página
+| Data | Autor | Descrição | Versão |
+|------|-------|-----------|--------|
+| 04/10/2019 | Fernando Aguilar | Criação e edição inicial da página. | 0.1 |
