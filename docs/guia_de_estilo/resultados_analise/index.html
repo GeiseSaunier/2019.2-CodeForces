@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>2. Resultados De Análise - Documentação - IHC - Codeforces</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/color-brewer.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../..">Documentação - IHC - Codeforces</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="../..">Home</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guia De Estilo <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../introducao/">1. Introdução</a>
+</li>
+                                    
+<li class="active">
+    <a href="./">2. Resultados De Análise</a>
+</li>
+                                    
+<li >
+    <a href="../elementos_interface/">3. Elementos De Interface</a>
+</li>
+                                    
+<li >
+    <a href="../elementos_interacao/">4. Elementos De Interação</a>
+</li>
+                                    
+<li >
+    <a href="../elementos_de_acao/">5. Elementos De Ação</a>
+</li>
+                                    
+<li >
+    <a href="../vocabularios_e_padroes/">6. Vocabularios E Padrões</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Artefatos <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../artefatos/storyboard/">StoryBoard</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../introducao/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../elementos_interface/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/IHC-2019-2/2019.2-CodeForces/edit/master/docs/guia_de_estilo/resultados_analise.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#21-descricao-do-ambiente-de-trabalho-do-usuario">2.1 Descrição do ambiente de trabalho do usuário</a></li>
+        <li class="main "><a href="#22-metas-de-usabilidade">2.2 Metas de usabilidade</a></li>
+            <li><a href="#221-eficacia">2.2.1 Eficácia</a></li>
+            <li><a href="#222-eficiencia">2.2.2 Eficiência</a></li>
+            <li><a href="#223-seguranca">2.2.3 Segurança</a></li>
+            <li><a href="#224-utilidade">2.2.4 Utilidade</a></li>
+            <li><a href="#225-aprendizado">2.2.5 Aprendizado</a></li>
+            <li><a href="#226-memorizacao">2.2.6 Memorização</a></li>
+        <li class="main "><a href="#23-avaliacao-heuristica-do-sitio-do-codeforces">2.3 Avaliação Heurística do sítio do CodeForces</a></li>
+            <li><a href="#231-heuristica-status-do-sistema">2.3.1 Heurística: Status do sistema</a></li>
+            <li><a href="#232-heuristica-compatibilidade-do-sistema-com-o-mundo-real">2.3.2 Heurística: Compatibilidade do Sistema com o Mundo Real</a></li>
+            <li><a href="#233-heuristica-consistencia-e-padroes">2.3.3 Heurística: Consistência e padrões</a></li>
+            <li><a href="#234-heuristica-controle-do-usuario-e-liberdade">2.3.4 Heurística: Controle do Usuário e Liberdade</a></li>
+            <li><a href="#235-heuristica-prevencao-de-erros">2.3.5 Heurística: Prevenção de erros</a></li>
+            <li><a href="#236-heuristica-reconhecimento-ao-inves-de-lembranca">2.3.6 Heurística: Reconhecimento ao invés de lembrança</a></li>
+            <li><a href="#237-heuristica-flexibilidade-e-eficiencia-de-uso">2.3.7 Heurística: Flexibilidade e eficiência de uso</a></li>
+            <li><a href="#238-heuristica-estetica-e-design-minimalista">2.3.8 Heurística: Estética e design minimalista</a></li>
+            <li><a href="#239-heuristica-ajudar-os-usuarios-reconhecer-diagnosticar-e-corrigir-erros">2.3.9 Heurística: Ajudar os usuários reconhecer, diagnosticar e corrigir erros</a></li>
+            <li><a href="#2310-heuristica-ajuda-e-documentacao">2.3.10 Heurística: Ajuda e documentação</a></li>
+        <li class="main "><a href="#versionamento-de-edicoes-desta-pagina">Versionamento de edições desta página</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<p><span style="margin-left: 0%;"><img alt="Codeforces Logo" src="../../images/codeforces.png" /></span></p>
+<h2 id="21-descricao-do-ambiente-de-trabalho-do-usuario">2.1 Descrição do ambiente de trabalho do usuário</h2>
+<p>O CodeForces é um sítio da web no qual o usuário interage com o sistema por meio de clicks em links e em botões. Dessa forma, o ambiente de trabalho do usuário é um navegador web da preferência dele, o qual o permita interagir com o website.</p>
+<h2 id="22-metas-de-usabilidade">2.2 Metas de usabilidade</h2>
+<h3 id="221-eficacia">2.2.1 Eficácia</h3>
+<p>É a capacidade de resolução de problemas associado ao grau de realização dos objetivos que, no caso do Codeforces referem-se ao encontro de exercícios e campeonatos de programação de acordo com o assunto e dificuldade procurada. O Codeforces deve permitir:</p>
+<ul>
+<li>Alcance de objetivos;</li>
+<li>Aprendizagem sobre uso;</li>
+<li>Acesso às informações necessárias.</li>
+</ul>
+<h3 id="222-eficiencia">2.2.2 Eficiência</h3>
+<p>O Codeforces deve auxiliar o usuário na realização da tarefa da maneira mais fluida e fácil possível. O comportamento do software deve atender as necessidades do usuário da maneira mais veloz possível tendo em vista os recursos procurados.</p>
+<h3 id="223-seguranca">2.2.3 Segurança</h3>
+<p>É a solução de proteção do usuário contra condições que exijam retrabalho ou que causam evasão dada a ausência de soluções corretivas pelo software e situações indesejáveis. A segurança serve para:</p>
+<ul>
+<li>Prevenção de erros;</li>
+<li>Reduzir de riscos (proximidades de botões perigosos como salvar e apagar)</li>
+<li>É importante garantir a segurança oferecendo formas de recuperação ou retorno.</li>
+</ul>
+<h3 id="224-utilidade">2.2.4 Utilidade</h3>
+<p>O sistema deve fornecer ao usuário um conjunto apropriado de funções, aquelas que são realmente esperadas pelo usuário no momento em que buscam pelo Codeforces.</p>
+<h3 id="225-aprendizado">2.2.5 Aprendizado</h3>
+<p>Esta meta refere-se a capacidade de aprendizado e determina se vai ser fácil aprender a usar o sistema. Quando as soluções encontradas para o sistema ainda apontam uma certa complexidade de uso, o usuário será mais propenso a estudar suas possibilidades de uso se ele tiver um objetivo muito claro. Se o cenário não for este, as chances são que ele desista nas primeiras tentativas e que a evasão do software aumente.</p>
+<h3 id="226-memorizacao">2.2.6 Memorização</h3>
+<p>Essa meta de usabilidade refere-se a facilidade em lembrar como utilizar o sistema após uma experiência prévia. A reutilização do sistema após semanas ou meses da última utilização deve favorecer o usuário a lembrar processos e comandos. Pode-se associar isso à intuitividade das interfaces e o esquecimento, que deve ser corrigido, ocorre quando as funções são obscura, ilógicas ou pobremente encadeadas.</p>
+<h2 id="23-avaliacao-heuristica-do-sitio-do-codeforces">2.3 Avaliação Heurística do sítio do CodeForces</h2>
+<h3 id="231-heuristica-status-do-sistema">2.3.1 Heurística: Status do sistema</h3>
+<table>
+<thead>
+<tr>
+<th align="left">Verificação</th>
+<th align="left">Grau de severidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">O usuário é capaz de identificar qual etapa está realizando até que conclua<br/> a sua ação? É capaz também de identificar a sua localização no site?</td>
+<td align="left">Simples</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Natureza do problema:</th>
+<th align="center">Barreira ( )</th>
+<th align="center">Obstáculo (x)</th>
+<th align="center">Ruído ( )</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Perspectiva do usuário:</th>
+<th align="center">Problema Geral (x)</th>
+<th align="center">Problema Preliminar ( )</th>
+<th align="center">Problema Especial ( )</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Perspectiva da tarefa:</th>
+<th align="center">Problema Principal (x)</th>
+<th align="center">Problema Secundário ( )</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Perspectiva do projeto: | Problema Falso ( ) | Problema Novo ( ) | Não se aplica (x)
+:---------------: |:------: | :---------: | :-----: |</p>
+<h4 id="descricao-do-problemas">Descrição do problemas</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Contexto</th>
+<th align="center">Causa</th>
+<th align="center">Efeito sobre o usuário</th>
+<th align="center">Efeito sobre a tarefa</th>
+<th align="center">Correção Possível</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">As informações no site tendem a ser implícitas para os usuários, tais como categorias e gabaritos de contests</td>
+<td align="center">Ausência de Objetividade</td>
+<td align="center">Tempo até acostumar com as padronizações</td>
+<td align="center">Complexidade na realização</td>
+<td align="center">Categorizar Tarefas e funcionalidades</td>
+</tr>
+</tbody>
+</table>
+<h3 id="232-heuristica-compatibilidade-do-sistema-com-o-mundo-real">2.3.2 Heurística: Compatibilidade do Sistema com o Mundo Real</h3>
+<table>
+<thead>
+<tr>
+<th align="left">Verificação</th>
+<th align="left">Grau de severidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">A linguagem utilizada é objetiva para o público alvo?</td>
+<td align="left">Simples</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Natureza do problema:</th>
+<th align="center">Barreira (x)</th>
+<th align="center">Obstáculo ( )</th>
+<th align="center">Ruído ( )</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Perspectiva do usuário:</th>
+<th align="center">Problema Geral ( )</th>
+<th align="center">Problema Preliminar (x)</th>
+<th align="center">Problema Especial ( )</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Perspectiva da tarefa:</th>
+<th align="center">Problema Principal ( )</th>
+<th align="center">Problema Secundário ( )</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Perspectiva do projeto: | Problema Falso ( ) | Problema Novo ( ) | Não se aplica ( )
+:---------------: |:------: | :---------: | :-----: |</p>
+<h4 id="descricao-do-problemas_1">Descrição do problemas</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Contexto</th>
+<th align="center">Causa</th>
+<th align="center">Efeito sobre o usuário</th>
+<th align="center">Efeito sobre a tarefa</th>
+<th align="center">Correção Possível</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Os termos linguísticos utilizados pelo Codeforces condizem com o conhecimento de seus usuários frequentes</td>
+<td align="center">Os usuários iniciantes tendem a se adaptar a alguns termos como ranking e Div.</td>
+<td align="center">Confusão nos primeiros contatos com o site</td>
+<td align="center">Nenhum</td>
+<td align="center">Um dicionário guia para iniciantes ajudaria.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="233-heuristica-consistencia-e-padroes">2.3.3 Heurística: Consistência e padrões</h3>
+<table>
+<thead>
+<tr>
+<th align="left">Verificação</th>
+<th align="left">Grau de severidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">O site possui padrões de cores e formatações? Existe um sistema de Categorização? Os botões e links seguem um padrão?</td>
+<td align="left">Simples</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Natureza do problema:</th>
+<th align="center">Barreira (x)</th>
+<th align="center">Obstáculo ( )</th>
+<th align="center">Ruído ( )</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Perspectiva do usuário:</th>
+<th align="center">Problema Geral (x)</th>
+<th align="center">Problema Preliminar ( )</th>
+<th align="center">Problema Especial ( )</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Perspectiva da tarefa:</th>
+<th align="center">Problema Principal ()</th>
+<th align="center">Problema Secundário ( )</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Perspectiva do projeto: | Problema Falso ( ) | Problema Novo ( ) | Não se aplica (x)
+:---------------: |:------: | :---------: | :-----: |</p>
+<h4 id="descricao-do-problemas_2">Descrição do problemas</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Contexto</th>
+<th align="center">Causa</th>
+<th align="center">Efeito sobre o usuário</th>
+<th align="center">Efeito sobre a tarefa</th>
+<th align="center">Correção Possível</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">O site possui um padrão e segue a risca as suas formatações</td>
+<td align="center">Algumas formatações não retratam um ponto objetivo nas tarefas</td>
+<td align="center">O usuário pode não simpatizar com a paleta de cores</td>
+<td align="center">Nenhum</td>
+<td align="center">Diversificações nos elementos da interface com o usuário</td>
+</tr>
+</tbody>
+</table>
+<h3 id="234-heuristica-controle-do-usuario-e-liberdade">2.3.4 Heurística: Controle do Usuário e Liberdade</h3>
+<table>
+<thead>
+<tr>
+<th align="left">Verificação</th>
+<th align="left">Grau de severidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">O usuário é capaz de controlar suas ações dentro do site?</td>
+<td align="left">Simples</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Natureza do problema:</th>
+<th align="center">Barreira (x)</th>
+<th align="center">Obstáculo ( )</th>
+<th align="center">Ruído ( )</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Perspectiva do usuário:</th>
+<th align="center">Problema Geral (x)</th>
+<th align="center">Problema Preliminar ( )</th>
+<th align="center">Problema Especial ( )</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Perspectiva da tarefa:</th>
+<th align="center">Problema Principal (x)</th>
+<th align="center">Problema Secundário ( )</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Perspectiva do projeto: | Problema Falso ( ) | Problema Novo ( ) | Não se aplica (x)
+:---------------: |:------: | :---------: | :-----: |</p>
+<h4 id="descricao-do-problemas_3">Descrição do problemas</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Contexto</th>
+<th align="center">Causa</th>
+<th align="center">Efeito sobre o usuário</th>
+<th align="center">Efeito sobre a tarefa</th>
+<th align="center">Correção Possível</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">O usuário pode controlar suas ações entretanto é necessário conhecimento prévio da plataforma</td>
+<td align="center">Falta de instruçoes e comunicação a leigos</td>
+<td align="center">Confusão e Desistência</td>
+<td align="center">Nenhum</td>
+<td align="center">Adaptar as realidades de usuários iniciantes</td>
+</tr>
+</tbody>
+</table>
+<h3 id="235-heuristica-prevencao-de-erros">2.3.5 Heurística: Prevenção de erros</h3>
+<table>
+<thead>
+<tr>
+<th align="left">Verificação</th>
+<th align="left">Grau de severidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">O site apresenta elementos que evitem que<br/> os usuŕios cometam erros? As informações <br/>são bem organizadas?</td>
+<td align="left">Grave</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Natureza do problema:</th>
+<th align="center">Barreira ( )</th>
+<th align="center">Obstáculo (x)</th>
+<th align="center">Ruído ( )</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Perspectiva do usuário:</th>
+<th align="center">Problema Geral (x)</th>
+<th align="center">Problema Preliminar ( )</th>
+<th align="center">Problema Especial ( )</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Perspectiva da tarefa:</th>
+<th align="center">Problema Principal (x)</th>
+<th align="center">Problema Secundário ( )</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Perspectiva do projeto: | Problema Falso ( ) | Problema Novo ( ) | Não se aplica (x)
+:---------------: |:------: | :---------: | :-----: |</p>
+<h4 id="descricao-do-problemas_4">Descrição do problemas</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Contexto</th>
+<th align="center">Causa</th>
+<th align="center">Efeito sobre o usuário</th>
+<th align="center">Efeito sobre a tarefa</th>
+<th align="center">Correção Possível</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">As informações no site tendem a ser implícitas para os usuários, tais como categorias e gabaritos de contests</td>
+<td align="center">Ausência de Objetividade</td>
+<td align="center">Tempo até acostumar com as padronizações</td>
+<td align="center">Complexidade na realização</td>
+<td align="center">Categorizar Tarefas e funcionalidades</td>
+</tr>
+</tbody>
+</table>
+<h3 id="236-heuristica-reconhecimento-ao-inves-de-lembranca">2.3.6 Heurística: Reconhecimento ao invés de lembrança</h3>
+<table>
+<thead>
+<tr>
+<th align="left">Verificação</th>
+<th align="left">Grau de severidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>|  As instruções estão visíveis no contexto em que o usuário se encontra? | simples|</p>
+<table>
+<thead>
+<tr>
+<th align="center">Natureza do problema:</th>
+<th align="center">Barreira ()</th>
+<th align="center">Obstáculo ( )</th>
+<th align="center">Ruído (x)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Perspectiva do usuário:</th>
+<th align="center">Problema Geral ( )</th>
+<th align="center">Problema Preliminar (x)</th>
+<th align="center">Problema Especial ( )</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Perspectiva da tarefa:</th>
+<th align="center">Problema Principal ( )</th>
+<th align="center">Problema Secundário (x)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Perspectiva do projeto: | Problema Falso ( ) | Problema Novo ( ) | Não se aplica (x)
+:---------------: |:------: | :---------: | :-----: |</p>
+<h4 id="descricao-do-problemas_5">Descrição do problemas</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Contexto</th>
+<th align="center">Causa</th>
+<th align="center">Efeito sobre o usuário</th>
+<th align="center">Efeito sobre a tarefa</th>
+<th align="center">Correção Possível</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">O usuário quando entra em grupos</td>
+<td align="center">A interface não ajuda o usuário a localizar-se</td>
+<td align="center">Precisa reiniciar a sessão do início</td>
+<td align="center">O usuário perde tempo para se localizar</td>
+<td align="center">Adição de botões de retorno a área anterior</td>
+</tr>
+</tbody>
+</table>
+<h3 id="237-heuristica-flexibilidade-e-eficiencia-de-uso">2.3.7 Heurística: Flexibilidade e eficiência de uso</h3>
+<table>
+<thead>
+<tr>
+<th align="left">Verificação</th>
+<th align="left">Grau de severidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">O sítio consegue atender a todos os perfis de usuários, iniciantes e experientes?</td>
+<td align="left">Grave</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Natureza do problema:</th>
+<th align="center">Barreira (x)</th>
+<th align="center">Obstáculo ( )</th>
+<th align="center">Ruído ( ))</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Perspectiva do usuário:</th>
+<th align="center">Problema Geral (x)</th>
+<th align="center">Problema Preliminar ( )</th>
+<th align="center">Problema Especial ( )</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Perspectiva da tarefa:</th>
+<th align="center">Problema Principal (x)</th>
+<th align="center">Problema Secundário ( )</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Perspectiva do projeto: | Problema Falso ( ) | Problema Novo (x) | Não se aplica ( )
+:---------------: |:------: | :---------: | :-----: |</p>
+<h4 id="descricao-do-problemas_6">Descrição do problemas</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Contexto</th>
+<th align="center">Causa</th>
+<th align="center">Efeito sobre o usuário</th>
+<th align="center">Efeito sobre a tarefa</th>
+<th align="center">Correção Possível</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">É difícil  exercícios e competições por dificuldade mais simples</td>
+<td align="center">O usuário encontra maioria dos exercícios com uma dificuldade muito superior</td>
+<td align="center">Não consegue cumprir bem com o objetivo de aprendizado</td>
+<td align="center">Não é executada da maneira mais adequada</td>
+<td align="center">Maior segmentação de exercícios quanto dificuldade</td>
+</tr>
+</tbody>
+</table>
+<h3 id="238-heuristica-estetica-e-design-minimalista">2.3.8 Heurística: Estética e design minimalista</h3>
+<table>
+<thead>
+<tr>
+<th align="left">Verificação</th>
+<th align="left">Grau de severidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Há elementos desnecessários que possam confundir o usuário?</td>
+<td align="left">Sem Importância</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Natureza do problema:</th>
+<th align="center">Barreira ( )</th>
+<th align="center">Obstáculo ( )</th>
+<th align="center">Ruído ( ))</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Perspectiva do usuário:</th>
+<th align="center">Problema Geral ( )</th>
+<th align="center">Problema Preliminar ( )</th>
+<th align="center">Problema Especial ( )</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Perspectiva da tarefa:</th>
+<th align="center">Problema Principal ( )</th>
+<th align="center">Problema Secundário ( )</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Perspectiva do projeto: | Problema Falso ( ) | Problema Novo ( ) | Não se aplica (x)
+:---------------: |:------: | :---------: | :-----: |</p>
+<h4 id="descricao-do-problemas_7">Descrição do problemas</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Contexto</th>
+<th align="center">Causa</th>
+<th align="center">Efeito sobre o usuário</th>
+<th align="center">Efeito sobre a tarefa</th>
+<th align="center">Correção Possível</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">O Codeforces possui um design bastate minimalista</td>
+<td align="center">A interface não atrapalha o usuário com excessos</td>
+<td align="center">Nenhum</td>
+<td align="center">O usuário consegue interagir com a interface de maneira fluida</td>
+<td align="center">Não necessita</td>
+</tr>
+</tbody>
+</table>
+<h3 id="239-heuristica-ajudar-os-usuarios-reconhecer-diagnosticar-e-corrigir-erros">2.3.9 Heurística: Ajudar os usuários reconhecer, diagnosticar e corrigir erros</h3>
+<table>
+<thead>
+<tr>
+<th align="left">Verificação</th>
+<th align="left">Grau de severidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">As mensagens de erro devem oferecer informações para o usuário corrigir o problema?</td>
+<td align="left">Cosmético</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Natureza do problema:</th>
+<th align="center">Barreira ( )</th>
+<th align="center">Obstáculo ( )</th>
+<th align="center">Ruído ( ))</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Perspectiva do usuário:</th>
+<th align="center">Problema Geral ( )</th>
+<th align="center">Problema Preliminar ( )</th>
+<th align="center">Problema Especial ( )</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Perspectiva da tarefa:</th>
+<th align="center">Problema Principal ( )</th>
+<th align="center">Problema Secundário ( )</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Perspectiva do projeto: | Problema Falso ( ) | Problema Novo ( ) | Não se aplica (x)
+:---------------: |:------: | :---------: | :-----: |</p>
+<h4 id="descricao-do-problemas_8">Descrição do problemas</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Contexto</th>
+<th align="center">Causa</th>
+<th align="center">Efeito sobre o usuário</th>
+<th align="center">Efeito sobre a tarefa</th>
+<th align="center">Correção Possível</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">O Codeforce informa a origem de diversos erros e inclusive casos de teste</td>
+<td align="center">Erros de submissão de exercícios</td>
+<td align="center">Consegue ter subsídio suficiente para corrigir erros</td>
+<td align="center">Nenhum</td>
+<td align="center">Não necessita</td>
+</tr>
+</tbody>
+</table>
+<h3 id="2310-heuristica-ajuda-e-documentacao">2.3.10 Heurística: Ajuda e documentação</h3>
+<table>
+<thead>
+<tr>
+<th align="left">Verificação</th>
+<th align="left">Grau de severidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">São fornecidos recursos de ajuda(help) integrado com as páginas do sítio?</td>
+<td align="left">simples</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Natureza do problema:</th>
+<th align="center">Barreira ( )</th>
+<th align="center">Obstáculo ( )</th>
+<th align="center">Ruído (x))</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Perspectiva do usuário:</th>
+<th align="center">Problema Geral ( )</th>
+<th align="center">Problema Preliminar ( )</th>
+<th align="center">Problema Especial ( )</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Perspectiva da tarefa:</th>
+<th align="center">Problema Principal ( )</th>
+<th align="center">Problema Secundário ( )</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Perspectiva do projeto: | Problema Falso ( ) | Problema Novo ( ) | Não se aplica (x)
+:---------------: |:------: | :---------: | :-----: |</p>
+<h4 id="descricao-do-problemas_9">Descrição do problemas</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Contexto</th>
+<th align="center">Causa</th>
+<th align="center">Efeito sobre o usuário</th>
+<th align="center">Efeito sobre a tarefa</th>
+<th align="center">Correção Possível</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Há um FAC para auxílio em dúvidas mais comuns sobre a plataforma, mas não há um manual de uso</td>
+<td align="center">Não há uma documentação mais precisa disponível</td>
+<td align="center">Nenhum</td>
+<td align="center">Gera dúvidas</td>
+<td align="center">Documentação sobre funcionamento de campeonatos, formação de score e classificação de questões por estágio de dificuldade...</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="versionamento-de-edicoes-desta-pagina">Versionamento de edições desta página</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Autor</th>
+<th>Descrição</th>
+<th>Versão</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>04/10/2019</td>
+<td>Fernando Aguilar</td>
+<td>Criação e edição inicial da página.</td>
+<td>0.1</td>
+</tr>
+</tbody>
+</table></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "search": 83, "previous": 80, "next": 78};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

@@ -4,14 +4,14 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
         
         
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>Documentação - IHC - Codeforces</title>
-        <link href="css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>5. Elementos De Ação - Documentação - IHC - Codeforces</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/color-brewer.min.css">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -19,13 +19,13 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script src="js/jquery-1.10.2.min.js" defer></script>
-        <script src="js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
 
         <div class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
@@ -39,42 +39,42 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href=".">Documentação - IHC - Codeforces</a>
+                    <a class="navbar-brand" href="../..">Documentação - IHC - Codeforces</a>
                 </div>
 
                 <!-- Expanded navigation -->
                 <div class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="active">
-                                <a href=".">Home</a>
+                            <li >
+                                <a href="../..">Home</a>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guia De Estilo <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="guia_de_estilo/introducao/">1. Introdução</a>
+    <a href="../introducao/">1. Introdução</a>
 </li>
                                     
 <li >
-    <a href="guia_de_estilo/resultados_analise/">2. Resultados De Análise</a>
+    <a href="../resultados_analise/">2. Resultados De Análise</a>
 </li>
                                     
 <li >
-    <a href="guia_de_estilo/elementos_interface/">3. Elementos De Interface</a>
+    <a href="../elementos_interface/">3. Elementos De Interface</a>
 </li>
                                     
 <li >
-    <a href="guia_de_estilo/elementos_interacao/">4. Elementos De Interação</a>
+    <a href="../elementos_interacao/">4. Elementos De Interação</a>
+</li>
+                                    
+<li class="active">
+    <a href="./">5. Elementos De Ação</a>
 </li>
                                     
 <li >
-    <a href="guia_de_estilo/elementos_de_acao/">5. Elementos De Ação</a>
-</li>
-                                    
-<li >
-    <a href="guia_de_estilo/vocabularios_e_padroes/">6. Vocabularios E Padrões</a>
+    <a href="../vocabularios_e_padroes/">6. Vocabularios E Padrões</a>
 </li>
                                 </ul>
                             </li>
@@ -83,7 +83,7 @@
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="artefatos/storyboard/">StoryBoard</a>
+    <a href="../../artefatos/storyboard/">StoryBoard</a>
 </li>
                                 </ul>
                             </li>
@@ -95,18 +95,18 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li class="disabled">
-                                <a rel="next" >
+                            <li >
+                                <a rel="next" href="../elementos_interacao/">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li >
-                                <a rel="prev" href="guia_de_estilo/introducao/">
+                                <a rel="prev" href="../vocabularios_e_padroes/">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/IHC-2019-2/2019.2-CodeForces/edit/master/docs/index.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                                <a href="https://github.com/IHC-2019-2/2019.2-CodeForces/edit/master/docs/guia_de_estilo/elementos_de_acao.md"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -116,67 +116,59 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#bem-vindo-ao-ihc-codeforces">Bem-vindo ao IHC-Codeforces!</a></li>
-            <li><a href="#sobre-o-projeto">Sobre o projeto</a></li>
-            <li><a href="#o-que-e-o-codeforces">O que é o codeforces?</a></li>
-            <li><a href="#integrantes">Integrantes</a></li>
-            <li><a href="#versionamento-de-edicoes-desta-pagina">Versionamento de edições desta página</a></li>
+        <li class="main active"><a href="#51-preenchimento-de-campos">5.1 Preenchimento de campos</a></li>
+        <li class="main "><a href="#52-selecao">5.2 Seleção</a></li>
+        <li class="main "><a href="#53-ativacao">5.3 Ativação</a></li>
+        <li class="main "><a href="#versionamento-de-edicoes-desta-pagina">Versionamento de edições desta página</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<p><span style="margin-left: 0%;"><img alt="Codeforces Logo" src="images/codeforces.png" /></span></p>
-<hr />
-<h1 id="bem-vindo-ao-ihc-codeforces">Bem-vindo ao IHC-Codeforces!</h1>
-<p>Este é um repositório destinado ao projeto da matéria Requisitos de Software e terá como tema o aplicativo Codeforces. Nós somos estudantes da Universidade de Brasília (UnB), Brasil.</p>
-<hr />
-<h2 id="sobre-o-projeto">Sobre o projeto</h2>
-<p>De maneira resumida, o objetivo desse projeto é realizar uma avaliação completa do sítio <a href="https://codeforces.com/">CodeForces</a> no que tange à interação humano-computador. A partir disso, pretende-se sugerir melhorias para o sistema.</p>
-<h2 id="o-que-e-o-codeforces">O que é o codeforces?</h2>
-<p>Codeforces é um projeto que une pessoas interessadas em participar de concursos de programação.
-Por um lado, o Codeforces é uma rede social dedicada à programação e à concursos de programação. Por outro lado, é uma plataforma na qual tais concursos acontecem regularmente. As habilidades dos participantes são refletidas pela classificação deles, e os concursos anteriores podem ser usados como forma de preparação.</p>
-<p>A Codeforces desenvolve-se constantemente e planeja melhorar a plataforma para oferecer aos participantes a oportunidade de organizar seus próprios concursos, o que preenche o projeto com conteúdo de aprendizado e, ao mesmo tempo, desenvolve o Codeforces como uma plataforma de treinamento e de aprendizado.</p>
-<p>Adaptado de <a href="https://codeforces.com/help#q1">Codeforces Help</a></p>
-<h2 id="integrantes">Integrantes</h2>
-<p><table border="0" style="background-color: #FFF;">
- <tr>
-  <td><img alt="Foto do Bruno" src="images/Bruno.png" /></td>
-  <td><img alt="Foto do Erick" src="images/Erick.png" /></td>
-  <td><img alt="Foto do Eugênio" src="images/Eugenio.png" /></td>
-  <td><img alt="Foto do Fernando" src="images/Fernando.png" /></td>
-  <td><img alt="Foto da Lorrany" src="images/Lorrany.png" /></td>
- </tr>
-</table></p>
-<table>
-<thead>
-<tr>
-<th>Nome</th>
-<th>Github</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Bruno Henrique</td>
-<td>@Mexazonic</td>
-</tr>
-<tr>
-<td>Erick Giffoni Felicíssimo</td>
-<td>@ErickGiffoni</td>
-</tr>
-<tr>
-<td>Eugênio Sales</td>
-<td>@Eugeniosales</td>
-</tr>
-<tr>
-<td>Fernando Ribeiro Aguilar</td>
-<td>@fernand0aguilar</td>
-</tr>
-<tr>
-<td>Lorrany dos Santos Azevedo</td>
-<td>@lorryaze</td>
-</tr>
-</tbody>
-</table>
+<p><span style="margin-left: 0%;"><img alt="Codeforces Logo" src="../../images/codeforces.png" /></span></p>
+<h2 id="51-preenchimento-de-campos">5.1 Preenchimento de campos</h2>
+<p>Pretende-se 
+manter 
+o 
+padrão 
+de 
+layout 
+original 
+apresentado 
+pelo 
+site, 
+porém 
+buscando 
+melhorias 
+de 
+acordo 
+com 
+a 
+evolução 
+do 
+trabalho. </p>
+<h2 id="52-selecao">5.2 Seleção</h2>
+<h2 id="53-ativacao">5.3 Ativação</h2>
+<p>O 
+processo 
+de 
+ativação 
+será 
+conduzido 
+de 
+forma 
+a 
+fornecer 
+ao 
+usuário 
+mecanismos 
+para 
+navegação 
+entre 
+as 
+páginas 
+de 
+forma 
+diligente.</p>
 <hr />
 <h2 id="versionamento-de-edicoes-desta-pagina">Versionamento de edições desta página</h2>
 <table>
@@ -190,9 +182,9 @@ Por um lado, o Codeforces é uma rede social dedicada à programação e à conc
 </thead>
 <tbody>
 <tr>
-<td>10/08/2019</td>
+<td>04/10/2019</td>
 <td>Fernando Aguilar</td>
-<td>Criação da página e dos textos descritivos dela.</td>
+<td>Criação e edição inicial da página.</td>
 <td>0.1</td>
 </tr>
 </tbody>
@@ -204,11 +196,11 @@ Por um lado, o Codeforces é uma rede social dedicada à programação e à conc
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = ".",
+            var base_url = "../..",
                 shortcuts = {"help": 191, "search": 83, "previous": 80, "next": 78};
         </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">
@@ -276,8 +268,3 @@ Por um lado, o Codeforces é uma rede social dedicada à programação e à conc
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.0.4
-Build Date UTC : 2019-10-04 14:14:39
--->
