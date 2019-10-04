@@ -1,0 +1,289 @@
+## 2.1 Descrição do ambiente de trabalho do usuário
+O CodeForces é um sítio da web no qual o usuário interage com o sistema por meio de clicks em links e em botões. Dessa forma, o ambiente de trabalho do usuário é um navegador web da preferência dele, o qual o permita interagir com o website.
+## 2.2 Metas de usabilidade
+
+### 2.2.1 Eficácia
+
+É a capacidade de resolução de problemas associado ao grau de realização dos objetivos que, no caso do Codeforces referem-se ao encontro de exercícios e campeonatos de programação de acordo com o assunto e dificuldade procurada. O Codeforces deve permitir:
+
+* Alcance de objetivos;
+* Aprendizagem sobre uso;
+* Acesso às informações necessárias.
+
+### 2.2.2 Eficiência
+
+O Codeforces deve auxiliar o usuário na realização da tarefa da maneira mais fluida e fácil possível. O comportamento do software deve atender as necessidades do usuário da maneira mais veloz possível tendo em vista os recursos procurados.
+
+### 2.2.3 Segurança
+
+É a solução de proteção do usuário contra condições que exijam retrabalho ou que causam evasão dada a ausência de soluções corretivas pelo software e situações indesejáveis. A segurança serve para:
+
+* Prevenção de erros;
+* Reduzir de riscos (proximidades de botões perigosos como salvar e apagar)
+* É importante garantir a segurança oferecendo formas de recuperação ou retorno.
+
+### 2.2.4 Utilidade
+
+O sistema deve fornecer ao usuário um conjunto apropriado de funções, aquelas que são realmente esperadas pelo usuário no momento em que buscam pelo Codeforces.
+
+### 2.2.5 Aprendizado
+
+Esta meta refere-se a capacidade de aprendizado e determina se vai ser fácil aprender a usar o sistema. Quando as soluções encontradas para o sistema ainda apontam uma certa complexidade de uso, o usuário será mais propenso a estudar suas possibilidades de uso se ele tiver um objetivo muito claro. Se o cenário não for este, as chances são que ele desista nas primeiras tentativas e que a evasão do software aumente.
+
+### 2.2.6 Memorização
+
+Essa meta de usabilidade refere-se a facilidade em lembrar como utilizar o sistema após uma experiência prévia. A reutilização do sistema após semanas ou meses da última utilização deve favorecer o usuário a lembrar processos e comandos. Pode-se associar isso à intuitividade das interfaces e o esquecimento, que deve ser corrigido, ocorre quando as funções são obscura, ilógicas ou pobremente encadeadas.
+
+## 2.3 Avaliação Heurística do sítio do CodeForces
+
+### 2.3.1 Heurística: Status do sistema
+
+Verificação | Grau de severidade |
+:--------- | :------ |
+O usuário é capaz de identificar qual etapa está realizando até que conclua<br/> a sua ação? É capaz também de identificar a sua localização no site?  |  Simples |
+
+Natureza do problema: | Barreira ( ) | Obstáculo (x) | Ruído ( )
+:---------------: |:------: | :---------: | :-----:
+
+Perspectiva do usuário: | Problema Geral (x) | Problema Preliminar ( ) | Problema Especial ( )
+:---------------: |:------: | :---------: | :-----:
+
+Perspectiva da tarefa: | Problema Principal (x) | Problema Secundário ( ) |
+:---------------: |:------: | :---------: |
+
+Perspectiva do projeto: | Problema Falso ( ) | Problema Novo ( ) | Não se aplica (x)
+:---------------: |:------: | :---------: | :-----: |
+
+#### Descrição do problemas
+
+Contexto | Causa | Efeito sobre o usuário | Efeito sobre a tarefa | Correção Possível |
+:---------: | :------: | :-------: | :--------: | :--------: |
+As informações no site tendem a ser implícitas para os usuários, tais como categorias e gabaritos de contests|  Ausência de Objetividade| Tempo até acostumar com as padronizações| Complexidade na realização|Categorizar Tarefas e funcionalidades|
+
+
+### 2.3.2 Heurística: Compatibilidade do Sistema com o Mundo Real
+
+Verificação | Grau de severidade |
+:--------- | :------ |
+A linguagem utilizada é objetiva para o público alvo? | Simples  |
+
+
+Natureza do problema: | Barreira (x) | Obstáculo ( ) | Ruído ( )
+:---------------: |:------: | :---------: | :-----:
+
+Perspectiva do usuário: | Problema Geral ( ) | Problema Preliminar (x) | Problema Especial ( )
+:---------------: |:------: | :---------: | :-----:
+
+Perspectiva da tarefa: | Problema Principal ( ) | Problema Secundário ( ) |
+:---------------: |:------: | :---------: |
+
+Perspectiva do projeto: | Problema Falso ( ) | Problema Novo ( ) | Não se aplica ( )
+:---------------: |:------: | :---------: | :-----: |
+
+#### Descrição do problemas
+
+Contexto | Causa | Efeito sobre o usuário | Efeito sobre a tarefa | Correção Possível |
+:---------: | :------: | :-------: | :--------: | :--------: |
+Os termos linguísticos utilizados pelo Codeforces condizem com o conhecimento de seus usuários frequentes | Os usuários iniciantes tendem a se adaptar a alguns termos como ranking e Div. | Confusão nos primeiros contatos com o site|  Nenhum| Um dicionário guia para iniciantes ajudaria.
+
+### 2.3.3 Heurística: Consistência e padrões
+
+Verificação | Grau de severidade |
+:--------- | :------ |
+|O site possui padrões de cores e formatações? Existe um sistema de Categorização? Os botões e links seguem um padrão?  |  Simples |
+
+
+Natureza do problema: | Barreira (x) | Obstáculo ( ) | Ruído ( )
+:---------------: |:------: | :---------: | :-----:
+
+Perspectiva do usuário: | Problema Geral (x) | Problema Preliminar ( ) | Problema Especial ( )
+:---------------: |:------: | :---------: | :-----:
+
+Perspectiva da tarefa: | Problema Principal () | Problema Secundário ( ) |
+:---------------: |:------: | :---------: |
+
+Perspectiva do projeto: | Problema Falso ( ) | Problema Novo ( ) | Não se aplica (x)
+:---------------: |:------: | :---------: | :-----: |
+
+#### Descrição do problemas
+
+Contexto | Causa | Efeito sobre o usuário | Efeito sobre a tarefa | Correção Possível |
+:---------: | :------: | :-------: | :--------: | :--------: |
+O site possui um padrão e segue a risca as suas formatações| Algumas formatações não retratam um ponto objetivo nas tarefas | O usuário pode não simpatizar com a paleta de cores|  Nenhum| Diversificações nos elementos da interface com o usuário
+
+### 2.3.4 Heurística: Controle do Usuário e Liberdade
+
+Verificação | Grau de severidade |
+:--------- | :------ |
+|O usuário é capaz de controlar suas ações dentro do site?  |  Simples |
+
+Natureza do problema: | Barreira (x) | Obstáculo ( ) | Ruído ( )
+:---------------: |:------: | :---------: | :-----:
+
+Perspectiva do usuário: | Problema Geral (x) | Problema Preliminar ( ) | Problema Especial ( )
+:---------------: |:------: | :---------: | :-----:
+
+Perspectiva da tarefa: | Problema Principal (x) | Problema Secundário ( ) |
+:---------------: |:------: | :---------: |
+
+Perspectiva do projeto: | Problema Falso ( ) | Problema Novo ( ) | Não se aplica (x)
+:---------------: |:------: | :---------: | :-----: |
+
+#### Descrição do problemas
+
+Contexto | Causa | Efeito sobre o usuário | Efeito sobre a tarefa | Correção Possível |
+:---------: | :------: | :-------: | :--------: | :--------: |
+O usuário pode controlar suas ações entretanto é necessário conhecimento prévio da plataforma|  Falta de instruçoes e comunicação a leigos| Confusão e Desistência| Nenhum|Adaptar as realidades de usuários iniciantes|
+
+### 2.3.5 Heurística: Prevenção de erros
+
+Verificação | Grau de severidade |
+:--------- | :------ |
+|O site apresenta elementos que evitem que<br/> os usuŕios cometam erros? As informações <br/>são bem organizadas?  |  Grave |
+
+Natureza do problema: | Barreira ( ) | Obstáculo (x) | Ruído ( )
+:---------------: |:------: | :---------: | :-----:
+
+Perspectiva do usuário: | Problema Geral (x) | Problema Preliminar ( ) | Problema Especial ( )
+:---------------: |:------: | :---------: | :-----:
+
+Perspectiva da tarefa: | Problema Principal (x) | Problema Secundário ( ) |
+:---------------: |:------: | :---------: |
+
+Perspectiva do projeto: | Problema Falso ( ) | Problema Novo ( ) | Não se aplica (x)
+:---------------: |:------: | :---------: | :-----: |
+
+#### Descrição do problemas
+
+Contexto | Causa | Efeito sobre o usuário | Efeito sobre a tarefa | Correção Possível |
+:---------: | :------: | :-------: | :--------: | :--------: |
+As informações no site tendem a ser implícitas para os usuários, tais como categorias e gabaritos de contests|  Ausência de Objetividade| Tempo até acostumar com as padronizações| Complexidade na realização|Categorizar Tarefas e funcionalidades|
+
+
+
+### 2.3.6 Heurística: Reconhecimento ao invés de lembrança
+
+Verificação | Grau de severidade |
+:--------- | :------ |
+
+|  As instruções estão visíveis no contexto em que o usuário se encontra? | simples|
+
+
+Natureza do problema: | Barreira () | Obstáculo ( ) | Ruído (x)
+:---------------: |:------: | :---------: | :-----:
+
+Perspectiva do usuário: | Problema Geral ( ) | Problema Preliminar (x) | Problema Especial ( )
+:---------------: |:------: | :---------: | :-----:
+
+Perspectiva da tarefa: | Problema Principal ( ) | Problema Secundário (x) |
+:---------------: |:------: | :---------: |
+
+Perspectiva do projeto: | Problema Falso ( ) | Problema Novo ( ) | Não se aplica (x)
+:---------------: |:------: | :---------: | :-----: |
+
+#### Descrição do problemas
+
+Contexto | Causa | Efeito sobre o usuário | Efeito sobre a tarefa | Correção Possível |
+:---------: | :------: | :-------: | :--------: | :--------: |
+O usuário quando entra em grupos| A interface não ajuda o usuário a localizar-se | Precisa reiniciar a sessão do início| O usuário perde tempo para se localizar | Adição de botões de retorno a área anterior |
+
+
+### 2.3.7 Heurística: Flexibilidade e eficiência de uso
+
+Verificação | Grau de severidade |
+:--------- | :------ |
+ |  O sítio consegue atender a todos os perfis de usuários, iniciantes e experientes? | Grave |
+
+
+Natureza do problema: | Barreira (x) | Obstáculo ( ) | Ruído ( ))
+:---------------: |:------: | :---------: | :-----:
+
+Perspectiva do usuário: | Problema Geral (x) | Problema Preliminar ( ) | Problema Especial ( )
+:---------------: |:------: | :---------: | :-----:
+
+Perspectiva da tarefa: | Problema Principal (x) | Problema Secundário ( ) |
+:---------------: |:------: | :---------: |
+
+Perspectiva do projeto: | Problema Falso ( ) | Problema Novo (x) | Não se aplica ( )
+:---------------: |:------: | :---------: | :-----: |
+
+#### Descrição do problemas
+
+Contexto | Causa | Efeito sobre o usuário | Efeito sobre a tarefa | Correção Possível |
+:---------: | :------: | :-------: | :--------: | :--------: |
+É difícil  exercícios e competições por dificuldade mais simples | O usuário encontra maioria dos exercícios com uma dificuldade muito superior | Não consegue cumprir bem com o objetivo de aprendizado| Não é executada da maneira mais adequada | Maior segmentação de exercícios quanto dificuldade |
+
+### 2.3.8 Heurística: Estética e design minimalista
+
+Verificação | Grau de severidade |
+:--------- | :------ |
+ | Há elementos desnecessários que possam confundir o usuário? |  Sem Importância |
+
+
+Natureza do problema: | Barreira ( ) | Obstáculo ( ) | Ruído ( ))
+:---------------: |:------: | :---------: | :-----:
+
+Perspectiva do usuário: | Problema Geral ( ) | Problema Preliminar ( ) | Problema Especial ( )
+:---------------: |:------: | :---------: | :-----:
+
+Perspectiva da tarefa: | Problema Principal ( ) | Problema Secundário ( ) |
+:---------------: |:------: | :---------: |
+
+Perspectiva do projeto: | Problema Falso ( ) | Problema Novo ( ) | Não se aplica (x)
+:---------------: |:------: | :---------: | :-----: |
+
+#### Descrição do problemas
+
+Contexto | Causa | Efeito sobre o usuário | Efeito sobre a tarefa | Correção Possível |
+:---------: | :------: | :-------: | :--------: | :--------: |
+O Codeforces possui um design bastate minimalista | A interface não atrapalha o usuário com excessos | Nenhum | O usuário consegue interagir com a interface de maneira fluida | Não necessita |
+
+### 2.3.9 Heurística: Ajudar os usuários reconhecer, diagnosticar e corrigir erros 
+
+Verificação | Grau de severidade |
+:--------- | :------ |
+ | As mensagens de erro devem oferecer informações para o usuário corrigir o problema?  |  Cosmético |
+
+
+Natureza do problema: | Barreira ( ) | Obstáculo ( ) | Ruído ( ))
+:---------------: |:------: | :---------: | :-----:
+
+Perspectiva do usuário: | Problema Geral ( ) | Problema Preliminar ( ) | Problema Especial ( )
+:---------------: |:------: | :---------: | :-----:
+
+Perspectiva da tarefa: | Problema Principal ( ) | Problema Secundário ( ) |
+:---------------: |:------: | :---------: |
+
+Perspectiva do projeto: | Problema Falso ( ) | Problema Novo ( ) | Não se aplica (x)
+:---------------: |:------: | :---------: | :-----: |
+
+#### Descrição do problemas
+
+Contexto | Causa | Efeito sobre o usuário | Efeito sobre a tarefa | Correção Possível |
+:---------: | :------: | :-------: | :--------: | :--------: |
+O Codeforce informa a origem de diversos erros e inclusive casos de teste | Erros de submissão de exercícios | Consegue ter subsídio suficiente para corrigir erros | Nenhum | Não necessita |
+
+### 2.3.10 Heurística: Ajuda e documentação
+
+Verificação | Grau de severidade |
+:--------- | :------ |
+ | São fornecidos recursos de ajuda(help) integrado com as páginas do sítio?  |  simples |
+
+
+Natureza do problema: | Barreira ( ) | Obstáculo ( ) | Ruído (x))
+:---------------: |:------: | :---------: | :-----:
+
+Perspectiva do usuário: | Problema Geral ( ) | Problema Preliminar ( ) | Problema Especial ( )
+:---------------: |:------: | :---------: | :-----:
+
+Perspectiva da tarefa: | Problema Principal ( ) | Problema Secundário ( ) |
+:---------------: |:------: | :---------: |
+
+Perspectiva do projeto: | Problema Falso ( ) | Problema Novo ( ) | Não se aplica (x)
+:---------------: |:------: | :---------: | :-----: |
+
+#### Descrição do problemas
+
+Contexto | Causa | Efeito sobre o usuário | Efeito sobre a tarefa | Correção Possível |
+:---------: | :------: | :-------: | :--------: | :--------: |
+Há um FAC para auxílio em dúvidas mais comuns sobre a plataforma, mas não há um manual de uso | Não há uma documentação mais precisa disponível   | Nenhum | Gera dúvidas | Documentação sobre funcionamento de campeonatos, formação de score e classificação de questões por estágio de dificuldade... |

@@ -1,9 +1,16 @@
-site_name: Documentação - Interação Humano Computador - Codeforces
+site_name: Documentação - IHC - Codeforces
 
 nav:
     - Home: index.md
-    
-repo_url: https://github.com/IHC-2019-2/CodeForces
+    - Guia De Estilo:
+        - 1. Introdução: guia_de_estilo/introducao.md
+        - 2. Resultados De Análise: guia_de_estilo/resultados_analise.md
+        - 3. Elementos De Interface: guia_de_estilo/elementos_interface.md
+        - 4. Elementos De Interação: guia_de_estilo/elementos_interacao.md
+        - 5. Elementos De Ação: guia_de_estilo/elementos_de_acao.md
+        - 6. Vocabularios E Padrões: guia_de_estilo/vocabularios_e_padroes.md
+
+repo_url: https://github.com/IHC-2019-2/2019.2-CodeForces
 
 docs_dir: codeforces_docs/
 site_dir: docs/

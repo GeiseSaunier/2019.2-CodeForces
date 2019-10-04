@@ -1,0 +1,53 @@
+## 4.1 Estilos de interação
+O
+usuário 
+poderá 
+navegar 
+pelo 
+site 
+por 
+meio 
+de 
+botões 
+personalizados. 
+
+## 4.2 Seleção de um estilo
+
+Optou-se 
+por 
+um 
+estilo 
+simples, 
+acessível 
+e 
+de 
+fácil 
+compreensão, 
+para 
+que 
+o 
+usuário 
+tenha 
+facilidade 
+ao 
+utilizar 
+o 
+site. 
+
+## 4.3 Aceleradores
+
+Não 
+foi 
+encontrado 
+aceleradores 
+que 
+facilitem 
+procedimentos 
+no site, 
+em 
+contrapartida, 
+vislumbra-se 
+criar 
+estes. 
+
+
