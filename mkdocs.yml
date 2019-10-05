@@ -3,12 +3,12 @@ site_name: Documentação - IHC - Codeforces
 nav:
     - Home: index.md
     - Guia De Estilo:
-        - 1. Introdução: guia_de_estilo/introducao.md
-        - 2. Resultados De Análise: guia_de_estilo/resultados_analise.md
-        - 3. Elementos De Interface: guia_de_estilo/elementos_interface.md
-        - 4. Elementos De Interação: guia_de_estilo/elementos_interacao.md
-        - 5. Elementos De Ação: guia_de_estilo/elementos_de_acao.md
-        - 6. Vocabularios E Padrões: guia_de_estilo/vocabularios_e_padroes.md
+        - 1. Introdução: guia_de_estilo/1.introducao.md
+        - 2. Resultados De Análise: guia_de_estilo/2.resultados_analise.md
+        - 3. Elementos De Interface: guia_de_estilo/3.elementos_interface.md
+        - 4. Elementos De Interação: guia_de_estilo/4.elementos_interacao.md
+        - 5. Elementos De Ação: guia_de_estilo/5.elementos_de_acao.md
+        - 6. Vocabularios E Padrões: guia_de_estilo/6.vocabularios_e_padroes.md
     - Artefatos: 
         - StoryBoard: artefatos/storyboard.md
 
