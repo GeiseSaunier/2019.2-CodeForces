@@ -13,16 +13,17 @@ Em IHC a análise de tarefas é geralmente utilizada em três atividades habitua
 Existem diversos métodos de análise de tarefas, no entanto os mais comuns, e que também serão utilizados neste trabalho são:
 
 - Análise Hieráquica de tarefas (AHT)
-- ConcurTaskTrees (CTT)
+- GOMS (Goals, Operators, Methods and Selection Rules)
 
 ***
-# Análise Hieráquica de tarefas (HTA)
+# Análise Hieráquica de tarefas (AHT)
 
 ## Objetivos dos Usuários
 
 > Os **objetivos** são as ações que os usuários desejam excutar, estes são o nível mais alto da hierarquia de objetivos, quando um objetivo precisa executar mais de uma tarefa para ser finalizado, chamamos essas tarefas de **subobjetivos**. Já a relação entre um objetivo e seus subobjetivos são chamadas de **planos**, por fim, quando nós chegamos no nível mais baixo da hieraquia temos uma **operação** que é quando atingimos um objetivo ou subobjetivo.
 
 Através da análise de usuários que foi feita pelo grupo, e de uma análise da plataforma, foi possível definir alguns dos objetivos dos usuários do **CodeForces**, são eles:
+***
 
 **1 - Resolver problemas de programação competitiva**
 
@@ -38,7 +39,9 @@ Através da análise de usuários que foi feita pelo grupo, e de uma análise da
 | 1.2 Escolher através da dificuldade | |
 | 3. Submeter um problema | **input:** Enviar o código de resolução da questão</br>**feedback:** O sistema irá avisar se sua resposta foi "accepted", "wrong answer", "time limit exceed", "compilation error" ou "run time error" |
 
-- Tabela 1. Tabela de representação de tarefas da AHT
+- Tabela 1. Tabela de representação de tarefas da AHT do obejetivo "Resolver problemas" 
+
+***
 
 **2 - Participar de contests**
 
@@ -46,23 +49,65 @@ Através da análise de usuários que foi feita pelo grupo, e de uma análise da
 
 - Figura 2. Diagrama AHT para o objetivo “Participar de contests"
 
+| Objetivos/Operações | Problemas e Recomendações |
+|------|-------|
+| 0. Participar de contests 1>2 |**plano:** Participar de um contest e resolver os problemas</br> |
+| 1. Escolher um contest 1/2 | **plano:** Escolher um contest que pode ser ao vivo ou não|
+| 1.1 Escolher contest online | |
+| 1.2 Escolher contest passado | |
+| 2. Escolher questão que será resolvida | **plano:** Escolher uma das questões disponíveis no contest e resolve-la|**recomendação:** Ler todas as questões antes de resolver, e olhar sempre o score praver qual questão foi submetida primeiro|
+| 3. Submeter um problema | **input:** Enviar o código de resolução da questão</br>**feedback:** O sistema irá avisar se sua resposta foi "accepted", "wrong answer", "time limit exceed", "compilation error" ou "run time error" |
+
+- Tabela 2. Tabela de representação de tarefas da AHT do obejetivo "Participar de contests"
+
+***
+
 **3 - Participar do fórum de discussões**
 
-Outros
-Rating
-Contests no modelo ICPC
+<span style="margin-left: 0%;">![forum](./images/forum.png)</span>
+
+- Figura 3. Diagrama AHT para o objetivo “Participar do fórum de discussões"
+
+| Objetivos/Operações | Problemas e Recomendações |
+|------|-------|
+| 0. Participar do fórum de discussões 1>2 |**plano:** Publicar no fórum, ver publicações de outros usuários, fazer comentários</br> |
+| 1. Ler posts do fórum | |
+| 2. Publicar no fórum | **input:** Fazer publicações que podem ser dúvidas, avisos e etc.</br>**feedback:** Ser notificado caso alguém responda um cometário ou comente e uma publicação sua.</br>**plano:** Escrever um texto e depois publicá-lo. |
+| 2.1 Fazer publcação diretamente no fórum | |
+| 2.2 Fazer um comentário| |
+
+- Tabela 3. Tabela de representação de tarefas da AHT do obejetivo "Participar do fórum"
+
+***
+
+**4 - Debugar um problema**
+
+***
+
+**5 - Editar Perfil**
+
+***
+**6 - Ver minhas submissões**
+***
+**7 - Encontrar um usuário**
+***
+**8 - Buscar por ajuda no site**
+***
+**9 - Ver calendário de contests**
+***
+**10 - Ver Ranking**
+***
+**11 - Utilizar a API do CodeForces**
+***
+**12 - Propor um contest/problema**
+***
+Outros: Contests no modelo ICPC
 Grupos da universidade
-API
-HELP
-Ver calendário de contests
-Propor um contest/problema
 visualizar seu perfil
-editar perfil
 ver pergutas que eu fiz no fórum
 ver times que participei em contests
-ver minhas submissões
-encontrar um usuário
 Talks - enviar mensagem para usuários
+
 ***
 ### Versionamento de edições desta página
 | Data | Autor | Descrição | Versão |
