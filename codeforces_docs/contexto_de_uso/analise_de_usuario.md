@@ -102,7 +102,43 @@ Não obtivemos respostas.
 
 ***
 # Perfil do usuário do CodeForces
-em definição...
+
+> Perfil demográfico
+
+- A maior parte dos usuários do CodeForces concentra-se na região **Centro-oeste**
+
+ do Brasil.
+
+- O **gênero masculino** se apresenta em maior quantidade como usuário do CodeForces.
+
+- A idade dos usuários varia entre **18 a 22 anos**.
+
+- Os usuários apresentam-se **financeiramente dependentes de terceiros**
+
+ (pais, familiares, outros).
+
+- Estudantes **universitários empregados** são os que mais utilizam a plataforma.
+
+- O nível de formação dos usuários se dá em maior número como **superior incompleto na área de Tecnologia**.
+
+- O idioma de maior fluência dos usuários é o **Português**, seguido do **Inglês**.
+
+> Perfil tecnológico
+
+- A **atividade mais realizada** pelos usuários por meio da **internet** diz
+
+  respeito ao **estudar**, seguido pelo **entretenimento (assistir a filmes, séries, vídeos etc)**.
+
+- A **principal tarefa** realizada pelos usuários **dentro da Plataforma** é
+
+  **participar de Contests**, seguido de **resolver exercícios isolados de programação**.
+
+- O usuário utiliza pouco outra plataforma porque sua **preferência é o CodeForces**,
+
+ sendo que, para alguns deles, **o CodeForces tem total preferência**.
+
+- **Uma** ou **duas** vezes **na semana** é a **frequência de uso** do usuário para o CodeForces.
+
 
 ***
 ## Versionamento de edições desta página
@@ -110,3 +146,4 @@ em definição...
 |------|-------|-----------|--------|
 | 08/10/2019 | Erick Giffoni | Criação e edição inicial da página. | 0.1 |
 | 09/10/2019 | Erick Giffoni | Adição dos resultados da pesquisa | 0.2 |
+| 12/10/2019 | - Erick Giffoni </br>- Geise Saunier | Definição do perfil | 1.0 |
