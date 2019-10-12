@@ -16,13 +16,15 @@ Existem diversos métodos de análise de tarefas, no entanto os mais comuns, e q
 - GOMS (Goals, Operators, Methods and Selection Rules)
 
 ***
-# Análise Hieráquica de tarefas (AHT)
+## Análise Hieráquica de tarefas (AHT)
 
-## Objetivos dos Usuários
+ A análise hierárquica de tarefas foi desenvolvida em 1960 com o objetivo de entender as competências envolvidas nas tarefas do usuário, esta avalia primeiro os objetivos de alto nível dos usuários, decompodo-os em subobjetivos.
 
-> Os **objetivos** são as ações que os usuários desejam excutar, estes são o nível mais alto da hierarquia de objetivos, quando um objetivo precisa executar mais de uma tarefa para ser finalizado, chamamos essas tarefas de **subobjetivos**. Já a relação entre um objetivo e seus subobjetivos são chamadas de **planos**, por fim, quando nós chegamos no nível mais baixo da hieraquia temos uma **operação** que é quando atingimos um objetivo ou subobjetivo.
+### Objetivos dos Usuários
 
-Através da análise de usuários que foi feita pelo grupo, e de uma análise da plataforma, foi possível definir alguns dos objetivos dos usuários do **CodeForces**, são eles:
+ > Os **objetivos** são as ações que os usuários desejam excutar, estes são o nível mais alto da hierarquia de objetivos, quando um objetivo precisa executar mais de uma tarefa para ser finalizado, chamamos essas tarefas de **subobjetivos**. Já a relação entre um objetivo e seus subobjetivos são chamadas de **planos**, por fim, quando nós chegamos no nível mais baixo da hieraquia temos uma **operação** que é quando atingimos um objetivo ou subobjetivo.
+
+Através da análise de usuários que foi feita pelo grupo, e de uma análise da plataforma, foi possível definir alguns dos objetivos dos usuários do **CodeForces** e fazer uma análise hierárquica, são eles:
 ***
 
 **1 - Resolver problemas de programação competitiva**
@@ -79,8 +81,16 @@ Através da análise de usuários que foi feita pelo grupo, e de uma análise da
 - Tabela 3. Tabela de representação de tarefas da AHT do obejetivo "Participar do fórum"
 
 ***
+## Análise GOMS (Goals, Operators,Methods and Selection Rules)
+O método Goms tem o objetivo de analisar o desempenho de usuários realizando tarefas dentro de um sistema computacional, o modelo GOMS tem se tornado eficiente para prever o desempenho, ou seja, predizer o impacto de decisões de design no desempenho de um sistema computacional.
 
-**4 - Debugar um problema**
+* **Objetivos:** Apresentam o que o usuário quer realizar utilizando o software.
+* **Operadores:** Primitivas internas (congnitivas), ou externas (ações que o usuário consegue realizar com o software)
+* **Métodos:** Sequências de subobjetivos e operadores que permitem atigir um objetivo.
+* **Regras de Seleção:** Tomada de decisões do usuário sobre qual método usar para se atingir um objetivo.
+
+
+[comment]: <> (**4 - Debugar um problema**)
 
 ***
 
