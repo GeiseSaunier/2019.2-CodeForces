@@ -50,3 +50,10 @@ Os votos para as postagens e comentários de um usuário alteram sua contribuiç
 ##  Percebi que o site contém as soluções de todos os participantes e os testes dos concursos anteriores. Como é permitido usá-los?
 De fato, publicamos materiais de concursos anteriores e eles podem ser usados, por exemplo, para lições individuais. É proibido o uso de materiais em outros juízes on-line, concursos públicos etc. 
 Para visualizar a solução de outra pessoa, basta clicar no ID dele na página "Status". Na página com a lista de tarefas, você pode ir para a lista de decisões corretas para a tarefa especificada. Na parte inferior das páginas "Status" (e outras com as listas de decisões), há uma opção de classificar as soluções em diferentes critérios.
+
+***
+### Versionamento de edições desta página
+| Data | Autor | Descrição | Versão |
+|------|-------|-----------|--------|
+| 08/10/2019 | Erick Giffoni | Criação inicial da página. | 0.1 |
+| 12/10/2019| Geise Dioneia de Albuquerque Saunier.| Edição da página e adição das características da plataforma.| 0.2|
