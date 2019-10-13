@@ -8,12 +8,36 @@ Relatos e resultados da avaliação
 
 * Identificar problemas na interação e na interface que prejudiquem a experiência particular do usuário durante o uso do sistema
 
-### Objetos De Avaliação
+## Categorias de Avaliação
+
 * Apropriação de tecnologia pelos usuários
 
 * Ideias e alternativas de design;
 
 * Problemas na interação e na interface.
+
+***
+
+## Objetos De Avaliação
+Os objetos de avaliação são os videos onde mostram a interação de um usuário com os protótipos de papel. Os protótipos foram realizados em conjunto pela equipe e mostram o fluxograma do sistema como um todo, de forma mais abstrata.
+
+### Fazer Login
+**link para o video:**
+
+[![login video](http://img.youtube.com/vi/Z2vHAOt55Sc/0.jpg)](http://www.youtube.com/watch?v=Z2vHAOt55Sc "Login - Prototipo de Papel ")
+
+### Visualizar Contests
+
+**link para o video:**
+
+[![Visualizar Contests video](http://img.youtube.com/vi/vCotdC0vYpI/0.jpg)](http://www.youtube.com/watch?v=vCotdC0vYpI "Visualizar Contests - Prototipo de Papel ")
+
+### Visualizar Problemas
+
+**link para o video:**
+
+[![Visualizar Problemas video](http://img.youtube.com/vi/Nn_hkbsTcrc/0.jpg)](http://www.youtube.com/watch?v=Nn_hkbsTcrc "Visualizar Problemas - Prototipo de Papel ")
+
 
 *** 
 
@@ -54,9 +78,10 @@ Relatos e resultados da avaliação
 4. lorem ipsum
 
 
-
+***
 
 ## Versionamento de edições desta página
 | Data | Autor | Descrição | Versão |
 |------|-------|-----------|--------|
 | 12/10/2019 | Fernando Aguilar | Created Page| 0.1 |
+| 12/10/2019 | Fernando Aguilar | Add links to videos | 0.2 |
