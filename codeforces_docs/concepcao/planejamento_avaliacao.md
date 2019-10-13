@@ -1,3 +1,6 @@
+<span style="margin-left: 0%;">![Codeforces Logo](../images/codeforces.png)</span>
+
+
 ## Planejamento da Avaliação
 
 ### Objetivos da Avaliação
@@ -28,4 +31,4 @@ O teste de usabilidade avalia o comportamento do sistema e do usuário mediante 
 | Data | Autor | Descrição | Versão |
 |------|-------|-----------|--------|
 | 09/10/2019 | Bruno Duarte | Sugestão de Planejamento| 0.1 |
-|
+| 12/10/2019 | Fernando Aguilar | Add logo on header| 0.2 |
