@@ -53,29 +53,29 @@ Os objetos de avaliação são os videos onde mostram a interação de um usuár
 
 ### Analisar a apropriação da tecnologia
 
-1. lorem ipsum
-2. lorem ipsum
-3. lorem ipsum
-4. lorem ipsum
+1. Sim. Os erros cometidos pelo usuário variam de acordo com a aba do sistema que ele está utilizando. Algumas abas são mais intuitivas. Outras nem tanto, por não seguirem o padrão.
+2. Sim. Através da implementação de avatares e outros elementos de gameficação.
+3. Pelo fato do nicho do site ser muito específico para personas mais avançadas da area de programação competitiva.
+4. Submetendo respostas para desafios, participando de competições, resolvendo novos problemas, submetendo artigos para os posts do blog.
 
 ### Comparar ideias e alternativas de design
 
-1. lorem ipsum
-2. lorem ipsum
-3. lorem ipsum
+1. Codewars e URI online Judge.
+2. A não implementação de uma interface padronizada.
+3. O fato de termos várias caixas laterais que indicam informações não uteis e ocupam espaço de tela, poluindo visualmente a interface.
 
 ### Verificar a conformidade com um padrão
 
-1. lorem ipsum
-2. lorem ipsum
-3. lorem ipsum
+1. Não.
+2. Sim.
+3. Não. A página de login em específico.
 
 ### Identificar problemas na interação e interface
 
-1. lorem ipsum
-2. lorem ipsum
-3. lorem ipsum
-4. lorem ipsum
+1. Sim, mas a curva de aprendizagem é alta.
+2. Ele atinge seu objetivo em cerca de 3 minutos, após realizar em cerca 10 ações para encontrar uma forma de submeter nova resposta.
+3. Encontrar as funções mais importantes para o modelo de negócios do site.
+4. Não. Muitas das informações estão em lugares não intuitivos
 
 
 ***
@@ -85,3 +85,4 @@ Os objetos de avaliação são os videos onde mostram a interação de um usuár
 |------|-------|-----------|--------|
 | 12/10/2019 | Fernando Aguilar | Created Page| 0.1 |
 | 12/10/2019 | Fernando Aguilar | Add links to videos | 0.2 |
+| 13/10/2019 | Fernando Aguilar | Add Respostas | 0.3 |
