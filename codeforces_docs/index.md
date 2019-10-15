@@ -28,6 +28,7 @@ Adaptado de [Codeforces Help](https://codeforces.com/help#q1)
   <td>![Foto do Eugênio](images/Eugenio.png)</td>
   <td>![Foto do Fernando](images/Fernando.png)</td>
   <td>![Foto da Lorrany](images/Lorrany.png)</td>
+  <td>![Foto da Geise](images/Geise.png)</td>
  </tr>
 </table>
 
@@ -38,6 +39,7 @@ Adaptado de [Codeforces Help](https://codeforces.com/help#q1)
 | Eugênio Sales | @Eugeniosales |
 | Fernando Ribeiro Aguilar | @fernand0aguilar |
 | Lorrany dos Santos Azevedo | @lorryaze |
+| Geise Saunier | @GeiseSaunier |
 
 
 ***
