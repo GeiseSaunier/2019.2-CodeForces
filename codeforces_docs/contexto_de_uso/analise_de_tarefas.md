@@ -94,10 +94,12 @@ O método Goms tem o objetivo de analisar o desempenho de usuários realizando t
 
 ***
 
-**5 - Editar Perfil**
+[comment]: <> (**5 - Editar Perfil**)
 
-***
-**6 - Ver minhas submissões**
+**5 - Ver minhas submissões**
+
+<span style="margin-left: 0%;">![forum](./images/goms1.jpeg)</span>
+
 ***
 **7 - Encontrar um usuário**
 ***
