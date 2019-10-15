@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Análise de tarefas - Documentação - IHC - Codeforces</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/color-brewer.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../..">Documentação - IHC - Codeforces</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="../..">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guia De Estilo <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../guia_de_estilo/1.introducao/">1. Introdução</a>
+</li>
+                                    
+<li >
+    <a href="../../guia_de_estilo/2.resultados_analise/">2. Resultados De Análise</a>
+</li>
+                                    
+<li >
+    <a href="../../guia_de_estilo/3.elementos_interface/">3. Elementos De Interface</a>
+</li>
+                                    
+<li >
+    <a href="../../guia_de_estilo/4.elementos_interacao/">4. Elementos De Interação</a>
+</li>
+                                    
+<li >
+    <a href="../../guia_de_estilo/5.elementos_de_acao/">5. Elementos De Ação</a>
+</li>
+                                    
+<li >
+    <a href="../../guia_de_estilo/6.vocabularios_e_padroes/">6. Vocabularios E Padrões</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Artefatos <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../artefatos/storyboard/">StoryBoard</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contexto de uso <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../analise_de_usuario/">Análise de usuário</a>
+</li>
+                                    
+<li class="active">
+    <a href="./">Análise de tarefas</a>
+</li>
+                                    
+<li >
+    <a href="../caracteristicas_plataforma/">Características da plataforma</a>
+</li>
+                                    
+<li >
+    <a href="../principios_gerais/">Princípios gerais de projeto</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Concepção/Avaliação <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../concepcao/prototipo_de_papel/">Protótipo de papel</a>
+</li>
+                                    
+<li >
+    <a href="../../concepcao/planejamento_avaliacao/">Planejamento da avaliação</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../analise_de_usuario/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../caracteristicas_plataforma/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/IHC-2019-2/2019.2-CodeForces/edit/master/docs/contexto_de_uso/analise_de_tarefas.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#analise-de-tarefas">Análise de Tarefas</a></li>
+            <li><a href="#analise-hieraquica-de-tarefas-aht">Análise Hieráquica de tarefas (AHT)</a></li>
+            <li><a href="#analise-goms-goals-operatorsmethods-and-selection-rules">Análise GOMS (Goals, Operators,Methods and Selection Rules)</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<p><span style="margin-left: 0%;"><img alt="Codeforces Logo" src="../../images/codeforces.png" /></span></p>
+<hr />
+<h1 id="analise-de-tarefas">Análise de Tarefas</h1>
+<blockquote>
+<p>A análise de tarefas é a atividade que busca ter um etendimento sobre o trabalho dos usuário, como eles realizam este trabalho e o por quê. Nela nós visamos representar todos os métodos de coletar, classificar e interpretar dados que nos ajudem a a entender o desempenho de um sistema.</p>
+</blockquote>
+<p>Em IHC a análise de tarefas é geralmente utilizada em três atividades habituais, são elas:</p>
+<ul>
+<li>Para a análise da situação atual. (Que pode ser apoiada ou não por um sistema computacional.)</li>
+<li>Para o (re)design de um sistema computacional.</li>
+<li>Para a avaliação do resultado de uma intervenção que inclua um novo sistema computacional.</li>
+</ul>
+<p>Existem diversos métodos de análise de tarefas, no entanto os mais comuns, e que também serão utilizados neste trabalho são:</p>
+<ul>
+<li>Análise Hieráquica de tarefas (AHT)</li>
+<li>GOMS (Goals, Operators, Methods and Selection Rules)</li>
+</ul>
+<hr />
+<h2 id="analise-hieraquica-de-tarefas-aht">Análise Hieráquica de tarefas (AHT)</h2>
+<p>A análise hierárquica de tarefas foi desenvolvida em 1960 com o objetivo de entender as competências envolvidas nas tarefas do usuário, esta avalia primeiro os objetivos de alto nível dos usuários, decompodo-os em subobjetivos.</p>
+<h3 id="objetivos-dos-usuarios">Objetivos dos Usuários</h3>
+<blockquote>
+<p>Os <strong>objetivos</strong> são as ações que os usuários desejam excutar, estes são o nível mais alto da hierarquia de objetivos, quando um objetivo precisa executar mais de uma tarefa para ser finalizado, chamamos essas tarefas de <strong>subobjetivos</strong>. Já a relação entre um objetivo e seus subobjetivos são chamadas de <strong>planos</strong>, por fim, quando nós chegamos no nível mais baixo da hieraquia temos uma <strong>operação</strong> que é quando atingimos um objetivo ou subobjetivo.</p>
+</blockquote>
+<p>Através da análise de usuários que foi feita pelo grupo, e de uma análise da plataforma, foi possível definir alguns dos objetivos dos usuários do <strong>CodeForces</strong> e fazer uma análise hierárquica, são eles:</p>
+<hr />
+<p><strong>1 - Resolver problemas de programação competitiva</strong></p>
+<p><span style="margin-left: 0%;"><img alt="problemsolve" src="../images/problemsolve.png" /></span></p>
+<ul>
+<li>Figura 1. Diagrama AHT para o objetivo “Resolver problemas de programação competitiva"</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Objetivos/Operações</th>
+<th>Problemas e Recomendações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0. Resolver um problema 1&gt;2</td>
+<td><strong>input:</strong> Resolver um problema de programação competitiva no codeforces</br><strong>feedback:</strong> Novo problema aparece na sua lista de problemas resolvidos</br><strong>plano:</strong> Resolver um problema em uma determinada linguagem e submete-lo para receber um "accepted"</br><strong>recomendação:</strong> observar o status de submição para saber se o seu problema foi aceito</td>
+</tr>
+<tr>
+<td>1. Escolher um problema 1/2</td>
+<td><strong>plano:</strong> Escolher um problema de programação competitiva no codeforces através da lista de problemas disponíveis ou através da dificuldade</td>
+</tr>
+<tr>
+<td>1.1 Escolher através da lista de problemas</td>
+<td></td>
+</tr>
+<tr>
+<td>1.2 Escolher através da dificuldade</td>
+<td></td>
+</tr>
+<tr>
+<td>3. Submeter um problema</td>
+<td><strong>input:</strong> Enviar o código de resolução da questão</br><strong>feedback:</strong> O sistema irá avisar se sua resposta foi "accepted", "wrong answer", "time limit exceed", "compilation error" ou "run time error"</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Tabela 1. Tabela de representação de tarefas da AHT do obejetivo "Resolver problemas" </li>
+</ul>
+<hr />
+<p><strong>2 - Participar de contests</strong></p>
+<p><span style="margin-left: 0%;"><img alt="contest" src="../images/contest.png" /></span></p>
+<ul>
+<li>Figura 2. Diagrama AHT para o objetivo “Participar de contests"</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Objetivos/Operações</th>
+<th>Problemas e Recomendações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0. Participar de contests 1&gt;2</td>
+<td><strong>plano:</strong> Participar de um contest e resolver os problemas</br></td>
+</tr>
+<tr>
+<td>1. Escolher um contest 1/2</td>
+<td><strong>plano:</strong> Escolher um contest que pode ser ao vivo ou não</td>
+</tr>
+<tr>
+<td>1.1 Escolher contest online</td>
+<td></td>
+</tr>
+<tr>
+<td>1.2 Escolher contest passado</td>
+<td></td>
+</tr>
+<tr>
+<td>2. Escolher questão que será resolvida</td>
+<td><strong>plano:</strong> Escolher uma das questões disponíveis no contest e resolve-la</td>
+</tr>
+<tr>
+<td>3. Submeter um problema</td>
+<td><strong>input:</strong> Enviar o código de resolução da questão</br><strong>feedback:</strong> O sistema irá avisar se sua resposta foi "accepted", "wrong answer", "time limit exceed", "compilation error" ou "run time error"</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Tabela 2. Tabela de representação de tarefas da AHT do obejetivo "Participar de contests"</li>
+</ul>
+<hr />
+<p><strong>3 - Participar do fórum de discussões</strong></p>
+<p><span style="margin-left: 0%;"><img alt="forum" src="../images/forum.png" /></span></p>
+<ul>
+<li>Figura 3. Diagrama AHT para o objetivo “Participar do fórum de discussões"</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Objetivos/Operações</th>
+<th>Problemas e Recomendações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0. Participar do fórum de discussões 1&gt;2</td>
+<td><strong>plano:</strong> Publicar no fórum, ver publicações de outros usuários, fazer comentários</br></td>
+</tr>
+<tr>
+<td>1. Ler posts do fórum</td>
+<td></td>
+</tr>
+<tr>
+<td>2. Publicar no fórum</td>
+<td><strong>input:</strong> Fazer publicações que podem ser dúvidas, avisos e etc.</br><strong>feedback:</strong> Ser notificado caso alguém responda um cometário ou comente e uma publicação sua.</br><strong>plano:</strong> Escrever um texto e depois publicá-lo.</td>
+</tr>
+<tr>
+<td>2.1 Fazer publcação diretamente no fórum</td>
+<td></td>
+</tr>
+<tr>
+<td>2.2 Fazer um comentário</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Tabela 3. Tabela de representação de tarefas da AHT do obejetivo "Participar do fórum"</li>
+</ul>
+<hr />
+<h2 id="analise-goms-goals-operatorsmethods-and-selection-rules">Análise GOMS (Goals, Operators,Methods and Selection Rules)</h2>
+<p>O método Goms tem o objetivo de analisar o desempenho de usuários realizando tarefas dentro de um sistema computacional, o modelo GOMS tem se tornado eficiente para prever o desempenho, ou seja, predizer o impacto de decisões de design no desempenho de um sistema computacional.</p>
+<ul>
+<li><strong>Objetivos:</strong> Apresentam o que o usuário quer realizar utilizando o software.</li>
+<li><strong>Operadores:</strong> Primitivas internas (congnitivas), ou externas (ações que o usuário consegue realizar com o software)</li>
+<li><strong>Métodos:</strong> Sequências de subobjetivos e operadores que permitem atigir um objetivo.</li>
+<li><strong>Regras de Seleção:</strong> Tomada de decisões do usuário sobre qual método usar para se atingir um objetivo.</li>
+</ul>
+<hr />
+<p><strong>5 - Ver minhas submissões</strong></p>
+<p><span style="margin-left: 0%;"><img alt="forum" src="../images/goms1.jpeg" /></span></p>
+<hr />
+<p><strong>7 - Encontrar um usuário</strong></p>
+<hr />
+<p><strong>8 - Buscar por ajuda no site</strong></p>
+<hr />
+<p><strong>9 - Ver calendário de contests</strong></p>
+<hr />
+<p><strong>10 - Ver Ranking</strong></p>
+<hr />
+<p><strong>11 - Utilizar a API do CodeForces</strong></p>
+<hr />
+<p><strong>12 - Propor um contest/problema</strong></p>
+<hr />
+<p>Outros: Contests no modelo ICPC
+Grupos da universidade
+visualizar seu perfil
+ver pergutas que eu fiz no fórum
+ver times que participei em contests
+Talks - enviar mensagem para usuários</p>
+<hr />
+<h3 id="versionamento-de-edicoes-desta-pagina">Versionamento de edições desta página</h3>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Autor</th>
+<th>Descrição</th>
+<th>Versão</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>08/10/2019</td>
+<td>Erick Giffoni</td>
+<td>Criação inicial da página.</td>
+<td>0.1</td>
+</tr>
+<tr>
+<td>10/10/2019</td>
+<td>Lorrany dos Santos Azevedo</td>
+<td>Edição da página e adição de método AHT</td>
+<td>0.2</td>
+</tr>
+</tbody>
+</table></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
