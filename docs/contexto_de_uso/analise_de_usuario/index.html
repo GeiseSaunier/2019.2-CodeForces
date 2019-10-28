@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Análise de usuário - Documentação - IHC - Codeforces</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/color-brewer.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../..">Documentação - IHC - Codeforces</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="../..">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guia De Estilo <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../guia_de_estilo/1.introducao/">1. Introdução</a>
+</li>
+                                    
+<li >
+    <a href="../../guia_de_estilo/2.resultados_analise/">2. Resultados De Análise</a>
+</li>
+                                    
+<li >
+    <a href="../../guia_de_estilo/3.elementos_interface/">3. Elementos De Interface</a>
+</li>
+                                    
+<li >
+    <a href="../../guia_de_estilo/4.elementos_interacao/">4. Elementos De Interação</a>
+</li>
+                                    
+<li >
+    <a href="../../guia_de_estilo/5.elementos_de_acao/">5. Elementos De Ação</a>
+</li>
+                                    
+<li >
+    <a href="../../guia_de_estilo/6.vocabularios_e_padroes/">6. Vocabularios E Padrões</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Artefatos <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../artefatos/storyboard/">StoryBoard</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contexto de uso <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li class="active">
+    <a href="./">Análise de usuário</a>
+</li>
+                                    
+<li >
+    <a href="../analise_de_tarefas/">Análise de tarefas</a>
+</li>
+                                    
+<li >
+    <a href="../caracteristicas_plataforma/">Características da plataforma</a>
+</li>
+                                    
+<li >
+    <a href="../principios_gerais/">Princípios gerais de projeto</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Concepção/Avaliação <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../concepcao/prototipo_de_papel/">Protótipo de papel</a>
+</li>
+                                    
+<li >
+    <a href="../../concepcao/planejamento_avaliacao/">Planejamento da avaliação</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../../artefatos/storyboard/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../analise_de_tarefas/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/IHC-2019-2/2019.2-CodeForces/edit/master/docs/contexto_de_uso/analise_de_usuario.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#analise-de-usuario">Análise de usuário</a></li>
+        <li class="main "><a href="#demonstracao-de-resultados-da-pesquisa">Demonstração de resultados da pesquisa</a></li>
+            <li><a href="#1-voce-utiliza-o-codeforces">1. Você utiliza o CodeForces ?</a></li>
+            <li><a href="#dados-demograficos">Dados demográficos</a></li>
+            <li><a href="#relacao-do-usuario-com-a-tecnologia">Relação do usuário com a tecnologia</a></li>
+        <li class="main "><a href="#perfil-do-usuario-do-codeforces">Perfil do usuário do CodeForces</a></li>
+            <li><a href="#versionamento-de-edicoes-desta-pagina">Versionamento de edições desta página</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<p><span style="margin-left: 0%;"><img alt="Codeforces Logo" src="../../images/codeforces.png" /></span></p>
+<hr />
+<h1 id="analise-de-usuario">Análise de usuário</h1>
+<blockquote>
+<p>Ao trabalhar com <strong>engenharia de software</strong>, seja para construir, para manter ou</br>
+para evoluir um sistema, é muito importante saber responder, de maneira objetiva,</br>
+à pergunta : <strong>"Quem é o usuário desse software?"</strong>.</p>
+</blockquote>
+<p>Por muitas vezes, a resposta para esse questionamento pode não ser muito trivial</br>
+de se obter. Outras vezes, ela pode ser tão trivial que, na verdade, não fornece</br>
+informações boas e objetivas sobre o usuário.</p>
+<p>A ideia da análise de usuário é <strong>buscar o máximo de informações relevantes sobre</br>
+o usuário de um sistema</strong>, de maneira clara e objetiva, a fim de que a engenharia</br>
+desse software seja efetiva e realmente voltada àquele tipo de usuário. Tais </br>
+informações podem ser usadas nos processos de engenharia desde o levantamento de</br>
+requisitos até à projeção da interface do sistema com o usuário, preocupando-se</br>
+com a experiência dele no sistema.</p>
+<hr />
+<h1 id="demonstracao-de-resultados-da-pesquisa">Demonstração de resultados da pesquisa</h1>
+<p>Existem diversas técnicas para analisar o <strong>perfil de usuário</strong> de um software.</br>
+Com o objetivo de fazer um levantamento rápido das informações sobre o usuário </br>
+do <strong>CodeForces</strong> e de ter um alcance razoável de pesquisa, além de poder coletar</br>
+esses dados online, nossa equipe optou pela técnica dos <strong>questionários</strong>.</p>
+<blockquote>
+<p>As informações alvo do nosso trabalho não são muitas. Queremos saber alguns <strong>dados</br>
+demográficos</strong> e também alguns dados em relação à <strong>interação do usuário com a Plataforma</strong>,
+bem como sobre a relação dele com a internet.</p>
+</blockquote>
+<p>Nesse sentido, um questionário foi concebido. A primeira pergunta, que é chave para</br>
+restringirmos os entrevistados, é para sabermos se o respondente usa o CodeForces.</br>
+Veja imagem abaixo :</p>
+<h4 id="1-voce-utiliza-o-codeforces">1. Você utiliza o CodeForces ?</h4>
+<p><span style="margin-left: 0%;"><img alt="Pergunta 1" src="../images/pergunta1.png" /></span></p>
+<p>Como é possível perceber, conseguimos alcançar 120 pessoas na pesquisa. Entretanto,</br>
+53,3 % delas não utiliza a Plataforma. Os outros 46,7 % , que são os usuários em questão,</br>
+passaram para as próximas perguntas do questionário, este dividido conforme abaixo:</p>
+<ul>
+<li><a href="#dados-demograficos">Dados demográficos</a>;</li>
+<li><a href="#relacao-do-usuario-com-a-tecnologia">Relação do usuário com a tecnologia</a></li>
+</ul>
+<p><strong>Obs.:</strong> O questionário foi feito em modelo interativo, no qual <strong>as respostas do</br>
+          usuário determinam se ele prossegue para a próxima pergunta ou não</strong>. Por esse motivo,</br>
+          algumas perguntas podem ter o número de respostas diferente de outras.</p>
+<h2 id="dados-demograficos">Dados demográficos</h2>
+<h4 id="2-qual-sua-idade">2. Qual sua idade ?</h4>
+<p><span style="margin-left: 0%;"><img alt="Pergunta 2" src="../images/pergunta2.png" /></span></p>
+<h4 id="3-qual-seu-genero">3. Qual seu gênero ?</h4>
+<p><span style="margin-left: 0%;"><img alt="Pergunta 3" src="../images/pergunta3.png" /></span></p>
+<h4 id="4-voce-e-financeiramente">4. Você é financeiramente...</h4>
+<p><span style="margin-left: 0%;"><img alt="Pergunta 4" src="../images/pergunta4.png" /></span></p>
+<h4 id="5-queremos-saber-qual-seu-principal-vinculo-empregaticio-e-tambem-se-voce-estuda-selecione-2-abaixo-por-favor">5. Queremos saber qual seu principal vínculo empregatício e também se você</br> estuda. Selecione 2 abaixo, por favor.</h4>
+<p><span style="margin-left: 0%;"><img alt="Pergunta 5" src="../images/pergunta5.png" /></span></p>
+<h4 id="6-qual-seu-maior-nivel-de-formacao">6. Qual seu maior nível de formação ?</h4>
+<p><span style="margin-left: 0%;"><img alt="Pergunta 6" src="../images/pergunta6.png" /></span></p>
+<h4 id="7-ela-e-na-area-de-tecnologia">7. Ela é na área de tecnologia ?</h4>
+<p><span style="margin-left: 0%;"><img alt="Pergunta 7" src="../images/pergunta7.png" /></span></p>
+<h4 id="8-em-que-lugar-do-brasil-voce-reside">8. Em que lugar do Brasil você reside ?</h4>
+<p><span style="margin-left: 0%;"><img alt="Pergunta 8" src="../images/pergunta8.png" /></span></p>
+<h4 id="9-onde-voce-reside">9. Onde você reside ?</h4>
+<p><em>Para usuários que selecionaram a opção "Não resido no Brasil", da pergunta anterior.</em></p>
+<p>Não obtivemos respostas.</p>
+<h4 id="10-quais-idiomas-abaixo-voce-fala-escolha-primeiro-o-seu-idioma-de-maior-fluencia-depois-o-proximo">10. Quais idiomas abaixo você fala ? (Escolha primeiro o seu idioma de maior</br> fluência, depois o próximo...)</h4>
+<p><span style="margin-left: 0%;"><img alt="Pergunta 10" src="../images/pergunta10.png" /></span></p>
+<h2 id="relacao-do-usuario-com-a-tecnologia">Relação do usuário com a tecnologia</h2>
+<h4 id="11-que-atividade-voce-mais-faz-online">11. Que atividade você MAIS faz online ?</h4>
+<p><span style="margin-left: 0%;"><img alt="Pergunta 11" src="../images/pergunta11.png" /></span></p>
+<h4 id="12-qual-sua-principal-tarefa-ao-utilizar-o-codeforces">12. Qual sua principal tarefa ao utilizar o CodeForces ?</h4>
+<p><span style="margin-left: 0%;"><img alt="Pergunta 12" src="../images/pergunta12.png" /></span></p>
+<h4 id="13-com-que-escala-voce-utiliza-o-codeforces-em-relacao-aos-concorrentes-dele-uva-uri-cd-moj-outros">13. Com que escala você utiliza o CodeForces em relação aos concorrentes dele?</br> (Uva, URI, CD-MOJ, outros)</h4>
+<p><span style="margin-left: 0%;"><img alt="Pergunta 13" src="../images/pergunta13.png" /></span></p>
+<h4 id="14-sobre-a-tarefa-que-voce-mais-faz-no-codeforces-com-que-frequencia-voce-a-realiza-na-plataforma">14. Sobre a tarefa que você mais faz no CodeForces, com que frequência você</br> a realiza na plataforma ?</h4>
+<p><span style="margin-left: 0%;"><img alt="Pergunta 14" src="../images/pergunta14.png" /></span></p>
+<hr />
+<h1 id="perfil-do-usuario-do-codeforces">Perfil do usuário do CodeForces</h1>
+<blockquote>
+<p>Perfil demográfico</p>
+</blockquote>
+<ul>
+<li>A maior parte dos usuários do CodeForces concentra-se na região <strong>Centro-oeste</strong></li>
+</ul>
+<p>do Brasil.</p>
+<ul>
+<li>
+<p>O <strong>gênero masculino</strong> se apresenta em maior quantidade como usuário do CodeForces.</p>
+</li>
+<li>
+<p>A idade dos usuários varia entre <strong>18 a 22 anos</strong>.</p>
+</li>
+<li>
+<p>Os usuários apresentam-se <strong>financeiramente dependentes de terceiros</strong></p>
+</li>
+</ul>
+<p>(pais, familiares, outros).</p>
+<ul>
+<li>
+<p>Estudantes <strong>universitários empregados</strong> são os que mais utilizam a plataforma.</p>
+</li>
+<li>
+<p>O nível de formação dos usuários se dá em maior número como <strong>superior incompleto na área de Tecnologia</strong>.</p>
+</li>
+<li>
+<p>O idioma de maior fluência dos usuários é o <strong>Português</strong>, seguido do <strong>Inglês</strong>.</p>
+</li>
+</ul>
+<blockquote>
+<p>Perfil tecnológico</p>
+</blockquote>
+<ul>
+<li>A <strong>atividade mais realizada</strong> pelos usuários por meio da <strong>internet</strong> diz</li>
+</ul>
+<p>respeito ao <strong>estudar</strong>, seguido pelo <strong>entretenimento (assistir a filmes, séries, vídeos etc)</strong>.</p>
+<ul>
+<li>A <strong>principal tarefa</strong> realizada pelos usuários <strong>dentro da Plataforma</strong> é</li>
+</ul>
+<p><strong>participar de Contests</strong>, seguido de <strong>resolver exercícios isolados de programação</strong>.</p>
+<ul>
+<li>O usuário utiliza pouco outra plataforma porque sua <strong>preferência é o CodeForces</strong>,</li>
+</ul>
+<p>sendo que, para alguns deles, <strong>o CodeForces tem total preferência</strong>.</p>
+<ul>
+<li><strong>Uma</strong> ou <strong>duas</strong> vezes <strong>na semana</strong> é a <strong>frequência de uso</strong> do usuário para o CodeForces.</li>
+</ul>
+<hr />
+<h2 id="versionamento-de-edicoes-desta-pagina">Versionamento de edições desta página</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Autor</th>
+<th>Descrição</th>
+<th>Versão</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>08/10/2019</td>
+<td>Erick Giffoni</td>
+<td>Criação e edição inicial da página.</td>
+<td>0.1</td>
+</tr>
+<tr>
+<td>09/10/2019</td>
+<td>Erick Giffoni</td>
+<td>Adição dos resultados da pesquisa</td>
+<td>0.2</td>
+</tr>
+<tr>
+<td>12/10/2019</td>
+<td>- Erick Giffoni </br>- Geise Saunier</td>
+<td>Definição do perfil</td>
+<td>1.0</td>
+</tr>
+</tbody>
+</table></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

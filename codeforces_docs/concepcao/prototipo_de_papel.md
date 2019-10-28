@@ -85,4 +85,4 @@ Os objetos de avaliação são os videos onde mostram a interação de um usuár
 |------|-------|-----------|--------|
 | 12/10/2019 | Fernando Aguilar | Created Page| 0.1 |
 | 12/10/2019 | Fernando Aguilar | Add links to videos | 0.2 |
-| 13/10/2019 | Fernando Aguilar | Add Respostas | 0.3 |
+| 13/10/2019 | Fernando Aguilar | Add Respostas | 1.0 |
