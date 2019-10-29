@@ -24,10 +24,19 @@ Isto permite que o sistema seja fácil de aprender e que ele deve ser fácil de 
     - Clicar em registrar como participação individual ;
     - Aceitar os termos do contest.
 
-2) y
+2) Enviar solução de algum problema
 
-    - yu
-    - 
+    - Abrir o navegador ;
+    - Procurar o site do Codeforces ;
+    - Fazer login ;
+        - Colocar email ;
+        - Colocar senha ;
+        - Entrar ;
+    - Selecionar a aba "ProblemSet" ;
+    - Clicar no problema "12521 - Mission Possible" ;
+    - Na aba lateral "Submit", em "Language", escolher "GNU G++17 7.3.0" ;
+    - Na aba lateral "Submit", em "Choose file", em "Browse, escolher o arquivo de solução "mission-possible.cpp" ;
+    - Na aba lateral "Submit", clicar em "Submit" .
     
 > Representação da interface: [**codeforces.com**](http://codeforces.com)
 
@@ -56,7 +65,7 @@ Análise : oi
 ### Relato do percurso 1
 
 
-## Percurso 2 - Tarefa y
+## Percurso 2 - Enviar solução de algum problema
 **Avaliador** : Erick .</br>
 **Potencial usuário** : Fernando .
 
@@ -98,3 +107,4 @@ Análise :
 |------|-------|-----------|--------|
 | 28/10/2019 | Erick Giffoni | Criação da página | 0.1 |
 | 28/10/2019 | Erick Giffoni e Fernando Aguilar | Adição da tarefa 1 | 0.1 |
+| 28/10/2019 | Erick Giffoni | Adição da tarefa 2 | 0.1.2 |
