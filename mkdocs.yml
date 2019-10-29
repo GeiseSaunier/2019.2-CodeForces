@@ -25,6 +25,8 @@ nav:
             - Resultados 2: avaliacao/heuristica/bruno_eugenio.md
             - Resultados 3: avaliacao/heuristica/geise_lorrany.md
             - Relato final: avaliacao/heuristica/relato_final.md
+        - Percurso Cognitivo:
+            - Resultados 1: avaliacao/percurso_cognitivo/erick_fernando.md
 repo_url: https://github.com/IHC-2019-2/2019.2-CodeForces
 
 docs_dir: codeforces_docs/
