@@ -39,22 +39,25 @@ Isto permite que o sistema seja fácil de aprender e que ele deve ser fácil de 
 
 > O usuário vai tentar atingir o efeito correto ?
 
-Análise : oi
+**Análise :** O usuário usa todos os recursos possíveis para completar a tarefa com êxito. Estes recursos são o buscador google, alguns utilizam gerenciadores de senhas para fazer o login, o usuário irá procurar pela aba referente ao contest, e então ler todas as opções para clicar na que deseja.
 
 > O usuário vai notar que a ação correta está disponível ?
 
-Análise : oi
+**Análise :** O usuário, ao entrar na plataforma, busca pelas opções disponíveis, e dentre elas, tenta reconhecer a que deseja utilizar. Caso exista a opção de se registrar virtualmente em um contest, o usuário é redirecionado para um página que possui informações detalhadas a respeito da ação correta a ser tomada.
 
 > O usuário vai associar a ação correta com o efeito que está tentando atingir ?
 
-Análise : oi
+**Análise :** Neste caso estamos buscando realizar o registro virtual em um contest, portanto o usuário procurará pela opções que mais se encaixam neste objetivo quando estiver na página de um contest. Dentre todas as opções, o usuário busca por método de exclusão qual é a ação correta para que ele consiga se cadastrar no evento. 
 
 > Se a ação for executada corretamente, o usuário perceberá que está progredindo para concluir a tarefa ?
 
-Análise : oi
+**Análise :** Sim, o usuário é redirecionado para uma página contendo todas as informações detalhadas sobre o contest, assim como um botão onde o usuário pode confirmar a inscrição. É possível realizar o retorno para o estado anterior caso a ação tomada seja errada.
 
 ### Relato do percurso 1
 
+O usuário acessa a plataforma codeforces com um objetivo, fazer inscrição virtualmente em um contest. O processo para concluir esta tarefa é simples, primeiramente o usuário realiza login na plataforma com seu email e senha, então se encaminha para a aba contest do menu principal, onde é possível acessar todos os eventos em uma lista, separados por nome, data de início, e duração. Quando o usuário seleciona um contest que deseja participar, ele irá clicar na opção participar virtualmente, que encaminha o carregamento de uma nova página no navegador. Esta nova página mostra quais são os detalhes do contest selecionado. Caso seja desejo dele confirmar a participação, existe um botão clicável para se registrar no evento. Após o clique, o usuário é redirecionado para uma nova página de preparação, com um timer que indica quanto tempo falta para o inicio do evento e uma caixa pop-up que apresenta uma mensagem de confirmação.
+
+*** 
 
 ## Percurso 2 - Tarefa y
 **Avaliador** : Erick .</br>
@@ -98,3 +101,4 @@ Análise :
 |------|-------|-----------|--------|
 | 28/10/2019 | Erick Giffoni | Criação da página | 0.1 |
 | 28/10/2019 | Erick Giffoni e Fernando Aguilar | Adição da tarefa 1 | 0.1 |
+| 29/10/2019 | Fernando Aguilar | Adição Percurso Cognitivo 1 | 0.2 |
