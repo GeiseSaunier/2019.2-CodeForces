@@ -29,5 +29,5 @@ Site: [**codeforces.com**](http://codeforces.com)
 |------|-------|-----------|--------|
 | 29/10/2019 | Lorrany Azevedo | Criação da página | 0.1 |
 | 29/10/2019 | Lorrany Azevedo | Adição das heurísticas de controle e prevenção de erros | 0.1 |
-| 29/10/2019 | Geise Dioneia de Albuquerque Saunier Adição da heurística eficiência e flexibilidade de uso | 0,2 |
+| 29/10/2019 | Geise Saunier | Adição da heurística eficiência e flexibilidade de uso | 0,2 |
 
