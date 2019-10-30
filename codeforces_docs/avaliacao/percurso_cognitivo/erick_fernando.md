@@ -96,15 +96,15 @@ O usuário concluiu a tarefa com sucesso. Apesar disso algumas considerações f
 
 > O que o usuário precisa saber *a priori* para realizar as tarefas ?
 
-Análise :
+**Análise :** O usuário precisa de ter conhecimento das funcionalidades basicas de um sistema de avaliação de questões de programação, assim como acesso a um email válido para realizar o cadastro caso não possua um. 
 
 > O que o usuário deve aprender enquanto realiza as tarefas ?
 
-Análise :
+**Análise :** O usuário precisa aprender quais são as possibilidades e limitações do sistema. Ele precisa também aprender a diferenciação entre enviar uma tarefa, participar de um evento, ou mesmo submeter solução em uma linguagem de programação diferente da que está configurada como padrão no site. O usuário também é capaz de aprender quais são os caminhos mais curtos para concluir seus objetivos.
 
 > Sugestões de correções para os problemas encontrados 
 
-Análise :
+**Análise :** Algumas sugestões se referem ao problema de intuitividade da plataforma. Mostrar opções mais claras para realizar as atividades ajudaria algúem que nunca acessou o sistema. Assim como permitir que o usuário possa escolher o indioma da interface, o que reduz a carga cognitiva para usuários extrangeiros. Uma outra sugestão de melhoria é impelementar um foco maior nas funcionalidades mais importantes, como fazer upload do arquivo e também a caixa de confirmação, que atualmente é um pop-up pequeno no canto esquerdo inferior, com a cor em contraste com a cor do plano de fundo. A sugestão seria uma mensagem clara e evidente na parte superior da tela, para que o usuário possa visualizar a mensagem sem que o olho necessite percorrer uma grande distância na tela.
 
 ***
 ## Versionamento de edições desta página
@@ -115,3 +115,4 @@ Análise :
 | 29/10/2019 | Erick Giffoni | Adição da tarefa 2 | 0.1.2 |
 | 29/10/2019 | Fernando Aguilar | Adição Percurso Cognitivo 1 | 0.2 |
 | 29/10/2019 | Erick Giffoni | Adição Percurso Cognitivo 2 | 0.3 |
+| 30/10/2019 | Fernando Aguilar | Adição Consolidação dos relatos dos percursos cognitivos | 0.4 |
