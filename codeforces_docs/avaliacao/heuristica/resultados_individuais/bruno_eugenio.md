@@ -1,17 +1,13 @@
-<span style="margin-left: 0%;">![Codeforces Logo](../../images/codeforces.png)</span>
+<span style="margin-left: 0%;">![Codeforces Logo](../../../images/codeforces.png)</span>
 
 ***
 # Preparação
 
 > Sobre os usuários: 
-[vide descrição dos usuários](../../../contexto_de_uso/analise_de_usuario/#perfil-do-usuario-do-codeforces);
+[vide descrição dos usuários](../../../../contexto_de_uso/analise_de_usuario/#perfil-do-usuario-do-codeforces);
 
 > Sobre o domínio:
 Site: [**codeforces.com**](http://codeforces.com)
-
-### Estatísticas do site:
-
-<span style="margin-left: 0%;">![estatistica](../images/estatistica.png)</span>
 
 ### Partes da interface a serem avaliadas 
 - Toda a interface do sistema foi avaliada
