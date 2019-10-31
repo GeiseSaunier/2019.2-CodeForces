@@ -19,6 +19,22 @@ nav:
     - Concepção/Avaliação:
         - Protótipo de papel: concepcao/prototipo_de_papel.md
         - Planejamento da avaliação: concepcao/planejamento_avaliacao.md
+    - Avaliação:
+        - Heurística:
+            - Resultados Parciais:
+                - Resultados Erick_Fernando: avaliacao/heuristica/resultados_individuais/erick_fernando.md
+                - Resultados Bruno_Eugênio: avaliacao/heuristica/resultados_individuais/bruno_eugenio.md
+                - Resultados Geise_Lorrany: avaliacao/heuristica/resultados_individuais/geise_lorrany.md
+            - Relato final: avaliacao/heuristica/relato_final.md
+        - Percurso Cognitivo:
+            - Resultados Parciais:
+                - Resultados 1: avaliacao/percurso_cognitivo/resultados_individuais/erick_fernando.md
+                - Resultados 2: avaliacao/percurso_cognitivo/resultados_individuais/bruno_eugenio.md
+                - Resultados 3: avaliacao/percurso_cognitivo/resultados_individuais/geise_lorrany.md
+            - Relato Final: avaliacao/percurso_cognitivo/relato_final_cognitivo.md
+        - Contexto De Uso:
+            - Avaliação Alexandre: avaliacao/contexto_de_uso/avaliacao_alexandre.md
+
 repo_url: https://github.com/IHC-2019-2/2019.2-CodeForces
 
 docs_dir: codeforces_docs/
