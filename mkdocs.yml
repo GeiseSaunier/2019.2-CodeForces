@@ -29,8 +29,11 @@ nav:
         - Percurso Cognitivo:
             - Resultados Parciais:
                 - Resultados 1: avaliacao/percurso_cognitivo/resultados_individuais/erick_fernando.md
-                - Resultados 2: avaliacao/percurso_cognitivo/resultados_individuais/eugenio_bruno.md
+                - Resultados 2: avaliacao/percurso_cognitivo/resultados_individuais/bruno_eugenio.md
+                - Resultados 3: avaliacao/percurso_cognitivo/resultados_individuais/geise_lorrany.md
             - Relato Final: avaliacao/percurso_cognitivo/relato_final_cognitivo.md
+        - Contexto De Uso:
+            - Avaliação Alexandre: avaliacao/contexto_de_uso/avaliacao_alexandre.md
 
 repo_url: https://github.com/IHC-2019-2/2019.2-CodeForces
 
