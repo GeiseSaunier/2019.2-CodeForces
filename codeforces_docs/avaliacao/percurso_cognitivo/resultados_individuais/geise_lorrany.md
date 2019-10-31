@@ -29,29 +29,28 @@ Isto permite que o sistema seja fácil de aprender e que ele deve ser fácil de 
 # Coleta de dados e interpretação dos percursos cognitivos
 
 ## Percurso 1 - Registrar-se virtualmente em um Contest
-**Avaliador** : Fernando .</br>
-**Potencial usuário** : Erick .
+**Avaliador** : Geise .</br>
+**Potencial usuário** : Lorrany .
 
 > O usuário vai tentar atingir o efeito correto ?
 
-**Análise :** O usuário usa todos os recursos possíveis para completar a tarefa com êxito. Estes recursos são o buscador google, alguns utilizam gerenciadores de senhas para fazer o login, o usuário irá procurar pela aba referente ao contest, e então ler todas as opções para clicar na que deseja.
+**Análise :** O usuário utiliza todos os recursos para efetuar o cadastro, isto é, insere o email e, em seguida, informa uma senha. Além disso, informa também um novo de usuário.
 
 > O usuário vai notar que a ação correta está disponível ?
 
-**Análise :** O usuário, ao entrar na plataforma, busca pelas opções disponíveis, e dentre elas, tenta reconhecer a que deseja utilizar. Caso exista a opção de se registrar virtualmente em um contest, o usuário é redirecionado para um página que possui informações detalhadas a respeito da ação correta a ser tomada.
+**Análise :** O usuário, ao efetuar o cadastro, recebe um email de confirmação para mantê-lo informado sobre seu novo login.
 
 > O usuário vai associar a ação correta com o efeito que está tentando atingir ?
 
-**Análise :** Neste caso estamos buscando realizar o registro virtual em um contest, portanto o usuário procurará pela opções que mais se encaixam neste objetivo quando estiver na página de um contest. Dentre todas as opções, o usuário busca por método de exclusão qual é a ação correta para que ele consiga se cadastrar no evento. 
+**Análise :** Neste caso nosso objetivo é realizar um cadastro, logo o usuário irá seguir os passos que o sistema apresenta, desde a escolha de um nome de usuário, até a inserção de email e senha.
 
 > Se a ação for executada corretamente, o usuário perceberá que está progredindo para concluir a tarefa ?
 
-**Análise :** Sim, o usuário é redirecionado para uma página contendo todas as informações detalhadas sobre o contest, assim como um botão onde o usuário pode confirmar a inscrição. É possível realizar o retorno para o estado anterior caso a ação tomada seja errada.
+**Análise :** Sim, pois, como dito anteriormente, o usuário recebe um email de confirmação do cadastro.
 
 ### Relato do percurso 1
 
-O usuário acessa a plataforma codeforces com um objetivo, fazer inscrição virtualmente em um contest. O processo para concluir esta tarefa é simples, primeiramente o usuário realiza login na plataforma com seu email e senha, então se encaminha para a aba contest do menu principal, onde é possível acessar todos os eventos em uma lista, separados por nome, data de início, e duração. Quando o usuário seleciona um contest que deseja participar, ele irá clicar na opção participar virtualmente, que encaminha o carregamento de uma nova página no navegador. Esta nova página mostra quais são os detalhes do contest selecionado. Caso seja desejo dele confirmar a participação, existe um botão clicável para se registrar no evento. Após o clique, o usuário é redirecionado para uma nova página de preparação, com um timer que indica quanto tempo falta para o inicio do evento e uma caixa pop-up que apresenta uma mensagem de confirmação.
-
+O usuário acessa a plataforma codeforces com um objetivo, realizar cadastro na plataforma. O processo para concluir esta tarefa é simples, primeiramente o usuário escolhe um nome de usuário, em seguida informa seu email e senha. Ao inserir essas informações, o usuário receberá um email de confirmação, como garantia de que o cadastro foi um sucesso. Em seguida, este pode utilizar o nome de usuário cadastrado e a senha para fazer login na plataforma.
 *** 
 ## Consolidação dos relatos dos percursos cognitivos
 
@@ -74,4 +73,5 @@ O usuário acessa a plataforma codeforces com um objetivo, fazer inscrição vir
 | 30/10/2019 | Lorrany Azevedo | Criação da página | 0.1 |
 | 30/10/2019 | Lorrany e Geise| Adição da tarefa 1 | 0.1 |
 | 30/10/2019 | Lorrany e Geise| Consolidação da análise | 0.1 |
+| 30/10/2019 | Lorrany e Geise| Análise e relato do percurso | 0.2 |
 
