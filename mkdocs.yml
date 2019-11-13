@@ -20,6 +20,8 @@ nav:
         - Protótipo de papel: concepcao/prototipo_de_papel.md
         - Planejamento da avaliação: concepcao/planejamento_avaliacao.md
     - Avaliação:
+        - Formativa:
+            - Relato final: avaliacao/formativa/relato-final.md
         - Heurística:
             - Resultados Erick_Fernando: avaliacao/heuristica/erick_fernando.md
             - Resultados Bruno_Eugênio: avaliacao/heuristica/bruno_eugenio.md
@@ -32,6 +34,9 @@ nav:
             - Relato Final: avaliacao/percurso_cognitivo/relato_final_cognitivo.md
         - Contexto De Uso:
             - Avaliação Alexandre: avaliacao/contexto_de_uso/avaliacao_alexandre.md
+    - Acessibilidade:
+        - Padrão W3C: acessibilidade/w3c.md
+        - Padrão eMAG: acessibilidade/emag.md
 
 repo_url: https://github.com/IHC-2019-2/2019.2-CodeForces
 
