@@ -5,6 +5,24 @@
 # Acessibilidade na interação humano-computador
 </p>
 
+O que é acessibilidade ? Uma definição do [Dicionário Priberam](https://dicionario.priberam.org/)
+
+<span style="margin-left: 0%;">![Codeforces Logo](../images/acessibilidade.png)</span>
+
+Ok... e o que é acessível ?
+
+<span style="margin-left: 0%;">![Codeforces Logo](../images/acessivel.png)</span>
+
+Hmmmm... **e como isso se aplica na interação humano-computador ?**
+
+> Percebe-se que **acessibilidade é uma qualidade**, ou seja, é um atributo, uma
+característica do que é acessível, ou seja, daquilo a que se pode chegar.
+Assim, **para IHC, acessibilidade está relacionado à facilidade de uso, à usabilidade
+do site e à experiência de todo e de qualquer usuário**. O website, nesse contexto,
+deve atender à um conjunto de princípios ou de normas para que **deficiências de visão,
+ou de coordenação motora, ou de audição, ou qualquer outra não sejam um empecilho
+para que o usuário consiga navegar no site.**
+
 ***
 
 ## Sobre o padrão **eMAG**
@@ -48,7 +66,7 @@ qualquer boa prática de acessibilidade do WCAG.
 
 ***
 
-## Avaliação do Codeforces usando a ferramenta [ASES](#ref5)
+## Avaliação do Codeforces usando a ferramenta ASES [[5]](http://asesweb.governoeletronico.gov.br/ases/)
 
 
 **Clique [aqui](../avaliacao-emag-pdf.pdf) para ver a avaliação completa.**
@@ -59,20 +77,23 @@ qualquer boa prática de acessibilidade do WCAG.
 ***
 
 ## Referências
-<span id="#ref1">
+<span id="ref1"></span>
 [1] [eMAG - Modelo de Acessibilidade em Governo Eletrônico](http://emag.governoeletronico.gov.br)
 
-<span id="#ref2">
+<span id="ref2"></span>
 [2] [Modelo de Acessibilidade (eMAG)](https://www.governodigital.gov.br/transformacao/cidadania/acessibilidade/emag-modelo-de-acessibilidade-em-governo-eletronico)
 
-<span id="#ref3">
+<span id="ref3"></span>
 [3] [e-MAG - Governo Digital](https://www.governodigital.gov.br/documentos-e-arquivos/e-MAG%20V3.pdf) [PDF]
 
-<span id="#ref4">
+<span id="ref4"></span>
 [4] [eMAG Desenvolvedor](https://repositorio.enap.gov.br/bitstream/1/2710/3/Modulo_2_Web_Acessivel_desenvolvedor.pdf) [PDF]
 
-<span id="#ref5">
+<span id="#ref5"></span>
 [5] [ASES - Avaliador e Simulador de Acessibilidade em Sítios](http://asesweb.governoeletronico.gov.br/ases/)
+
+<span id="ref6"></span>
+[6] [Dicionário Priberam](https://dicionario.priberam.org/)
 
 ***
 ## Versionamento de edições desta página
