@@ -109,6 +109,8 @@ para que o usuário consiga navegar no site.**
 
 [18] [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
+[19] [Accessibility Insights for Web](https://accessibilityinsights.io/docs/en/web/overview)
+
 ***
 ## Versionamento de edições desta página
 | Data | Autor | Descrição | Versão |

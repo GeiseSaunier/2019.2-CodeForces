@@ -42,11 +42,64 @@ para que o usuário consiga navegar no site.**
 
 ## Sobre o padrão **W3C**
 
+The *World Wide Web Consortium*, mais conhecido como **W3C**, é uma comunidade
+internacional que trabalha com o desenvolvimento de padrões para a web.
 
+(Adaptado de [About W3C](https://www.w3.org/Consortium/)).
+
+Nesse sentido, como parte da *Web Accessibility Initiative*, **[WAI](https://www.w3.org/WAI/)**,
+essa comunidade desenvolveu um conjunto de orientações para construir conteúdos
+na web de maneira acessível. Essas orientações são chamadas de</br>
+**[Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG20/)**.
+
+> **Web Content Accessibility Guidelines (WCAG) 2.0** defines how to make Web content
+more accessible to people with disabilities. **Accessibility involves a wide range
+of disabilities**, including visual, auditory, physical, speech, cognitive, language,
+learning, and neurological disabilities. Although **these guidelines cover a wide
+range of issues**, they are not able to address the needs of people with all types,
+degrees, and combinations of disability. These guidelines also make Web content more
+usable by older individuals with changing abilities due to aging **and often improve
+usability for users in general**.
+
+(Adaptado de [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG20/#intro))
+
+De maneira prática e objetiva, o WCAG 2.0 define algumas [camadas de orientação](https://www.w3.org/TR/WCAG20/#intro-layers-guidance) para que
+os indivíduos e as organizações que seguem essas oriengações sejam atendidos.
+Essas camadas são as seguintes :
+
+- **Principles** : existem 4 (quatro) [princípios](http://www.w3.org/TR/UNDERSTANDING-WCAG20/intro.html#introduction-fourprincs-head) que fornecem a base para a
+acessibilidade na web :
+
+    - Perceivable : As informações e os componentes da interface do usuário devem
+    ser apresentados aos usuários de maneira que eles os possam perceber ;
+
+    - Operable : os componentes da interface do usuário devem estar operáveis ;
+
+    - Understandable : As informações e o funcionamento da interface do usuário
+    devem ser compreensíveis ;
+
+    - Robust : O conteúdo deve ser robusto o suficiente para que possa ser interpretado
+    de maneira confiável por uma ampla variedade de usuários, incluindo tecnologias
+    de assistência.
+
+- **Guidelines** : existem 12 (doze) orientações, abaixo dos princípios, que
+promovem as metas básicas para que o conteúdo na web seja mais acessível para
+usuários com diferentes deficiências ;
+
+- Success criteria : para cada **guideline** (orientação) existem critérios de
+sucesso testáveis que seguem uma ordem de conformidade : A (mais baixo), AA, AAA (mais alto).
+Saiba mais em [Understanding Levels of Conformance](https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-levels-head).
+
+- Sufficient and Advisory Techniques : para cada **guideline** e **success criteria**
+existe uma série de técnicas. Saiba mais em [Understanding Techniques for WCAG Success Criteria](https://www.w3.org/TR/UNDERSTANDING-WCAG20/understanding-techniques.html).
 
 ***
 
-## Avaliação do CodeForces usando a ferramenta [x]()
+## Avaliação do CodeForces usando a ferramenta **[Accessibility Insights for Web](https://accessibilityinsights.io/docs/en/web/overview) - Microsoft**
+
+***
+
+**Clique [aqui](../AutomatedChecks-Codeforces.html) para visualizar a avaliação completa feita pela ferramenta da Microsoft.**
 
 ***
 
@@ -84,6 +137,8 @@ para que o usuário consiga navegar no site.**
 
 <span id="ref11"></span>
 [11] [Dicionário Priberam](https://dicionario.priberam.org/)
+
+[12] [Accessibility Insights for Web](https://accessibilityinsights.io/docs/en/web/overview)
 
 ***
 ## Versionamento de edições desta página
