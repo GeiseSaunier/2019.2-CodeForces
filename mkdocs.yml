@@ -37,6 +37,8 @@ nav:
     - Acessibilidade:
         - Padrão W3C: acessibilidade/w3c.md
         - Padrão eMAG: acessibilidade/emag.md
+        - Google lighthouse: acessibilidade/codeforces_lighthouse.md
+        - Consolidação dos resultados: acessibilidade/consolidacao_dos_resultados.md
 
 repo_url: https://github.com/IHC-2019-2/2019.2-CodeForces
 

@@ -5,6 +5,7 @@
 # Acessibilidade na interação humano-computador
 </p>
 
+
 O que é acessibilidade ? Uma definição do [Dicionário Priberam](https://dicionario.priberam.org/)
 
 <span style="margin-left: 0%;">![Codeforces Logo](../images/acessibilidade.png)</span>
@@ -36,55 +37,46 @@ para que o usuário consiga navegar no site.**
 
 ***
 
-## Sobre o padrão **W3C**
-
+## Sobre a ferramenta **Google Lighthouse**
 
 
 ***
+<span id="#avaliacao-do-codeforces-usando-o-google-lighthouse">
+## Avaliação do Codeforces usando o Google Lighthouse
 
-## Avaliação do CodeForces usando a ferramenta [x]()
+A avaliação do Google Lighthouse leva em conta outros aspectos, além da acessibilidade,
+como :
+
+- Performance
+- Best Practices
+- SEO ([Search Engine Optimization](https://resultadosdigitais.com.br/especiais/o-que-e-seo/))
+- [Progressive Web App](https://developers.google.com/web/progressive-web-apps/checklist?utm_source=lighthouse&utm_medium=extension)
+
+Para cada aspecto avaliado, a ferramenta em questão dá uma nota de 0 (zero) a 100 (cem),
+sendo zero o pior valor e cem o melhor valor.
+
+<span style="margin-left: 0%;">![Resumo da avaliacao](../images/resumo-lighthouse.png)</span>
+
+
+Com relação à acessibilidade, a imagem abaixo resume a avaliação feita pelo
+Google Lighthouse para a página inicial do Codeforces, com uma nota igual a 72 (setenta e dois) :
+
+<span style="margin-left: 0%;">![Resumo da avaliacao](../images/resumo-lighthouse-acessibility.png)</span>
+<span style="margin-left: 0%;">![Resumo da avaliacao](../images/resumo-lighthouse-acessibility2.png)</span>
 
 ***
 
+**Clique [aqui](../codeforces_lighthouse.html) para visualizar a avaliação completa pelo [Google Lighthouse](#referencias) [1]**
+
+***
 ## Referências
 
-<span id="ref1"></span>
-[1] [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG20/#contents)
-
-<span id="ref2"></span>
-[2] [Accessibility Fundamentals](https://www.w3.org/WAI/fundamentals/accessibility-intro/)
-
-<span id="ref3"></span>
-[3] [Web Accessibility Evaluation Tools List](Web Accessibility Evaluation Tools List)
-
-<span id="ref4"></span>
-[4] [Essential Components of Web Accessibility](https://www.w3.org/WAI/fundamentals/components/)
-
-<span id="ref5"></span>
-[5] [W3C Accessibility Standards Overview](https://www.w3.org/WAI/standards-guidelines/)
-
-<span id="ref6"></span>
-[6] [Accessibility Principles](https://www.w3.org/WAI/fundamentals/accessibility-principles/)
-
-<span id="ref7"></span>
-[7] [Easy Checks – A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/)
-
-<span id="ref8"></span>
-[8] [Tips for Getting Started](https://www.w3.org/WAI/tips/)
-
-<span id="ref9"></span>
-[9] [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG21/quickref/)
-
-<span id="ref10"></span>
-[10] [Web Accessibility Tutorials](https://www.w3.org/WAI/tutorials/)
-
-<span id="ref11"></span>
-[11] [Dicionário Priberam](https://dicionario.priberam.org/)
+[1] [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
 ***
+
 ## Versionamento de edições desta página
 | Data | Autor | Descrição | Versão |
 |------|-------|-----------|--------|
-| 13/11/2019 | Erick Giffoni | Criação da página | 0.1 |
-| 13/11/2019 | Erick Giffoni | Adição das referências | 0.1.2 |
+| 16/11/2019 | Erick Giffoni | Criação da página</br>Adição das referências</br>Adição da avaliação em html pelo Google Lighthouse| 0.1 |
 | 16/11/2019 | Erick Giffoni | Adição dos objetivos da avaliação de acessibilidade | 0.2 |

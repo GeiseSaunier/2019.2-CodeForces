@@ -5,6 +5,7 @@
 # Acessibilidade na interação humano-computador
 </p>
 
+
 O que é acessibilidade ? Uma definição do [Dicionário Priberam](https://dicionario.priberam.org/)
 
 <span style="margin-left: 0%;">![Codeforces Logo](../images/acessibilidade.png)</span>
@@ -36,16 +37,20 @@ para que o usuário consiga navegar no site.**
 
 ***
 
-## Sobre o padrão **W3C**
+# Consolidação dos resultados das avaliações de acessibilidade
 
-
+- Ferramentas utilizadas :
+    - [ASES - Avaliador e Simulador de Acessibilidade em Sítios](http://asesweb.governoeletronico.gov.br/ases)
+    - [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
+    - z
+    - w
 
 ***
 
-## Avaliação do CodeForces usando a ferramenta [x]()
+## Pontos a serem melhorados na plataforma [Codeforces](http://codeforces.com/)
+
 
 ***
-
 ## Referências
 
 <span id="ref1"></span>
@@ -81,10 +86,28 @@ para que o usuário consiga navegar no site.**
 <span id="ref11"></span>
 [11] [Dicionário Priberam](https://dicionario.priberam.org/)
 
+<span id="ref12"></span>
+[12] [eMAG - Modelo de Acessibilidade em Governo Eletrônico](http://emag.governoeletronico.gov.br)
+
+<span id="ref13"></span>
+[13] [Modelo de Acessibilidade (eMAG)](https://www.governodigital.gov.br/transformacao/cidadania/acessibilidade/emag-modelo-de-acessibilidade-em-governo-eletronico)
+
+<span id="ref14"></span>
+[14] [e-MAG - Governo Digital](https://www.governodigital.gov.br/documentos-e-arquivos/e-MAG%20V3.pdf) [PDF]
+
+<span id="ref15"></span>
+[15] [eMAG Desenvolvedor](https://repositorio.enap.gov.br/bitstream/1/2710/3/Modulo_2_Web_Acessivel_desenvolvedor.pdf) [PDF]
+
+<span id="#ref16"></span>
+[16] [ASES - Avaliador e Simulador de Acessibilidade em Sítios](http://asesweb.governoeletronico.gov.br/ases/)
+
+<span id="ref17"></span>
+[17] [Dicionário Priberam](https://dicionario.priberam.org/)
+
+[18] [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
+
 ***
 ## Versionamento de edições desta página
 | Data | Autor | Descrição | Versão |
 |------|-------|-----------|--------|
-| 13/11/2019 | Erick Giffoni | Criação da página | 0.1 |
-| 13/11/2019 | Erick Giffoni | Adição das referências | 0.1.2 |
-| 16/11/2019 | Erick Giffoni | Adição dos objetivos da avaliação de acessibilidade | 0.2 |
+| 16/11/2019 | Erick Giffoni | Criação da página</br>Adição das referências | 0.1 |

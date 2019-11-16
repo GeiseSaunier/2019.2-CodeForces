@@ -25,6 +25,17 @@ para que o usuário consiga navegar no site.**
 
 ***
 
+## Objetivos da avaliação de acessibilidade
+
+- Pontuar os acertos do [Codeforces](http://codeforces.com/) em relação à acessibilidade ;
+
+- Encontrar os pontos negativos (as falhas) do [Codeforces](http://codeforces.com/) em relação
+à acessibilidade ;
+
+- Consolidar os resultados encontrados para propor melhorias ao [Codeforces](http://codeforces.com/).
+
+***
+
 ## Sobre o padrão **eMAG**
 
 > **O Modelo de Acessibilidade em Governo Eletrônico (eMAG) consiste em um
@@ -66,13 +77,13 @@ qualquer boa prática de acessibilidade do WCAG.
 
 ***
 
-## Avaliação do Codeforces usando a ferramenta ASES [[5]](http://asesweb.governoeletronico.gov.br/ases/)
-
-
-**Clique [aqui](../avaliacao-emag-pdf.pdf) para ver a avaliação completa.**
+## Avaliação do Codeforces usando a ferramenta **ASES** [[5]](http://asesweb.governoeletronico.gov.br/ases/)
 
 
 <span style="margin-left: 0%;">![Resumo da avaliacao](../images/resumo-emag-codeforces.png)</span>
+
+***
+**Clique [aqui](../avaliacao-emag-pdf.pdf) para ver a avaliação completa.**
 
 ***
 
@@ -100,4 +111,5 @@ qualquer boa prática de acessibilidade do WCAG.
 | Data | Autor | Descrição | Versão |
 |------|-------|-----------|--------|
 | 13/11/2019 | Erick Giffoni | Criação da página e adição das referências| 0.1 |
-| 13/11/2019 | Erick Giffoni | Adição da avaliação inicial| 0.2 |
+| 13/11/2019 | Erick Giffoni | Adição da avaliação inicial | 0.2 |
+| 16/11/2019 | Erick Giffoni | Adição dos objetivos da avaliação de acessibilidade | 0.3 |
