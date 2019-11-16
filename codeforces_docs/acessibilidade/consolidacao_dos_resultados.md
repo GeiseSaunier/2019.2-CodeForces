@@ -4,6 +4,9 @@
 <p align="center">
 # Acessibilidade na interação humano-computador
 </p>
+</br>
+*Autor*: **Erick Giffoni**
+</br>
 
 
 O que é acessibilidade ? Uma definição do [Dicionário Priberam](https://dicionario.priberam.org/)

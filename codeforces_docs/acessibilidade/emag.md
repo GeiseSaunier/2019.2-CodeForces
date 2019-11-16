@@ -4,6 +4,10 @@
 <p align="center">
 # Acessibilidade na interação humano-computador
 </p>
+</br>
+*Autor*: **Erick Giffoni**
+</br>
+
 
 O que é acessibilidade ? Uma definição do [Dicionário Priberam](https://dicionario.priberam.org/)
 
@@ -82,6 +86,18 @@ qualquer boa prática de acessibilidade do WCAG.
 
 <span style="margin-left: 0%;">![Resumo da avaliacao](../images/resumo-emag-codeforces.png)</span>
 
+A tabela a seguir apresenta os erros encontrados na página inicial do [Codeforces](http://codeforces.com/)
+e serve como relatório de investigação para propor as melhorias :
+
+|Recomendações do eMAG|Tipo do erro|Quantidade de ocorrências|
+|:---------------------:|:------------|-------------------------|
+|Marcação|- [1.1 Respeitar os Padrões Web](http://emag.governoeletronico.gov.br/#r1.1)</br>- [1.2 Organizar o código HTML de forma lógica e semântica](http://emag.governoeletronico.gov.br/#r1.2)</br>- [1.3 Utilizar corretamente os níveis de cabeçalho](http://emag.governoeletronico.gov.br/#r1.3)</br>- [1.5 Fornecer âncoras para ir direto a um bloco de conteúdo](http://emag.governoeletronico.gov.br/#r1.5)|- 140</br>- 1</br>- 1</br>- 1</br>Total = 143|
+|Comportamento|- [2.2 Garantir que os objetos programáveis sejam acessíveis](http://emag.governoeletronico.gov.br/#r2.2)|- 1</br>Total = 1|
+|Conteúdo/Informação|- [3.5 Descrever links clara e sucintamente](http://emag.governoeletronico.gov.br/#r3.5)</br>- [3.6 Fornecer alternativa em texto para as imagens do sítio](http://emag.governoeletronico.gov.br/#r3.6)</br>- [3.10 Associar células de dados às células de cabeçalho](http://emag.governoeletronico.gov.br/#r3.10)|- 4</br>- 111</br>- 5</br>Total = 120|
+|Apresentação/Design|- [4.4 Possibilitar que o elemento com foco seja visualmente evidente](http://emag.governoeletronico.gov.br/#r4.4)|- 1</br>Total = 1|
+|Formulários|- [6.2 Associar etiquetas aos seus campos](http://emag.governoeletronico.gov.br/#r6.2)|- 2</br>Total = 2|
+
+
 ***
 **Clique [aqui](../avaliacao-emag-pdf.pdf) para ver a avaliação completa.**
 
@@ -113,3 +129,4 @@ qualquer boa prática de acessibilidade do WCAG.
 | 13/11/2019 | Erick Giffoni | Criação da página e adição das referências| 0.1 |
 | 13/11/2019 | Erick Giffoni | Adição da avaliação inicial | 0.2 |
 | 16/11/2019 | Erick Giffoni | Adição dos objetivos da avaliação de acessibilidade | 0.3 |
+| 16/11/2019 | Erick Giffoni | Finalização da avaliação em conformidade eMAG | 1.0 |
