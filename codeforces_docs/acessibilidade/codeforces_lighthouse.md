@@ -42,6 +42,15 @@ para que o usuário consiga navegar no site.**
 
 ## Sobre a ferramenta **Google Lighthouse**
 
+O Lighthouse é uma ferramenta automatizada de código aberto que aprimora a
+qualidade de apps da Web. Ele pode ser executado como extensão do Chrome ou na
+linha de comando. Basta informar ao Lighthouse a URL do site que você quer auditar
+e a ferramenta executará uma série de testes na página. Ao final, um relatório
+sobre o desempenho da página é gerado. Nesse relatório, você poderá usar os
+testes que apresentaram falha como indicadores do que pode ser feito para aprimorar
+o aplicativo.
+
+(Adaptado de [Auditar apps da Web com o Lighthouse](https://developers.google.com/web/tools/lighthouse))
 
 ***
 <span id="#avaliacao-do-codeforces-usando-o-google-lighthouse">
@@ -83,3 +92,4 @@ Google Lighthouse para a página inicial do Codeforces, com uma nota igual a 72 
 |------|-------|-----------|--------|
 | 16/11/2019 | Erick Giffoni | Criação da página</br>Adição das referências</br>Adição da avaliação em html pelo Google Lighthouse| 0.1 |
 | 16/11/2019 | Erick Giffoni | Adição dos objetivos da avaliação de acessibilidade | 0.2 |
+| 17/11/2019 | Erick Giffoni | Adição da descrição sobre a ferramenta Google Lighthouse | 0.2.1 |

@@ -64,7 +64,7 @@ usability for users in general**.
 (Adaptado de [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG20/#intro))
 
 De maneira prática e objetiva, o WCAG 2.0 define algumas [camadas de orientação](https://www.w3.org/TR/WCAG20/#intro-layers-guidance) para que
-os indivíduos e as organizações que seguem essas oriengações sejam atendidos.
+os indivíduos e as organizações que seguem essas orientações sejam atendidos.
 Essas camadas são as seguintes :
 
 - **Principles** : existem 4 (quatro) [princípios](http://www.w3.org/TR/UNDERSTANDING-WCAG20/intro.html#introduction-fourprincs-head) que fornecem a base para a
@@ -96,6 +96,77 @@ existe uma série de técnicas. Saiba mais em [Understanding Techniques for WCAG
 ***
 
 ## Avaliação do CodeForces usando a ferramenta **[Accessibility Insights for Web](https://accessibilityinsights.io/docs/en/web/overview) - Microsoft**
+
+**Accessibility Insights for Web** é uma extensão para o Google Chrome e para o
+[Microsoft Edge Insider](https://www.microsoftedgeinsider.com/en-us/) que ajuda desenvolvedores a encontrar
+e a melhorar os problemas de acessibilidade nos aplicativos e nos sites da web.
+
+Essa ferramenta suporta 2 (dois) principais cenários :
+
+- **FastPass** : é um processo leve, de 2 (dois) passos, que ajuda a identificar
+problemas comuns e de alto impacto em relação à acessibilidade em menos de 5 (cinco)
+minutos.
+
+    - Automated checks : a ferramenta verifica automaticamente a conformidade com
+    aproximadamente 50 requisitos de acessibilidade ;
+
+    - Tab stops : a ferramenta permite identificar problemas críticos relacionados
+    ao acesso via teclado por meio de instruções claras e de um auxiliador visual .
+
+- Assessment : permite que qualquer pessoa com habilidades HTML verifique se o web
+site atende aos padrões estabelecidos pelo [Web Content Accessibility Guidelines (WCAG) 2.1 Level AA.](https://www.w3.org/WAI/WCAG21/quickref/?versions=2.1&levels=aaa)
+
+    - Automated checks : a ferramenta verifica automaticamente a conformidade com
+    aproximadamente 50 requisitos de acessibilidade ;
+
+    - Manual tests : a ferramenta oferece instruções passo a passo, exemplos e
+    orientações sobre como corrigir o erro encontrado para diversos tipos de testes.
+    Muitos desses são assistidos, o que significa que a ferramenta identifica as
+    instâncias de teste ou fornece um auxiliar visual.
+
+> O modelo adotado para avaliar o Codeforces foi o **FastPass**
+
+Com relação aos ***Automated checks***, as imagens abaixo ilustram como é feita a avaliação :
+
+<img src="../images/automated-checks.png"></img>
+
+A ferramenta percorre toda a página e identifica em vermelho os erros encontrados.
+É possível clicar no erro e obter mais informações, como ilustra a imagem a seguir :
+
+<img src="../images/automated-check-example.png"></img>
+
+Assim é possível analisar qual regra foi violada, qual o critério de sucesso dessa
+regra, bem como a sugestão de correção desse erro etc.
+
+***
+
+Com relação aos ***Tab stops***, as imagens abaixo ilustram como é feita a avaliação :
+
+<img src="../images/tab-stops.png">*Screenshot do topo da página inicial*</img>
+
+***
+
+<img src="../images/tab-stops2.png">*Screenshot do final da página inicial*</img>
+
+Total de *tab stops* na página inicial do Codeforces : 363.
+
+> **Conclui-se que, em relação aos *tab stops*, a página inicial do Codeforces torna-se
+muito complicada de se acessar para usuários dependentes da navegação via teclado,**
+por conta da grande quantidade de *tabs* necessária para percorrer toda a página.
+
+***
+
+A tabela a seguir reune os principais erros encontrados nessa análise :
+
+|Tipo do erro|Descrição do erro|Informações relevantes|Quantidade de ocorrências|
+|:-----------:|:---------------|:---------------------:|---------|
+|color-contrast|Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds|- [More information about color-contrast](https://dequeuniversity.com/rules/axe/3.3/color-contrast?application=msftAI)</br>- [WCAG 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)|175|
+|image-alt|Ensures <img> elements have alternate text or a role of none or presentation|- [More information about image-alt](https://dequeuniversity.com/rules/axe/3.3/image-alt?application=msftAI)</br>- [WCAG 1.1.1](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html)|11|
+|label|Ensures every form element has a label|- [More information about label](https://dequeuniversity.com/rules/axe/3.3/label?application=msftAI)</br>- [WCAG 1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships)</br>- [WCAG 3.3.2](https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html)|1|
+|link-name|Ensures links have discernible text|- [More information about link-name](https://dequeuniversity.com/rules/axe/3.3/link-name?application=msftAI)</br>- [WCAG 2.4.4](https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html)</br>- [WCAG 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html)|1|
+|list|Ensures that lists are structured correctly|- [More information about list](https://dequeuniversity.com/rules/axe/3.3/list?application=msftAI)</br>- [WCAG 1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships)|1|
+
+Total de erros encontrados : 189.
 
 ***
 
@@ -147,3 +218,4 @@ existe uma série de técnicas. Saiba mais em [Understanding Techniques for WCAG
 | 13/11/2019 | Erick Giffoni | Criação da página | 0.1 |
 | 13/11/2019 | Erick Giffoni | Adição das referências | 0.1.2 |
 | 16/11/2019 | Erick Giffoni | Adição dos objetivos da avaliação de acessibilidade | 0.2 |
+| 17/11/2019 | Erick Giffoni | Finalização da avaliação em conformidade WCAG | 1.0|
