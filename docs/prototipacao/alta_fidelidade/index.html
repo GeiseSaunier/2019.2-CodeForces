@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>3. Elementos De Interface - IHC - Codeforces</title>
+        <title>Alta Fidelidade - IHC - Codeforces</title>
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -46,32 +46,32 @@
                 <div class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guia De Estilo <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../1.introducao/">1. Introdução</a>
+    <a href="../../guia_de_estilo/1.introducao/">1. Introdução</a>
 </li>
                                     
 <li >
-    <a href="../2.resultados_analise/">2. Resultados De Análise</a>
-</li>
-                                    
-<li class="active">
-    <a href="./">3. Elementos De Interface</a>
+    <a href="../../guia_de_estilo/2.resultados_analise/">2. Resultados De Análise</a>
 </li>
                                     
 <li >
-    <a href="../4.elementos_interacao/">4. Elementos De Interação</a>
+    <a href="../../guia_de_estilo/3.elementos_interface/">3. Elementos De Interface</a>
 </li>
                                     
 <li >
-    <a href="../5.elementos_de_acao/">5. Elementos De Ação</a>
+    <a href="../../guia_de_estilo/4.elementos_interacao/">4. Elementos De Interação</a>
 </li>
                                     
 <li >
-    <a href="../6.vocabularios_e_padroes/">6. Vocabularios E Padrões</a>
+    <a href="../../guia_de_estilo/5.elementos_de_acao/">5. Elementos De Ação</a>
+</li>
+                                    
+<li >
+    <a href="../../guia_de_estilo/6.vocabularios_e_padroes/">6. Vocabularios E Padrões</a>
 </li>
                                 </ul>
                             </li>
@@ -203,12 +203,12 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Prototipacao <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li >
-    <a href="../../prototipacao/alta_fidelidade/">Alta Fidelidade</a>
+<li class="active">
+    <a href="./">Alta Fidelidade</a>
 </li>
                                     
 <li >
@@ -225,17 +225,17 @@
                             </a>
                         </li>
                             <li >
-                                <a rel="next" href="../2.resultados_analise/">
+                                <a rel="next" href="../../acessibilidade/consolidacao_dos_resultados/">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li >
-                                <a rel="prev" href="../4.elementos_interacao/">
+                                <a rel="prev" href="../../concepcao/prototipo_de_papel/">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/IHC-2019-2/2019.2-CodeForces/edit/master/docs/guia_de_estilo/3.elementos_interface.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                                <a href="https://github.com/IHC-2019-2/2019.2-CodeForces/edit/master/docs/prototipacao/alta_fidelidade.md"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -245,58 +245,79 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#31-disposicao-espacial-e-grid">3.1 Disposição espacial e grid</a></li>
-        <li class="main "><a href="#32-janelas">3.2 Janelas</a></li>
-        <li class="main "><a href="#33-tipografia">3.3 Tipografia</a></li>
-        <li class="main "><a href="#34-simbolos-nao-tipograficos">3.4 Símbolos não tipográficos</a></li>
-        <li class="main "><a href="#35-cores">3.5 Cores</a></li>
-        <li class="main "><a href="#36-animacoes">3.6 Animações</a></li>
-        <li class="main "><a href="#versionamento-de-edicoes-desta-pagina">Versionamento de edições desta página</a></li>
+        <li class="main active"><a href="#prototipo-de-alta-fidelidade">Protótipo de alta fidelidade</a></li>
+            <li><a href="#prototipacao">Prototipação</a></li>
+            <li><a href="#ciclos-de-vida">Ciclos de vida</a></li>
+            <li><a href="#onde">Onde</a></li>
+            <li><a href="#porque">Porque</a></li>
+        <li class="main "><a href="#fonte">Fonte:</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
 <p><span style="margin-left: 0%; padding-top: 3%;"><img alt="Codeforces Logo" src="../../images/codeforces.png" /></span></p>
-<h2 id="31-disposicao-espacial-e-grid">3.1 Disposição espacial e grid</h2>
-<p><span style="align: center; "><img alt="Grid" src="../images/grid.png" /></span></p>
-<h2 id="32-janelas">3.2 Janelas</h2>
-<p>O layout deve seguir a seguinte proporção de acordo com o tamanho da tela, nesse caso da imagem acima, 800x800.</p>
-<h2 id="33-tipografia">3.3 Tipografia</h2>
-<p>A fonte utilizada, tanto para títulos quanto para textos, são as fontes da Cuprum Regular da família verdana, arial, sans-serif; Com tamanho de 1.4rem;</p>
-<h2 id="34-simbolos-nao-tipograficos">3.4 Símbolos não tipográficos</h2>
-<p>Os símbolos utilizados para filtro de busca, chat, ícone da busca e entre outros, devem seguir o seguinte padrão de desenho:</p>
-<p><span style="align: center;"><img alt="Cores" src="../images/icons.png" /></span></p>
-<h2 id="35-cores">3.5 Cores</h2>
-<p>O padrão de cores adotado deverá ser:
-<span style="align: center;"><img alt="Cores" src="../images/cores.png" /></span></p>
-<h2 id="36-animacoes">3.6 Animações</h2>
-<p>O website não possui animações visiveis.</p>
 <hr />
-<h2 id="versionamento-de-edicoes-desta-pagina">Versionamento de edições desta página</h2>
-<table>
-<thead>
-<tr>
-<th>Data</th>
-<th>Autor</th>
-<th>Descrição</th>
-<th>Versão</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>04/10/2019</td>
-<td>Fernando Aguilar</td>
-<td>Criação e edição inicial da página.</td>
-<td>0.1</td>
-</tr>
-<tr>
-<td>04/10/2019</td>
-<td>Fernando Aguilar</td>
-<td>Atualização dos elementos da página.</td>
-<td>0.2</td>
-</tr>
-</tbody>
-</table></div>
+<h1 id="prototipo-de-alta-fidelidade">Protótipo de alta fidelidade</h1>
+<p><strong>Responsáveis</strong> : a definir (sugestão : TODOS)</p>
+<p><strong>Data de entrega</strong> : seminário final</p>
+<hr />
+<h2 id="prototipacao">Prototipação</h2>
+<h3 id="por-que-validar-com-um-prototipo-de-alta-fidelidade">Por que validar com um protótipo de alta fidelidade</h3>
+<p>Eles são utilizados quando é preciso validar a Interface de usuário. Para que seja possível entender o comportamento do usuário no sistema. </p>
+<p>o primeiro ponto é que depende da forma como o usuário está navegando, pode ser por categorias, se as imagens são relevantes, como funcionam os banners, etc.
+o segundo ponto é a o teste de interação, muito util quando gostariamos de testar o tipo de navegação proposta pelo design,  como um fator crítico para o sucesso.
+o terceiro ponto  é a imersao do produto sem que o usuário se lembre que aquilo é um teste, e mergulhe naquela experiência para conferir a interação de acordo com os critérios de qualidade.</p>
+<h3 id="pontos-positivos-de-um-prototipo-bem-implementado">Pontos positivos de um protótipo bem implementado</h3>
+<ol>
+<li>O ritmo do teste
+ é um fator que o facilitador pode apenas observar a experiência, não precisando interagir com o usuário durante o teste de interface. 
+O usuário consegue ir pensando e navegando para encontrar a próxima tela enquanto o facilitador consegue aprofundar-se em mais coisas para serem utilizadas como objeto de melhoria.</li>
+<li>Vai muito além da arquitetura
+Além de validar elementos visuais, de interação, tempo de resposta, e se o usuário está feliz ou nao, se está </li>
+<li>não é uma experieência real, mas é muito próximo do que o usuário irá utilizar</li>
+<li>tem menos chances de erros humanos, pois o próprio usuário conseguirá saber que caminho seguir, evitando que ele acabe clicando em uma tela fora do teste</li>
+<li>quando é convincente para errar antes antes de desenvolver a solução real, pois é muito mais convincente verificar que aquela solução não irá funcionar.</li>
+</ol>
+<h3 id="praticar">Praticar</h3>
+<p>é importante entender antes o modo como fazer um protótipo, para assegurar a qualidade do design antes de apresentar os outros testes que iremos fazer na sequência com o usuário. </p>
+<p>Garantir que a navegação não impacte muito na expperiência, para que seja possível captar as reações que o usuário tem ao utilizar o protótipo.</p>
+<h3 id="modelos-de-evolucao-de-um-prototipo">Modelos de evolução de um protótipo</h3>
+<p>Um protótipo tem que ser sempre atualizado ou depois que chegamos em um determinado ponto devemos abandoná-lo? Existe os dois modelos e definimo-os como prototipação evolucionária e prototipação descartável.</p>
+<h3 id="prototipacao-evolucionaria">Prototipação evolucionária</h3>
+<p>A prototipação evolucionária consiste em produzir um modelo inicial de protótipo e ir refinando-o ao longo de várias fases de desenvolvimento do projeto até atingir sua forma final.
+Prototipação descartável</p>
+<h3 id="prototipacao-descarvavel">Prototipação descarvável</h3>
+<p>A prototipação descarvável  consiste em criar modelos que abordam os detalhes do projeto em determinado momento e depois são descartados.</p>
+<hr />
+<h2 id="ciclos-de-vida">Ciclos de vida</h2>
+<p>Há um projeto conceitual, um processo de implementação e muito mais artefatos.
+Um projeto conceitual é aquele em que temos a intenção de projetar idéias e apresentar o que é ou como será o projeto.</p>
+<pre><code>Definir as métricas de usabilidade
+Faça desenhos paralelos
+Adote um design compartilhado (participativo)
+Faça projetos de interface de coordenadas como um todo
+Aplique diferentes linhas de referência e análises heurísticas
+Faça protótipos diferentes
+Faça teste empírico
+Pratique design interativo
+Faça uma avaliação do usuário
+</code></pre>
+<p>O projeto conceitual é principalmente documentos, pulando a fase de implementação.</p>
+<h2 id="onde">Onde</h2>
+<p>Na fase de protótipo, estamos focados na criação de uma versão inicial. A diferença entre a situação atual e a situação desejada é a principal motivação para projetar uma intervenção sintetizadaFrequentemente, uma intervenção é denominada solução.</p>
+<h2 id="porque">Porque</h2>
+<p>Responde à pergunta que define um problema a ser resolvido.
+Como posso melhorar essa situação?</p>
+<p>Em alguns casos, isso requer apenas uma alteração no processo, sem alterar os sistemas usados.
+Quando a intervenção é sobre o desenvolvimento de sistemas, devemos articular o interesse de todas as partes interessadas com</p>
+<pre><code>reuniu conhecimento na análise da situação inicial.
+Conhecimento sobre intervenções avaliadas boas ou ruins
+Conhecimento das possibilidades e limitações das tecnologias disponíveis.
+</code></pre>
+<hr />
+<h1 id="fonte">Fonte:</h1>
+<p><a href="https://www.coursera.org/lecture/ux-ui-design-de-interface/construindo-um-prototipo-de-alta-fidelidade-HWDuF">/ux-ui-design-de-interface </a>
+<a href="https://www.objective.com.br/a-prototipacao-no-desenvolvimento-de-software/">A Prototipação no desenvolvimento de software</a></p></div>
         </div>
 
         <footer class="col-md-12">

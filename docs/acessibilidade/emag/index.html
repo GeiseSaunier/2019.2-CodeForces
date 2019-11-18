@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>3. Elementos De Interface - IHC - Codeforces</title>
+        <title>Padrão eMAG - IHC - Codeforces</title>
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -46,32 +46,32 @@
                 <div class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guia De Estilo <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../1.introducao/">1. Introdução</a>
+    <a href="../../guia_de_estilo/1.introducao/">1. Introdução</a>
 </li>
                                     
 <li >
-    <a href="../2.resultados_analise/">2. Resultados De Análise</a>
-</li>
-                                    
-<li class="active">
-    <a href="./">3. Elementos De Interface</a>
+    <a href="../../guia_de_estilo/2.resultados_analise/">2. Resultados De Análise</a>
 </li>
                                     
 <li >
-    <a href="../4.elementos_interacao/">4. Elementos De Interação</a>
+    <a href="../../guia_de_estilo/3.elementos_interface/">3. Elementos De Interface</a>
 </li>
                                     
 <li >
-    <a href="../5.elementos_de_acao/">5. Elementos De Ação</a>
+    <a href="../../guia_de_estilo/4.elementos_interacao/">4. Elementos De Interação</a>
 </li>
                                     
 <li >
-    <a href="../6.vocabularios_e_padroes/">6. Vocabularios E Padrões</a>
+    <a href="../../guia_de_estilo/5.elementos_de_acao/">5. Elementos De Ação</a>
+</li>
+                                    
+<li >
+    <a href="../../guia_de_estilo/6.vocabularios_e_padroes/">6. Vocabularios E Padrões</a>
 </li>
                                 </ul>
                             </li>
@@ -182,24 +182,24 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Acessibilidade <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../../acessibilidade/w3c/">Padrão W3C</a>
+    <a href="../w3c/">Padrão W3C</a>
+</li>
+                                    
+<li class="active">
+    <a href="./">Padrão eMAG</a>
 </li>
                                     
 <li >
-    <a href="../../acessibilidade/emag/">Padrão eMAG</a>
+    <a href="../codeforces_lighthouse/">Google lighthouse</a>
 </li>
                                     
 <li >
-    <a href="../../acessibilidade/codeforces_lighthouse/">Google lighthouse</a>
-</li>
-                                    
-<li >
-    <a href="../../acessibilidade/consolidacao_dos_resultados/">Consolidação dos resultados</a>
+    <a href="../consolidacao_dos_resultados/">Consolidação dos resultados</a>
 </li>
                                 </ul>
                             </li>
@@ -225,17 +225,17 @@
                             </a>
                         </li>
                             <li >
-                                <a rel="next" href="../2.resultados_analise/">
+                                <a rel="next" href="../w3c/">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li >
-                                <a rel="prev" href="../4.elementos_interacao/">
+                                <a rel="prev" href="../codeforces_lighthouse/">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/IHC-2019-2/2019.2-CodeForces/edit/master/docs/guia_de_estilo/3.elementos_interface.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                                <a href="https://github.com/IHC-2019-2/2019.2-CodeForces/edit/master/docs/acessibilidade/emag.md"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -245,32 +245,142 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#31-disposicao-espacial-e-grid">3.1 Disposição espacial e grid</a></li>
-        <li class="main "><a href="#32-janelas">3.2 Janelas</a></li>
-        <li class="main "><a href="#33-tipografia">3.3 Tipografia</a></li>
-        <li class="main "><a href="#34-simbolos-nao-tipograficos">3.4 Símbolos não tipográficos</a></li>
-        <li class="main "><a href="#35-cores">3.5 Cores</a></li>
-        <li class="main "><a href="#36-animacoes">3.6 Animações</a></li>
-        <li class="main "><a href="#versionamento-de-edicoes-desta-pagina">Versionamento de edições desta página</a></li>
+        <li class="main active"><a href="#acessibilidade-na-interacao-humano-computador">Acessibilidade na interação humano-computador</a></li>
+            <li><a href="#objetivos-da-avaliacao-de-acessibilidade">Objetivos da avaliação de acessibilidade</a></li>
+            <li><a href="#sobre-o-padrao-emag">Sobre o padrão eMAG</a></li>
+            <li><a href="#avaliacao-do-codeforces-usando-a-ferramenta-ases-5">Avaliação do Codeforces usando a ferramenta ASES [5]</a></li>
+            <li><a href="#referencias">Referências</a></li>
+            <li><a href="#versionamento-de-edicoes-desta-pagina">Versionamento de edições desta página</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
 <p><span style="margin-left: 0%; padding-top: 3%;"><img alt="Codeforces Logo" src="../../images/codeforces.png" /></span></p>
-<h2 id="31-disposicao-espacial-e-grid">3.1 Disposição espacial e grid</h2>
-<p><span style="align: center; "><img alt="Grid" src="../images/grid.png" /></span></p>
-<h2 id="32-janelas">3.2 Janelas</h2>
-<p>O layout deve seguir a seguinte proporção de acordo com o tamanho da tela, nesse caso da imagem acima, 800x800.</p>
-<h2 id="33-tipografia">3.3 Tipografia</h2>
-<p>A fonte utilizada, tanto para títulos quanto para textos, são as fontes da Cuprum Regular da família verdana, arial, sans-serif; Com tamanho de 1.4rem;</p>
-<h2 id="34-simbolos-nao-tipograficos">3.4 Símbolos não tipográficos</h2>
-<p>Os símbolos utilizados para filtro de busca, chat, ícone da busca e entre outros, devem seguir o seguinte padrão de desenho:</p>
-<p><span style="align: center;"><img alt="Cores" src="../images/icons.png" /></span></p>
-<h2 id="35-cores">3.5 Cores</h2>
-<p>O padrão de cores adotado deverá ser:
-<span style="align: center;"><img alt="Cores" src="../images/cores.png" /></span></p>
-<h2 id="36-animacoes">3.6 Animações</h2>
-<p>O website não possui animações visiveis.</p>
+<hr />
+<p align="center">
+
+<h1 id="acessibilidade-na-interacao-humano-computador">Acessibilidade na interação humano-computador</h1>
+<p></p>
+</br></p>
+<p><em>Autor</em>: <strong>Erick Giffoni</strong>
+</br></p>
+<p>O que é acessibilidade ? Uma definição do <a href="https://dicionario.priberam.org/">Dicionário Priberam</a></p>
+<p><span style="margin-left: 0%; padding-top: 3%;"><img alt="Codeforces Logo" src="../images/acessibilidade.png" /></span></p>
+<p>Ok... e o que é acessível ?</p>
+<p><span style="margin-left: 0%; padding-top: 3%;"><img alt="Codeforces Logo" src="../images/acessivel.png" /></span></p>
+<p>Hmmmm... <strong>e como isso se aplica na interação humano-computador ?</strong></p>
+<blockquote>
+<p>Percebe-se que <strong>acessibilidade é uma qualidade</strong>, ou seja, é um atributo, uma
+característica do que é acessível, ou seja, daquilo a que se pode chegar.
+Assim, <strong>para IHC, acessibilidade está relacionado à facilidade de uso, à usabilidade
+do site e à experiência de todo e de qualquer usuário</strong>. O website, nesse contexto,
+deve atender à um conjunto de princípios ou de normas para que <strong>deficiências de visão,
+ou de coordenação motora, ou de audição, ou qualquer outra não sejam um empecilho
+para que o usuário consiga navegar no site.</strong></p>
+</blockquote>
+<hr />
+<h2 id="objetivos-da-avaliacao-de-acessibilidade">Objetivos da avaliação de acessibilidade</h2>
+<ul>
+<li>
+<p>Pontuar os acertos do <a href="http://codeforces.com/">Codeforces</a> em relação à acessibilidade ;</p>
+</li>
+<li>
+<p>Encontrar os pontos negativos (as falhas) do <a href="http://codeforces.com/">Codeforces</a> em relação
+à acessibilidade ;</p>
+</li>
+<li>
+<p>Consolidar os resultados encontrados para propor melhorias ao <a href="http://codeforces.com/">Codeforces</a>.</p>
+</li>
+</ul>
+<hr />
+<h2 id="sobre-o-padrao-emag">Sobre o padrão <strong>eMAG</strong></h2>
+<blockquote>
+<p><strong>O Modelo de Acessibilidade em Governo Eletrônico (eMAG) consiste em um
+conjunto de recomendações a ser considerado para que o processo de acessibilidade
+dos sítios e portais do governo brasileiro seja conduzido de forma padronizada e
+de fácil implementação.</strong></p>
+</blockquote>
+<p><em>Adaptado de</em> <a href="#ref2">[2]</a></p>
+<p>Na última década, a expansão prodigiosa da Internet vem revolucionando as formas
+de comunicação, de acesso à informação e de realização de negócios em todo o mundo.
+Mas a que se deve este fenômeno? Basicamente, deve-se ao seu potencial para atingir
+instantaneamente um grande número de pessoas, independentemente de localização
+geográfica e de contexto sócio-cultural.</p>
+<p>Neste contexto, <strong>a inacessibilidade de sítios eletrônicos</strong> exclui uma parcela
+significativa da população brasileira do acesso às informações veiculadas na internet.
+O governo brasileiro - tendo em vista suas atribuições - não pode aceitar tal
+situação na entrega de informações e serviços sob sua responsabilidade.</p>
+<blockquote>
+<p><strong>O Modelo de Acessibilidade em Governo Eletrônico (eMAG) tem o compromisso de ser
+o norteador no desenvolvimento e a adaptação de conteúdos digitais do governo federal,
+garantindo o acesso a todos.</strong></p>
+<p><strong>As recomendações do eMAG permitem que a implementação da acessibilidade digital
+seja conduzida de forma padronizada, de fácil implementação, coerente com as
+necessidades brasileiras e em conformidade com os padrões internacionais.</strong></p>
+</blockquote>
+<p>É importante ressaltar que <strong>o eMAG trata de uma versão especializada do documento
+internacional WCAG (Web Content Accessibility Guidelines: Recomendações de Acessibilidade
+para Conteúdo Web)</strong> voltado para o governo brasileiro, porém o eMAG não exclui
+qualquer boa prática de acessibilidade do WCAG.</p>
+<p><em>Adaptado de</em> <a href="#ref1">[1]</a></p>
+<hr />
+<h2 id="avaliacao-do-codeforces-usando-a-ferramenta-ases-5">Avaliação do Codeforces usando a ferramenta <strong>ASES</strong> <a href="http://asesweb.governoeletronico.gov.br/ases/">[5]</a></h2>
+<p><span style="margin-left: 0%;"><img alt="Resumo da avaliacao" src="../images/resumo-emag-codeforces.png" /></span></p>
+<p>A tabela a seguir apresenta os erros encontrados na página inicial do <a href="http://codeforces.com/">Codeforces</a>
+e serve como relatório de investigação para propor as melhorias :</p>
+<table>
+<thead>
+<tr>
+<th align="center">Recomendações do eMAG</th>
+<th align="left">Tipo do erro</th>
+<th>Quantidade de ocorrências</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Marcação</td>
+<td align="left">- <a href="http://emag.governoeletronico.gov.br/#r1.1">1.1 Respeitar os Padrões Web</a></br>- <a href="http://emag.governoeletronico.gov.br/#r1.2">1.2 Organizar o código HTML de forma lógica e semântica</a></br>- <a href="http://emag.governoeletronico.gov.br/#r1.3">1.3 Utilizar corretamente os níveis de cabeçalho</a></br>- <a href="http://emag.governoeletronico.gov.br/#r1.5">1.5 Fornecer âncoras para ir direto a um bloco de conteúdo</a></td>
+<td>- 140</br>- 1</br>- 1</br>- 1</br>Total = 143</td>
+</tr>
+<tr>
+<td align="center">Comportamento</td>
+<td align="left">- <a href="http://emag.governoeletronico.gov.br/#r2.2">2.2 Garantir que os objetos programáveis sejam acessíveis</a></td>
+<td>- 1</br>Total = 1</td>
+</tr>
+<tr>
+<td align="center">Conteúdo/Informação</td>
+<td align="left">- <a href="http://emag.governoeletronico.gov.br/#r3.5">3.5 Descrever links clara e sucintamente</a></br>- <a href="http://emag.governoeletronico.gov.br/#r3.6">3.6 Fornecer alternativa em texto para as imagens do sítio</a></br>- <a href="http://emag.governoeletronico.gov.br/#r3.10">3.10 Associar células de dados às células de cabeçalho</a></td>
+<td>- 4</br>- 111</br>- 5</br>Total = 120</td>
+</tr>
+<tr>
+<td align="center">Apresentação/Design</td>
+<td align="left">- <a href="http://emag.governoeletronico.gov.br/#r4.4">4.4 Possibilitar que o elemento com foco seja visualmente evidente</a></td>
+<td>- 1</br>Total = 1</td>
+</tr>
+<tr>
+<td align="center">Formulários</td>
+<td align="left">- <a href="http://emag.governoeletronico.gov.br/#r6.2">6.2 Associar etiquetas aos seus campos</a></td>
+<td>- 2</br>Total = 2</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>Clique <a href="../avaliacao-emag-pdf.pdf">aqui</a> para ver a avaliação completa.</strong></p>
+<hr />
+<h2 id="referencias">Referências</h2>
+<p><span id="ref1"></span>
+[1] <a href="http://emag.governoeletronico.gov.br">eMAG - Modelo de Acessibilidade em Governo Eletrônico</a></p>
+<p><span id="ref2"></span>
+[2] <a href="https://www.governodigital.gov.br/transformacao/cidadania/acessibilidade/emag-modelo-de-acessibilidade-em-governo-eletronico">Modelo de Acessibilidade (eMAG)</a></p>
+<p><span id="ref3"></span>
+[3] <a href="https://www.governodigital.gov.br/documentos-e-arquivos/e-MAG%20V3.pdf">e-MAG - Governo Digital</a> [PDF]</p>
+<p><span id="ref4"></span>
+[4] <a href="https://repositorio.enap.gov.br/bitstream/1/2710/3/Modulo_2_Web_Acessivel_desenvolvedor.pdf">eMAG Desenvolvedor</a> [PDF]</p>
+<p><span id="#ref5"></span>
+[5] <a href="http://asesweb.governoeletronico.gov.br/ases/">ASES - Avaliador e Simulador de Acessibilidade em Sítios</a></p>
+<p><span id="ref6"></span>
+[6] <a href="https://dicionario.priberam.org/">Dicionário Priberam</a></p>
+<hr />
 <hr />
 <h2 id="versionamento-de-edicoes-desta-pagina">Versionamento de edições desta página</h2>
 <table>
@@ -284,16 +394,28 @@
 </thead>
 <tbody>
 <tr>
-<td>04/10/2019</td>
-<td>Fernando Aguilar</td>
-<td>Criação e edição inicial da página.</td>
+<td>13/11/2019</td>
+<td>Erick Giffoni</td>
+<td>Criação da página e adição das referências</td>
 <td>0.1</td>
 </tr>
 <tr>
-<td>04/10/2019</td>
-<td>Fernando Aguilar</td>
-<td>Atualização dos elementos da página.</td>
+<td>13/11/2019</td>
+<td>Erick Giffoni</td>
+<td>Adição da avaliação inicial</td>
 <td>0.2</td>
+</tr>
+<tr>
+<td>16/11/2019</td>
+<td>Erick Giffoni</td>
+<td>Adição dos objetivos da avaliação de acessibilidade</td>
+<td>0.3</td>
+</tr>
+<tr>
+<td>16/11/2019</td>
+<td>Erick Giffoni</td>
+<td>Finalização da avaliação em conformidade eMAG</td>
+<td>1.0</td>
 </tr>
 </tbody>
 </table></div>
