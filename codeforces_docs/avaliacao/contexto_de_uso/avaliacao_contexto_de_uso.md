@@ -12,7 +12,7 @@ Permite entender melhor como os usuários se apropriam da tecnologia no seu coti
 
 ![Human Centered Design](./images/human_centered_design.png)
 
-O contexto de uso faz parte do processo de design focado no usuário, e é uma das etapas mais importantes para encontrar os problemas que estamos tentando solucionar.
+O contexto de uso faz parte do processo de design focado no usuário, e é uma das etapas amsi umportantes para encontrar os problemas que estamos tentando solucionar.
 
 [Avaliação Alexandre](avaliacao_alexandre.md)
 
