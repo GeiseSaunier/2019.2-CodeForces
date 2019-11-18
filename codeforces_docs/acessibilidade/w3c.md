@@ -128,12 +128,12 @@ site atende aos padrões estabelecidos pelo [Web Content Accessibility Guideline
 
 Com relação aos ***Automated checks***, as imagens abaixo ilustram como é feita a avaliação :
 
-<img src="images/automated-checks.png"></img>
+<img src="../images/automated-checks.png"></img>
 
 A ferramenta percorre toda a página e identifica em vermelho os erros encontrados.
 É possível clicar no erro e obter mais informações, como ilustra a imagem a seguir :
 
-<img src="images/automated-check-example.png"></img>
+<img src="../images/automated-check-example.png"></img>
 
 Assim é possível analisar qual regra foi violada, qual o critério de sucesso dessa
 regra, bem como a sugestão de correção desse erro etc.
@@ -142,11 +142,11 @@ regra, bem como a sugestão de correção desse erro etc.
 
 Com relação aos ***Tab stops***, as imagens abaixo ilustram como é feita a avaliação :
 
-<img src="images/tab-stops.png">*Screenshot do topo da página inicial*</img>
+<img src="../images/tab-stops.png">*Screenshot do topo da página inicial*</img>
 
 ***
 
-<img src="images/tab-stops2.png">*Screenshot do final da página inicial*</img>
+<img src="../images/tab-stops2.png">*Screenshot do final da página inicial*</img>
 
 Total de *tab stops* na página inicial do Codeforces : 363.
 
