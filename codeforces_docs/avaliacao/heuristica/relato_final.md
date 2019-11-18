@@ -31,9 +31,9 @@ Site: [**codeforces.com**](http://codeforces.com)
 |  Eficiência e flexibilidade de uso | No site como um todo | Grave | **Contexto:** O sistema não mantém o usuário sempre informado do status do sistema, ou seja, onde está, para onde vai, etc e isso não é eficiente e dificulta a flexibilidade de uso. </br> **Causa:** Se o usuário optar por outra atividade da barra de tarefas, não há um padrão para mudança de página, por exemplo, apenas um tracejado azul que tenta simular um feedback ao usuário, mas isso é ineficiente |  Problema comum | O usuário apresenta dificuldade ao navegar pela plataforma e não consegue contornar esse problema com facilidade. |  Ocorre com frequência | Todas |  O sistema poderia apresentar um indicador para a visibilidade do sistema, mostrando o status do usuário na plataforma e uma descrição sobre o mesmo. 
 
 ### Rastreabilidade:
-- [Resultados Erick e Fernando](resultados_individuais/erick_fernando.md)
-- [Resultados Geise e Lorrany](resultados_individuais//geise_lorrany.md)
-- [Resultados Bruno e Eugênio](resultados_individuais//bruno_eugenio.md)
+- [Resultados Erick e Fernando](erick_fernando.md)
+- [Resultados Geise e Lorrany](geise_lorrany.md)
+- [Resultados Bruno e Eugênio](bruno_eugenio.md)
 
 ***
 # Conclusões

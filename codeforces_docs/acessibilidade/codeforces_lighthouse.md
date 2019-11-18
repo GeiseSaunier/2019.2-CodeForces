@@ -1,4 +1,4 @@
-<span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../../../images/codeforces.png)</span>
+<span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../images/codeforces.png)</span>
 
 ***
 <p align="center">
@@ -8,14 +8,13 @@
 *Autor*: **Erick Giffoni**
 </br>
 
-
 O que é acessibilidade ? Uma definição do [Dicionário Priberam](https://dicionario.priberam.org/)
 
-<span style="margin-left: 0%;">![Codeforces Logo](../images/acessibilidade.png)</span>
+<span style="margin-left: 0%;">![Codeforces Logo](images/acessibilidade.png)</span>
 
 Ok... e o que é acessível ?
 
-<span style="margin-left: 0%;">![Codeforces Logo](../images/acessivel.png)</span>
+<span style="margin-left: 0%;">![Codeforces Logo](images/acessivel.png)</span>
 
 Hmmmm... **e como isso se aplica na interação humano-computador ?**
 
@@ -67,20 +66,21 @@ como :
 Para cada aspecto avaliado, a ferramenta em questão dá uma nota de 0 (zero) a 100 (cem),
 sendo zero o pior valor e cem o melhor valor.
 
-<span style="margin-left: 0%;">![Resumo da avaliacao](../images/resumo-lighthouse.png)</span>
+<span style="margin-left: 0%;">![Resumo da avaliacao](images/resumo-lighthouse.png)</span>
 
 
 Com relação à acessibilidade, a imagem abaixo resume a avaliação feita pelo
 Google Lighthouse para a página inicial do Codeforces, com uma nota igual a 72 (setenta e dois) :
 
-<span style="margin-left: 0%;">![Resumo da avaliacao](../images/resumo-lighthouse-acessibility.png)</span>
-<span style="margin-left: 0%;">![Resumo da avaliacao](../images/resumo-lighthouse-acessibility2.png)</span>
+<span style="margin-left: 0%;">![Resumo da avaliacao](images/resumo-lighthouse-acessibility.png)</span>
+<span style="margin-left: 0%;">![Resumo da avaliacao](images/resumo-lighthouse-acessibility2.png)</span>
 
 ***
 
-**Clique [aqui](../codeforces_lighthouse.html) para visualizar a avaliação completa pelo [Google Lighthouse](#referencias) [1]**
+**Clique [aqui](./codeforces_lighthouse.html) para visualizar a avaliação completa pelo [Google Lighthouse](#referencias) [1]**
 
 ***
+
 ## Referências
 
 [1] [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)

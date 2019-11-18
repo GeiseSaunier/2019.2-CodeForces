@@ -1,4 +1,4 @@
-<span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../../../images/codeforces.png)</span>
+<span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../images/codeforces.png)</span>
 
 ***
 <p align="center">
@@ -11,11 +11,11 @@
 
 O que é acessibilidade ? Uma definição do [Dicionário Priberam](https://dicionario.priberam.org/)
 
-<span style="margin-left: 0%;">![Codeforces Logo](../images/acessibilidade.png)</span>
+<span style="margin-left: 0%;">![Codeforces Logo](images/acessibilidade.png)</span>
 
 Ok... e o que é acessível ?
 
-<span style="margin-left: 0%;">![Codeforces Logo](../images/acessivel.png)</span>
+<span style="margin-left: 0%;">![Codeforces Logo](images/acessivel.png)</span>
 
 Hmmmm... **e como isso se aplica na interação humano-computador ?**
 
@@ -128,12 +128,12 @@ site atende aos padrões estabelecidos pelo [Web Content Accessibility Guideline
 
 Com relação aos ***Automated checks***, as imagens abaixo ilustram como é feita a avaliação :
 
-<img src="../images/automated-checks.png"></img>
+<img src="images/automated-checks.png"></img>
 
 A ferramenta percorre toda a página e identifica em vermelho os erros encontrados.
 É possível clicar no erro e obter mais informações, como ilustra a imagem a seguir :
 
-<img src="../images/automated-check-example.png"></img>
+<img src="images/automated-check-example.png"></img>
 
 Assim é possível analisar qual regra foi violada, qual o critério de sucesso dessa
 regra, bem como a sugestão de correção desse erro etc.
@@ -142,11 +142,11 @@ regra, bem como a sugestão de correção desse erro etc.
 
 Com relação aos ***Tab stops***, as imagens abaixo ilustram como é feita a avaliação :
 
-<img src="../images/tab-stops.png">*Screenshot do topo da página inicial*</img>
+<img src="images/tab-stops.png">*Screenshot do topo da página inicial*</img>
 
 ***
 
-<img src="../images/tab-stops2.png">*Screenshot do final da página inicial*</img>
+<img src="images/tab-stops2.png">*Screenshot do final da página inicial*</img>
 
 Total de *tab stops* na página inicial do Codeforces : 363.
 
@@ -170,7 +170,7 @@ Total de erros encontrados : 189.
 
 ***
 
-**Clique [aqui](../AutomatedChecks-Codeforces.html) para visualizar a avaliação completa feita pela ferramenta da Microsoft.**
+**Clique [aqui](./AutomatedChecks-Codeforces.html) para visualizar a avaliação completa feita pela ferramenta da Microsoft.**
 
 ***
 

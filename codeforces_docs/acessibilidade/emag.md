@@ -1,4 +1,4 @@
-<span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../../../images/codeforces.png)</span>
+<span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../images/codeforces.png)</span>
 
 ***
 <p align="center">
@@ -11,11 +11,11 @@
 
 O que é acessibilidade ? Uma definição do [Dicionário Priberam](https://dicionario.priberam.org/)
 
-<span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../images/acessibilidade.png)</span>
+<span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](images/acessibilidade.png)</span>
 
 Ok... e o que é acessível ?
 
-<span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../images/acessivel.png)</span>
+<span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](images/acessivel.png)</span>
 
 Hmmmm... **e como isso se aplica na interação humano-computador ?**
 
@@ -84,7 +84,7 @@ qualquer boa prática de acessibilidade do WCAG.
 ## Avaliação do Codeforces usando a ferramenta **ASES** [[5]](http://asesweb.governoeletronico.gov.br/ases/)
 
 
-<span style="margin-left: 0%;">![Resumo da avaliacao](../images/resumo-emag-codeforces.png)</span>
+<span style="margin-left: 0%;">![Resumo da avaliacao](images/resumo-emag-codeforces.png)</span>
 
 A tabela a seguir apresenta os erros encontrados na página inicial do [Codeforces](http://codeforces.com/)
 e serve como relatório de investigação para propor as melhorias :
@@ -99,7 +99,7 @@ e serve como relatório de investigação para propor as melhorias :
 
 
 ***
-**Clique [aqui](../avaliacao-emag-pdf.pdf) para ver a avaliação completa.**
+**Clique [aqui](./avaliacao-emag-pdf.pdf) para ver a avaliação completa.**
 
 ***
 

@@ -1,45 +1,48 @@
-<span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../../../images/codeforces.png)</span>
+<span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../../images/codeforces.png)</span>
 
-***
+---
+
 # Preparação
 
-Para  PREECE  (2002), usabilidade está relacionada a garantir uma fácil aprendizagem, 
-bem como possuir o uso efetivo e agradável do ponto de vista dos usuários. 
+Para PREECE (2002), usabilidade está relacionada a garantir uma fácil aprendizagem,
+bem como possuir o uso efetivo e agradável do ponto de vista dos usuários.
 Isto permite que o sistema seja fácil de aprender e que ele deve ser fácil de lembrar como usar.
 
-> Sobre os usuários: 
-[vide descrição dos usuários](../../../contexto_de_uso/analise_de_usuario/#perfil-do-usuario-do-codeforces);
+> Sobre os usuários:
+> [vide descrição dos usuários](../contexto_de_uso/analise_de_usuario/#perfil-do-usuario-do-codeforces);
 
 ## Tarefas a serem avaliadas
-1) Pesquisar problema
 
-    - Abrir o navegador ;
-    - Procurar o site do Codeforces ;
-    - Entrar na aba de Contests ;
-    - Clicar em "Problemset" ;
-    - Ir até "Filter Problems" na sidebar a direita ;
-    - Aplicar as tags com os tipos de problema desejado ;
-    - Clicar em "Apply" ;
-    - Selecionar um problema listado na busca.
+1. Pesquisar problema
 
-2) Adicionar amigo
+   - Abrir o navegador ;
+   - Procurar o site do Codeforces ;
+   - Entrar na aba de Contests ;
+   - Clicar em "Problemset" ;
+   - Ir até "Filter Problems" na sidebar a direita ;
+   - Aplicar as tags com os tipos de problema desejado ;
+   - Clicar em "Apply" ;
+   - Selecionar um problema listado na busca.
 
-    - Abrir o navegador ;
-    - Procurar o site do Codeforces ;
-    - Fazer login ;
-        - Colocar email ;
-        - Colocar senha ;
-        - Entrar ;
-    - Ir até a barra de pesquisa na lateral direita na parte superior ;
-    - Digitar o username do usuário buscado ;
-    - Clicar no usuário listado caso encontrado ;
-    - Clicar na estrela ao lado do username para adicionar a amigos.
-    
+2. Adicionar amigo
+
+   - Abrir o navegador ;
+   - Procurar o site do Codeforces ;
+   - Fazer login ;
+     - Colocar email ;
+     - Colocar senha ;
+     - Entrar ;
+   - Ir até a barra de pesquisa na lateral direita na parte superior ;
+   - Digitar o username do usuário buscado ;
+   - Clicar no usuário listado caso encontrado ;
+   - Clicar na estrela ao lado do username para adicionar a amigos.
+
 > Representação da interface: [**codeforces.com**](http://codeforces.com)
 
 # Coleta de dados e interpretação dos percursos cognitivos
 
 ## Percurso 1 - Pesquisar problema
+
 **Avaliador** : Eugênio .</br>
 **Potencial usuário** : Bruno .
 
@@ -61,11 +64,12 @@ Isto permite que o sistema seja fácil de aprender e que ele deve ser fácil de 
 
 ### Relato do percurso 1
 
-O usuário acessa a plataforma codeforces com o objetivo de buscar algum exercício numa categoria de interesse. Então, clica na sessão "Problemset" na menu bar e logo após, filtra o problema na categoria de interesse na sessão "Filter problems" na sidebar a direita. Após clicar em "Apply", são listados todos os problemas na categoria de interesse caso hajam. Do contrário, é informado que não há problemas na categoria almejada. 
+O usuário acessa a plataforma codeforces com o objetivo de buscar algum exercício numa categoria de interesse. Então, clica na sessão "Problemset" na menu bar e logo após, filtra o problema na categoria de interesse na sessão "Filter problems" na sidebar a direita. Após clicar em "Apply", são listados todos os problemas na categoria de interesse caso hajam. Do contrário, é informado que não há problemas na categoria almejada.
 
-*** 
+---
 
 ## Percurso 2 - Adicionar amigo
+
 **Avaliador** : Bruno .</br>
 **Potencial usuário** : Eugênio .
 
@@ -91,20 +95,22 @@ O usuário acessa a plataforma codeforces com o objetivo de adionar um amigo a s
 
 ## Consolidação dos relatos dos percursos cognitivos
 
-> O que o usuário precisa saber *a priori* para realizar as tarefas ?
+> O que o usuário precisa saber _a priori_ para realizar as tarefas ?
 
-**Análise :** O usuário precisa de ter conhecimento das funcionalidades basicas de um sistema de avaliação de questões de programação, assim como acesso a um email válido para realizar o cadastro caso não possua um. 
+**Análise :** O usuário precisa de ter conhecimento das funcionalidades basicas de um sistema de avaliação de questões de programação, assim como acesso a um email válido para realizar o cadastro caso não possua um.
 
 > O que o usuário deve aprender enquanto realiza as tarefas ?
 
 **Análise :** A curva de aprendizado para a execução dessas tarefas são muito pequenas. Embora não seja muito claro, principalmente a maneira de se adicionar um novo amigo, não é preciso muito esforço para percorrer esses caminhos cognitivos.
 
-> Sugestões de correções para os problemas encontrados 
+> Sugestões de correções para os problemas encontrados
 
-**Análise :** Uma sessão no menu bar para "Busca de usuários" assim como no "Problemset" poderia tornar a adição de usuários mais céleres e intuitivas. 
+**Análise :** Uma sessão no menu bar para "Busca de usuários" assim como no "Problemset" poderia tornar a adição de usuários mais céleres e intuitivas.
 
-***
+---
+
 ## Versionamento de edições desta página
-| Data | Autor | Descrição | Versão |
-|------|-------|-----------|--------|
-| 30/10/2019 | Eugênio Sales e Bruno | Adição de percurso Cognitivo e tarefas | 0.1 |
+
+| Data       | Autor                 | Descrição                              | Versão |
+| ---------- | --------------------- | -------------------------------------- | ------ |
+| 30/10/2019 | Eugênio Sales e Bruno | Adição de percurso Cognitivo e tarefas | 0.1    |

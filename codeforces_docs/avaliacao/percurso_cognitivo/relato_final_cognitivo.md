@@ -61,11 +61,11 @@ Uma sessão no menu para "Busca de usuários", assim como no "Problemset", poder
 - Adição sessão de "Procurar  Amigos" na barra de menu;
 - Adição de filtros de busca de outros usuários além do username, como por exemplo, nome e localização.
 
+### Rastreabilidade
 
-### Rastreabilidade:
-- [Resultados Erick e Fernando](resultados_individuais/erick_fernando.md)
-- [Resultados Geise e Lorrany](resultados_individuais/geise_lorrany.md)
-- [Resultados Bruno e Eugênio](resultados_individuais/bruno_eugenio.md)
+- [Resultados Erick e Fernando](erick_fernando.md)
+- [Resultados Geise e Lorrany](geise_lorrany.md)
+- [Resultados Bruno e Eugênio](bruno_eugenio.md)
 
 ***
 ## Versionamento de edições desta página

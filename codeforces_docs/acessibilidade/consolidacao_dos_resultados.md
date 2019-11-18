@@ -1,4 +1,4 @@
-<span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../../../images/codeforces.png)</span>
+<span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../images/codeforces.png)</span>
 
 ***
 <p align="center">
@@ -11,11 +11,11 @@
 
 O que é acessibilidade ? Uma definição do [Dicionário Priberam](https://dicionario.priberam.org/)
 
-<span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../images/acessibilidade.png)</span>
+<span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](images/acessibilidade.png)</span>
 
 Ok... e o que é acessível ?
 
-<span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../images/acessivel.png)</span>
+<span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](images/acessivel.png)</span>
 
 Hmmmm... **e como isso se aplica na interação humano-computador ?**
 
