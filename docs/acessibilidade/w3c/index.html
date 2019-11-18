@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Padrão W3C - IHC - Codeforces</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/color-brewer.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../..">IHC - Codeforces</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guia De Estilo <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../guia_de_estilo/1.introducao/">1. Introdução</a>
+</li>
+                                    
+<li >
+    <a href="../../guia_de_estilo/2.resultados_analise/">2. Resultados De Análise</a>
+</li>
+                                    
+<li >
+    <a href="../../guia_de_estilo/3.elementos_interface/">3. Elementos De Interface</a>
+</li>
+                                    
+<li >
+    <a href="../../guia_de_estilo/4.elementos_interacao/">4. Elementos De Interação</a>
+</li>
+                                    
+<li >
+    <a href="../../guia_de_estilo/5.elementos_de_acao/">5. Elementos De Ação</a>
+</li>
+                                    
+<li >
+    <a href="../../guia_de_estilo/6.vocabularios_e_padroes/">6. Vocabularios E Padrões</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contexto de uso <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../contexto_de_uso/analise_de_usuario/">Análise de usuário</a>
+</li>
+                                    
+<li >
+    <a href="../../contexto_de_uso/analise_de_tarefas/">Análise de tarefas</a>
+</li>
+                                    
+<li >
+    <a href="../../contexto_de_uso/caracteristicas_plataforma/">Características da plataforma</a>
+</li>
+                                    
+<li >
+    <a href="../../contexto_de_uso/principios_gerais/">Princípios gerais de projeto</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Concepção/Avaliação <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../concepcao/planejamento_avaliacao/">Planejamento da avaliação</a>
+</li>
+                                    
+<li >
+    <a href="../../artefatos/storyboard/">StoryBoard</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Avaliação <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Formativa</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../avaliacao/formativa/relato-final/">Relato final</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Heurística</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../avaliacao/heuristica/erick_fernando/">Resultados Erick_Fernando</a>
+</li>
+            
+<li >
+    <a href="../../avaliacao/heuristica/bruno_eugenio/">Resultados Bruno_Eugênio</a>
+</li>
+            
+<li >
+    <a href="../../avaliacao/heuristica/geise_lorrany/">Resultados Geise_Lorrany</a>
+</li>
+            
+<li >
+    <a href="../../avaliacao/heuristica/relato_final/">Relato final</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Percurso Cognitivo</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../avaliacao/percurso_cognitivo/erick_fernando/">Resultados 1</a>
+</li>
+            
+<li >
+    <a href="../../avaliacao/percurso_cognitivo/bruno_eugenio/">Resultados 2</a>
+</li>
+            
+<li >
+    <a href="../../avaliacao/percurso_cognitivo/geise_lorrany/">Resultados 3</a>
+</li>
+            
+<li >
+    <a href="../../avaliacao/percurso_cognitivo/relato_final_cognitivo/">Relato Final</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Contexto De Uso</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../avaliacao/contexto_de_uso/avaliacao_contexto_de_uso/">Avaliação Contexto de Uso</a>
+</li>
+            
+<li >
+    <a href="../../avaliacao/contexto_de_uso/avaliacao_alexandre/">Avaliação Alexandre</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Acessibilidade <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li class="active">
+    <a href="./">Padrão W3C</a>
+</li>
+                                    
+<li >
+    <a href="../emag/">Padrão eMAG</a>
+</li>
+                                    
+<li >
+    <a href="../codeforces_lighthouse/">Google lighthouse</a>
+</li>
+                                    
+<li >
+    <a href="../consolidacao_dos_resultados/">Consolidação dos resultados</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Prototipacao <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../prototipacao/alta_fidelidade/">Alta Fidelidade</a>
+</li>
+                                    
+<li >
+    <a href="../../concepcao/prototipo_de_papel/">Protótipo de papel</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../../avaliacao/contexto_de_uso/avaliacao_alexandre/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../emag/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/IHC-2019-2/2019.2-CodeForces/edit/master/docs/acessibilidade/w3c.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#acessibilidade-na-interacao-humano-computador">Acessibilidade na interação humano-computador</a></li>
+            <li><a href="#objetivos-da-avaliacao-de-acessibilidade">Objetivos da avaliação de acessibilidade</a></li>
+            <li><a href="#sobre-o-padrao-w3c">Sobre o padrão W3C</a></li>
+            <li><a href="#avaliacao-do-codeforces-usando-a-ferramenta-accessibility-insights-for-web-microsoft">Avaliação do CodeForces usando a ferramenta Accessibility Insights for Web - Microsoft</a></li>
+            <li><a href="#referencias">Referências</a></li>
+            <li><a href="#versionamento-de-edicoes-desta-pagina">Versionamento de edições desta página</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<p><span style="margin-left: 0%; padding-top: 3%;"><img alt="Codeforces Logo" src="../../images/codeforces.png" /></span></p>
+<hr />
+<p align="center">
+
+<h1 id="acessibilidade-na-interacao-humano-computador">Acessibilidade na interação humano-computador</h1>
+<p></p>
+</br>
+<em>Autor</em>: <strong>Erick Giffoni</strong>
+</br></p>
+<p>O que é acessibilidade ? Uma definição do <a href="https://dicionario.priberam.org/">Dicionário Priberam</a></p>
+<p><span style="margin-left: 0%;"><img alt="Codeforces Logo" src="../images/acessibilidade.png" /></span></p>
+<p>Ok... e o que é acessível ?</p>
+<p><span style="margin-left: 0%;"><img alt="Codeforces Logo" src="../images/acessivel.png" /></span></p>
+<p>Hmmmm... <strong>e como isso se aplica na interação humano-computador ?</strong></p>
+<blockquote>
+<p>Percebe-se que <strong>acessibilidade é uma qualidade</strong>, ou seja, é um atributo, uma
+característica do que é acessível, ou seja, daquilo a que se pode chegar.
+Assim, <strong>para IHC, acessibilidade está relacionado à facilidade de uso, à usabilidade
+do site e à experiência de todo e de qualquer usuário</strong>. O website, nesse contexto,
+deve atender à um conjunto de princípios ou de normas para que <strong>deficiências de visão,
+ou de coordenação motora, ou de audição, ou qualquer outra não sejam um empecilho
+para que o usuário consiga navegar no site.</strong></p>
+</blockquote>
+<hr />
+<h2 id="objetivos-da-avaliacao-de-acessibilidade">Objetivos da avaliação de acessibilidade</h2>
+<ul>
+<li>
+<p>Pontuar os acertos do <a href="http://codeforces.com/">Codeforces</a> em relação à acessibilidade ;</p>
+</li>
+<li>
+<p>Encontrar os pontos negativos (as falhas) do <a href="http://codeforces.com/">Codeforces</a> em relação
+à acessibilidade ;</p>
+</li>
+<li>
+<p>Consolidar os resultados encontrados para propor melhorias ao <a href="http://codeforces.com/">Codeforces</a>.</p>
+</li>
+</ul>
+<hr />
+<h2 id="sobre-o-padrao-w3c">Sobre o padrão <strong>W3C</strong></h2>
+<p>The <em>World Wide Web Consortium</em>, mais conhecido como <strong>W3C</strong>, é uma comunidade
+internacional que trabalha com o desenvolvimento de padrões para a web.</p>
+<p>(Adaptado de <a href="https://www.w3.org/Consortium/">About W3C</a>).</p>
+<p>Nesse sentido, como parte da <em>Web Accessibility Initiative</em>, <strong><a href="https://www.w3.org/WAI/">WAI</a></strong>,
+essa comunidade desenvolveu um conjunto de orientações para construir conteúdos
+na web de maneira acessível. Essas orientações são chamadas de</br>
+<strong><a href="https://www.w3.org/TR/WCAG20/">Web Content Accessibility Guidelines (WCAG)</a></strong>.</p>
+<blockquote>
+<p><strong>Web Content Accessibility Guidelines (WCAG) 2.0</strong> defines how to make Web content
+more accessible to people with disabilities. <strong>Accessibility involves a wide range
+of disabilities</strong>, including visual, auditory, physical, speech, cognitive, language,
+learning, and neurological disabilities. Although <strong>these guidelines cover a wide
+range of issues</strong>, they are not able to address the needs of people with all types,
+degrees, and combinations of disability. These guidelines also make Web content more
+usable by older individuals with changing abilities due to aging <strong>and often improve
+usability for users in general</strong>.</p>
+</blockquote>
+<p>(Adaptado de <a href="https://www.w3.org/TR/WCAG20/#intro">Web Content Accessibility Guidelines (WCAG) 2.0</a>)</p>
+<p>De maneira prática e objetiva, o WCAG 2.0 define algumas <a href="https://www.w3.org/TR/WCAG20/#intro-layers-guidance">camadas de orientação</a> para que
+os indivíduos e as organizações que seguem essas orientações sejam atendidos.
+Essas camadas são as seguintes :</p>
+<ul>
+<li>
+<p><strong>Principles</strong> : existem 4 (quatro) <a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/intro.html#introduction-fourprincs-head">princípios</a> que fornecem a base para a
+acessibilidade na web :</p>
+<ul>
+<li>
+<p>Perceivable : As informações e os componentes da interface do usuário devem
+ser apresentados aos usuários de maneira que eles os possam perceber ;</p>
+</li>
+<li>
+<p>Operable : os componentes da interface do usuário devem estar operáveis ;</p>
+</li>
+<li>
+<p>Understandable : As informações e o funcionamento da interface do usuário
+devem ser compreensíveis ;</p>
+</li>
+<li>
+<p>Robust : O conteúdo deve ser robusto o suficiente para que possa ser interpretado
+de maneira confiável por uma ampla variedade de usuários, incluindo tecnologias
+de assistência.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Guidelines</strong> : existem 12 (doze) orientações, abaixo dos princípios, que
+promovem as metas básicas para que o conteúdo na web seja mais acessível para
+usuários com diferentes deficiências ;</p>
+</li>
+<li>
+<p>Success criteria : para cada <strong>guideline</strong> (orientação) existem critérios de
+sucesso testáveis que seguem uma ordem de conformidade : A (mais baixo), AA, AAA (mais alto).
+Saiba mais em <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-levels-head">Understanding Levels of Conformance</a>.</p>
+</li>
+<li>
+<p>Sufficient and Advisory Techniques : para cada <strong>guideline</strong> e <strong>success criteria</strong>
+existe uma série de técnicas. Saiba mais em <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/understanding-techniques.html">Understanding Techniques for WCAG Success Criteria</a>.</p>
+</li>
+</ul>
+<hr />
+<h2 id="avaliacao-do-codeforces-usando-a-ferramenta-accessibility-insights-for-web-microsoft">Avaliação do CodeForces usando a ferramenta <strong><a href="https://accessibilityinsights.io/docs/en/web/overview">Accessibility Insights for Web</a> - Microsoft</strong></h2>
+<p><strong>Accessibility Insights for Web</strong> é uma extensão para o Google Chrome e para o
+<a href="https://www.microsoftedgeinsider.com/en-us/">Microsoft Edge Insider</a> que ajuda desenvolvedores a encontrar
+e a melhorar os problemas de acessibilidade nos aplicativos e nos sites da web.</p>
+<p>Essa ferramenta suporta 2 (dois) principais cenários :</p>
+<ul>
+<li>
+<p><strong>FastPass</strong> : é um processo leve, de 2 (dois) passos, que ajuda a identificar
+problemas comuns e de alto impacto em relação à acessibilidade em menos de 5 (cinco)
+minutos.</p>
+<ul>
+<li>
+<p>Automated checks : a ferramenta verifica automaticamente a conformidade com
+aproximadamente 50 requisitos de acessibilidade ;</p>
+</li>
+<li>
+<p>Tab stops : a ferramenta permite identificar problemas críticos relacionados
+ao acesso via teclado por meio de instruções claras e de um auxiliador visual .</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Assessment : permite que qualquer pessoa com habilidades HTML verifique se o web
+site atende aos padrões estabelecidos pelo <a href="https://www.w3.org/WAI/WCAG21/quickref/?versions=2.1&amp;levels=aaa">Web Content Accessibility Guidelines (WCAG) 2.1 Level AA.</a></p>
+<ul>
+<li>
+<p>Automated checks : a ferramenta verifica automaticamente a conformidade com
+aproximadamente 50 requisitos de acessibilidade ;</p>
+</li>
+<li>
+<p>Manual tests : a ferramenta oferece instruções passo a passo, exemplos e
+orientações sobre como corrigir o erro encontrado para diversos tipos de testes.
+Muitos desses são assistidos, o que significa que a ferramenta identifica as
+instâncias de teste ou fornece um auxiliar visual.</p>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>O modelo adotado para avaliar o Codeforces foi o <strong>FastPass</strong></p>
+</blockquote>
+<p>Com relação aos <strong><em>Automated checks</em></strong>, as imagens abaixo ilustram como é feita a avaliação :</p>
+<p><img src="../images/automated-checks.png"></img></p>
+<p>A ferramenta percorre toda a página e identifica em vermelho os erros encontrados.
+É possível clicar no erro e obter mais informações, como ilustra a imagem a seguir :</p>
+<p><img src="../images/automated-check-example.png"></img></p>
+<p>Assim é possível analisar qual regra foi violada, qual o critério de sucesso dessa
+regra, bem como a sugestão de correção desse erro etc.</p>
+<hr />
+<p>Com relação aos <strong><em>Tab stops</em></strong>, as imagens abaixo ilustram como é feita a avaliação :</p>
+<p><img src="../images/tab-stops.png"><em>Screenshot do topo da página inicial</em></img></p>
+<hr />
+<p><img src="../images/tab-stops2.png"><em>Screenshot do final da página inicial</em></img></p>
+<p>Total de <em>tab stops</em> na página inicial do Codeforces : 363.</p>
+<blockquote>
+<p><strong>Conclui-se que, em relação aos <em>tab stops</em>, a página inicial do Codeforces torna-se
+muito complicada de se acessar para usuários dependentes da navegação via teclado,</strong>
+por conta da grande quantidade de <em>tabs</em> necessária para percorrer toda a página.</p>
+</blockquote>
+<hr />
+<p>A tabela a seguir reune os principais erros encontrados nessa análise :</p>
+<table>
+<thead>
+<tr>
+<th align="center">Tipo do erro</th>
+<th align="left">Descrição do erro</th>
+<th align="center">Informações relevantes</th>
+<th>Quantidade de ocorrências</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">color-contrast</td>
+<td align="left">Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds</td>
+<td align="center">- <a href="https://dequeuniversity.com/rules/axe/3.3/color-contrast?application=msftAI">More information about color-contrast</a></br>- <a href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html">WCAG 1.4.3</a></td>
+<td>175</td>
+</tr>
+<tr>
+<td align="center">image-alt</td>
+<td align="left">Ensures <img> elements have alternate text or a role of none or presentation</td>
+<td align="center">- <a href="https://dequeuniversity.com/rules/axe/3.3/image-alt?application=msftAI">More information about image-alt</a></br>- <a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">WCAG 1.1.1</a></td>
+<td>11</td>
+</tr>
+<tr>
+<td align="center">label</td>
+<td align="left">Ensures every form element has a label</td>
+<td align="center">- <a href="https://dequeuniversity.com/rules/axe/3.3/label?application=msftAI">More information about label</a></br>- <a href="https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships">WCAG 1.3.1</a></br>- <a href="https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html">WCAG 3.3.2</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td align="center">link-name</td>
+<td align="left">Ensures links have discernible text</td>
+<td align="center">- <a href="https://dequeuniversity.com/rules/axe/3.3/link-name?application=msftAI">More information about link-name</a></br>- <a href="https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html">WCAG 2.4.4</a></br>- <a href="https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html">WCAG 4.1.2</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td align="center">list</td>
+<td align="left">Ensures that lists are structured correctly</td>
+<td align="center">- <a href="https://dequeuniversity.com/rules/axe/3.3/list?application=msftAI">More information about list</a></br>- <a href="https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships">WCAG 1.3.1</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p>Total de erros encontrados : 189.</p>
+<hr />
+<p><strong>Clique <a href="../AutomatedChecks-Codeforces.html">aqui</a> para visualizar a avaliação completa feita pela ferramenta da Microsoft.</strong></p>
+<hr />
+<h2 id="referencias">Referências</h2>
+<p><span id="ref1"></span>
+[1] <a href="https://www.w3.org/TR/WCAG20/#contents">Web Content Accessibility Guidelines (WCAG) 2.0</a></p>
+<p><span id="ref2"></span>
+[2] <a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/">Accessibility Fundamentals</a></p>
+<p><span id="ref3"></span>
+[3] <a href="Web Accessibility Evaluation Tools List">Web Accessibility Evaluation Tools List</a></p>
+<p><span id="ref4"></span>
+[4] <a href="https://www.w3.org/WAI/fundamentals/components/">Essential Components of Web Accessibility</a></p>
+<p><span id="ref5"></span>
+[5] <a href="https://www.w3.org/WAI/standards-guidelines/">W3C Accessibility Standards Overview</a></p>
+<p><span id="ref6"></span>
+[6] <a href="https://www.w3.org/WAI/fundamentals/accessibility-principles/">Accessibility Principles</a></p>
+<p><span id="ref7"></span>
+[7] <a href="https://www.w3.org/WAI/test-evaluate/preliminary/">Easy Checks – a First Review of Web Accessibility</a></p>
+<p><span id="ref8"></span>
+[8] <a href="https://www.w3.org/WAI/tips/">Tips for Getting Started</a></p>
+<p><span id="ref9"></span>
+[9] <a href="https://www.w3.org/WAI/WCAG21/quickref/">How to Meet WCAG (quick reference)</a></p>
+<p><span id="ref10"></span>
+[10] <a href="https://www.w3.org/WAI/tutorials/">Web Accessibility Tutorials</a></p>
+<p><span id="ref11"></span>
+[11] <a href="https://dicionario.priberam.org/">Dicionário Priberam</a></p>
+<p>[12] <a href="https://accessibilityinsights.io/docs/en/web/overview">Accessibility Insights for Web</a></p>
+<hr />
+<hr />
+<h2 id="versionamento-de-edicoes-desta-pagina">Versionamento de edições desta página</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Autor</th>
+<th>Descrição</th>
+<th>Versão</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>13/11/2019</td>
+<td>Erick Giffoni</td>
+<td>Criação da página</td>
+<td>0.1</td>
+</tr>
+<tr>
+<td>13/11/2019</td>
+<td>Erick Giffoni</td>
+<td>Adição das referências</td>
+<td>0.1.2</td>
+</tr>
+<tr>
+<td>16/11/2019</td>
+<td>Erick Giffoni</td>
+<td>Adição dos objetivos da avaliação de acessibilidade</td>
+<td>0.2</td>
+</tr>
+<tr>
+<td>17/11/2019</td>
+<td>Erick Giffoni</td>
+<td>Finalização da avaliação em conformidade WCAG</td>
+<td>1.0</td>
+</tr>
+</tbody>
+</table></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
