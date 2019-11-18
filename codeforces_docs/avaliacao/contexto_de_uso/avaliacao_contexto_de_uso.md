@@ -1,6 +1,6 @@
 <span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../../images/codeforces.png)</span>
 
----
+***
 
 # Contexto de Uso
 
@@ -18,6 +18,6 @@ O contexto de uso faz parte do processo de design focado no usuário, e é uma d
 
 ## Versionamento de edições desta página
 
-| Data       | Autor            | Descrição    | Versão |
-| ---------- | ---------------- | ------------ | ------ |
-| 18/11/2019 | Fernando Aguilar | Created Page | 0.1    |
+| Data | Autor | Descrição | Versão |
+|------|-------|-----------|--------|
+| 18/11/2019 | Fernando Aguilar | Created Page| 0.1 |
