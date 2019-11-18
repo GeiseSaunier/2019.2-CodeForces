@@ -1,48 +1,51 @@
-<span style="margin-left: 0%;">![Codeforces Logo](../../../images/codeforces.png)</span>
+<span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../../images/codeforces.png)</span>
 
-***
+---
+
 # Preparação
 
-Para  PREECE  (2002), usabilidade está relacionada a garantir uma fácil aprendizagem, 
-bem como possuir o uso efetivo e agradável do ponto de vista dos usuários. 
+Para PREECE (2002), usabilidade está relacionada a garantir uma fácil aprendizagem,
+bem como possuir o uso efetivo e agradável do ponto de vista dos usuários.
 Isto permite que o sistema seja fácil de aprender e que ele deve ser fácil de lembrar como usar.
 
-> Sobre os usuários: 
-[vide descrição dos usuários](../../../contexto_de_uso/analise_de_usuario/#perfil-do-usuario-do-codeforces);
+> Sobre os usuários:
+> [vide descrição dos usuários](../../../contexto_de_uso/analise_de_usuario/#perfil-do-usuario-do-codeforces);
 
 ## Tarefas a serem avaliadas
-1) Registrar-se virtualmente em um Contest
 
-    - Abrir o navegador ;
-    - Procurar o site do Codeforces ;
-    - Entrar na aba de Contests ;
-    - Clicar em "Virtual Participation" ;
-    - Fazer login ;
-        - Colocar email ;
-        - Colocar senha ;
-        - Entrar ;
-    - Clicar em registrar como participação individual ;
-    - Aceitar os termos do contest.
+1. Registrar-se virtualmente em um Contest
 
-2) Enviar solução de algum problema
+   - Abrir o navegador ;
+   - Procurar o site do Codeforces ;
+   - Entrar na aba de Contests ;
+   - Clicar em "Virtual Participation" ;
+   - Fazer login ;
+     - Colocar email ;
+     - Colocar senha ;
+     - Entrar ;
+   - Clicar em registrar como participação individual ;
+   - Aceitar os termos do contest.
 
-    - Abrir o navegador ;
-    - Procurar o site do Codeforces ;
-    - Fazer login ;
-        - Colocar email ;
-        - Colocar senha ;
-        - Entrar ;
-    - Selecionar a aba "ProblemSet" ;
-    - Clicar no problema "12521 - Mission Possible" ;
-    - Na aba lateral "Submit", em "Language", escolher "GNU G++17 7.3.0" ;
-    - Na aba lateral "Submit", em "Choose file", em "Browse, escolher o arquivo de solução "mission-possible.cpp" ;
-    - Na aba lateral "Submit", clicar em "Submit" .
-    
+2. Enviar solução de algum problema
+
+   - Abrir o navegador ;
+   - Procurar o site do Codeforces ;
+   - Fazer login ;
+     - Colocar email ;
+     - Colocar senha ;
+     - Entrar ;
+   - Selecionar a aba "ProblemSet" ;
+   - Clicar no problema "12521 - Mission Possible" ;
+   - Na aba lateral "Submit", em "Language", escolher "GNU G++17 7.3.0" ;
+   - Na aba lateral "Submit", em "Choose file", em "Browse, escolher o arquivo de solução "mission-possible.cpp" ;
+   - Na aba lateral "Submit", clicar em "Submit" .
+
 > Representação da interface: [**codeforces.com**](http://codeforces.com)
 
 # Coleta de dados e interpretação dos percursos cognitivos
 
 ## Percurso 1 - Registrar-se virtualmente em um Contest
+
 **Avaliador** : Fernando .</br>
 **Potencial usuário** : Erick .
 
@@ -56,7 +59,7 @@ Isto permite que o sistema seja fácil de aprender e que ele deve ser fácil de 
 
 > O usuário vai associar a ação correta com o efeito que está tentando atingir ?
 
-**Análise :** Neste caso estamos buscando realizar o registro virtual em um contest, portanto o usuário procurará pela opções que mais se encaixam neste objetivo quando estiver na página de um contest. Dentre todas as opções, o usuário busca por método de exclusão qual é a ação correta para que ele consiga se cadastrar no evento. 
+**Análise :** Neste caso estamos buscando realizar o registro virtual em um contest, portanto o usuário procurará pela opções que mais se encaixam neste objetivo quando estiver na página de um contest. Dentre todas as opções, o usuário busca por método de exclusão qual é a ação correta para que ele consiga se cadastrar no evento.
 
 > Se a ação for executada corretamente, o usuário perceberá que está progredindo para concluir a tarefa ?
 
@@ -66,9 +69,10 @@ Isto permite que o sistema seja fácil de aprender e que ele deve ser fácil de 
 
 O usuário acessa a plataforma codeforces com um objetivo, fazer inscrição virtualmente em um contest. O processo para concluir esta tarefa é simples, primeiramente o usuário realiza login na plataforma com seu email e senha, então se encaminha para a aba contest do menu principal, onde é possível acessar todos os eventos em uma lista, separados por nome, data de início, e duração. Quando o usuário seleciona um contest que deseja participar, ele irá clicar na opção participar virtualmente, que encaminha o carregamento de uma nova página no navegador. Esta nova página mostra quais são os detalhes do contest selecionado. Caso seja desejo dele confirmar a participação, existe um botão clicável para se registrar no evento. Após o clique, o usuário é redirecionado para uma nova página de preparação, com um timer que indica quanto tempo falta para o inicio do evento e uma caixa pop-up que apresenta uma mensagem de confirmação.
 
-*** 
+---
 
 ## Percurso 2 - Enviar solução de algum problema
+
 **Avaliador** : Erick .</br>
 **Potencial usuário** : Fernando .
 
@@ -94,25 +98,27 @@ O usuário concluiu a tarefa com sucesso. Apesar disso algumas considerações f
 
 ## Consolidação dos relatos dos percursos cognitivos
 
-> O que o usuário precisa saber *a priori* para realizar as tarefas ?
+> O que o usuário precisa saber _a priori_ para realizar as tarefas ?
 
-**Análise :** O usuário precisa de ter conhecimento das funcionalidades basicas de um sistema de avaliação de questões de programação, assim como acesso a um email válido para realizar o cadastro caso não possua um. 
+**Análise :** O usuário precisa de ter conhecimento das funcionalidades basicas de um sistema de avaliação de questões de programação, assim como acesso a um email válido para realizar o cadastro caso não possua um.
 
 > O que o usuário deve aprender enquanto realiza as tarefas ?
 
 **Análise :** O usuário precisa aprender quais são as possibilidades e limitações do sistema. Ele precisa também aprender a diferenciação entre enviar uma tarefa, participar de um evento, ou mesmo submeter solução em uma linguagem de programação diferente da que está configurada como padrão no site. O usuário também é capaz de aprender quais são os caminhos mais curtos para concluir seus objetivos.
 
-> Sugestões de correções para os problemas encontrados 
+> Sugestões de correções para os problemas encontrados
 
 **Análise :** Algumas sugestões se referem ao problema de intuitividade da plataforma. Mostrar opções mais claras para realizar as atividades ajudaria algúem que nunca acessou o sistema. Assim como permitir que o usuário possa escolher o indioma da interface, o que reduz a carga cognitiva para usuários extrangeiros. Uma outra sugestão de melhoria é impelementar um foco maior nas funcionalidades mais importantes, como fazer upload do arquivo e também a caixa de confirmação, que atualmente é um pop-up pequeno no canto esquerdo inferior, com a cor em contraste com a cor do plano de fundo. A sugestão seria uma mensagem clara e evidente na parte superior da tela, para que o usuário possa visualizar a mensagem sem que o olho necessite percorrer uma grande distância na tela.
 
-***
+---
+
 ## Versionamento de edições desta página
-| Data | Autor | Descrição | Versão |
-|------|-------|-----------|--------|
-| 28/10/2019 | Erick Giffoni | Criação da página | 0.1 |
-| 28/10/2019 | Erick Giffoni e Fernando Aguilar | Adição da tarefa 1 | 0.1 |
-| 29/10/2019 | Erick Giffoni | Adição da tarefa 2 | 0.1.2 |
-| 29/10/2019 | Fernando Aguilar | Adição Percurso Cognitivo 1 | 0.2 |
-| 29/10/2019 | Erick Giffoni | Adição Percurso Cognitivo 2 | 0.3 |
-| 30/10/2019 | Fernando Aguilar | Adição Consolidação dos relatos dos percursos cognitivos | 0.4 |
+
+| Data       | Autor                            | Descrição                                                | Versão |
+| ---------- | -------------------------------- | -------------------------------------------------------- | ------ |
+| 28/10/2019 | Erick Giffoni                    | Criação da página                                        | 0.1    |
+| 28/10/2019 | Erick Giffoni e Fernando Aguilar | Adição da tarefa 1                                       | 0.1    |
+| 29/10/2019 | Erick Giffoni                    | Adição da tarefa 2                                       | 0.1.2  |
+| 29/10/2019 | Fernando Aguilar                 | Adição Percurso Cognitivo 1                              | 0.2    |
+| 29/10/2019 | Erick Giffoni                    | Adição Percurso Cognitivo 2                              | 0.3    |
+| 30/10/2019 | Fernando Aguilar                 | Adição Consolidação dos relatos dos percursos cognitivos | 0.4    |

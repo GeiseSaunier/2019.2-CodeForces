@@ -1,4 +1,4 @@
-<span style="margin-left: 0%;">![Codeforces Logo](../images/codeforces.png)</span>
+<span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../images/codeforces.png)</span>
 
 ***
 # Análise de Tarefas
