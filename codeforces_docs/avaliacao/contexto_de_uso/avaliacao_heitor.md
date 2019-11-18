@@ -100,7 +100,7 @@ O usuário conseguiu efetuar a tarefa, entretanto encontrou dificuldades em real
 
 ## Atividade 06:
 
-**Visualizar COntests**
+**Visualizar Contests**
 
 ### Descrição da atividade:
 Visualizar os Contest que estão acontecendo na plataforma.
