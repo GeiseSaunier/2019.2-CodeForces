@@ -1,11 +1,12 @@
 <span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../images/codeforces.png)</span>
 
 ---
-
 <p align="center">
+
 # Acessibilidade na interação humano-computador
 </p>
 </br>
+
 *Autor*: **Erick Giffoni**
 </br>
 
@@ -101,22 +102,22 @@ e serve como relatório de investigação para propor as melhorias :
 ## Referências
 
 <span id="ref1"></span>
-[1][emag - modelo de acessibilidade em governo eletrônico](http://emag.governoeletronico.gov.br)
+[1] [eMAG - Modelo de Acessibilidade em Governo Eletrônico](http://emag.governoeletronico.gov.br)
 
 <span id="ref2"></span>
-[2][modelo de acessibilidade (emag)](https://www.governodigital.gov.br/transformacao/cidadania/acessibilidade/emag-modelo-de-acessibilidade-em-governo-eletronico)
+[2] [Modelo de Acessibilidade (eMAG)](https://www.governodigital.gov.br/transformacao/cidadania/acessibilidade/emag-modelo-de-acessibilidade-em-governo-eletronico)
 
 <span id="ref3"></span>
-[3][e-mag - governo digital](https://www.governodigital.gov.br/documentos-e-arquivos/e-MAG%20V3.pdf) [PDF]
+[3] [e-MAG - Governo Digital](https://www.governodigital.gov.br/documentos-e-arquivos/e-MAG%20V3.pdf) [PDF]
 
 <span id="ref4"></span>
-[4][emag desenvolvedor](https://repositorio.enap.gov.br/bitstream/1/2710/3/Modulo_2_Web_Acessivel_desenvolvedor.pdf) [PDF]
+[4] [eMAG Desenvolvedor](https://repositorio.enap.gov.br/bitstream/1/2710/3/Modulo_2_Web_Acessivel_desenvolvedor.pdf) [PDF]
 
 <span id="#ref5"></span>
-[5][ases - avaliador e simulador de acessibilidade em sítios](http://asesweb.governoeletronico.gov.br/ases/)
+[5] [ASES - Avaliador e Simulador de Acessibilidade em Sítios](http://asesweb.governoeletronico.gov.br/ases/)
 
 <span id="ref6"></span>
-[6][dicionário priberam](https://dicionario.priberam.org/)
+[6] [Dicionário Priberam](https://dicionario.priberam.org/)
 
 ---
 

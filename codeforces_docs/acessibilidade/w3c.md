@@ -1,7 +1,6 @@
 <span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../images/codeforces.png)</span>
 
 ---
-
 <p align="center">
 # Acessibilidade na interação humano-computador
 </p>
@@ -128,12 +127,12 @@ Essa ferramenta suporta 2 (dois) principais cenários :
 
 Com relação aos **_Automated checks_**, as imagens abaixo ilustram como é feita a avaliação :
 
-<img src="images/automated-checks.png"></img>
+<img src="../images/automated-checks.png"></img>
 
 A ferramenta percorre toda a página e identifica em vermelho os erros encontrados.
 É possível clicar no erro e obter mais informações, como ilustra a imagem a seguir :
 
-<img src="images/automated-check-example.png"></img>
+<img src="../images/automated-check-example.png"></img>
 
 Assim é possível analisar qual regra foi violada, qual o critério de sucesso dessa
 regra, bem como a sugestão de correção desse erro etc.
@@ -142,11 +141,11 @@ regra, bem como a sugestão de correção desse erro etc.
 
 Com relação aos **_Tab stops_**, as imagens abaixo ilustram como é feita a avaliação :
 
-<img src="images/tab-stops.png">_Screenshot do topo da página inicial_</img>
+<img src="../images/tab-stops.png">_Screenshot do topo da página inicial_</img>
 
 ---
 
-<img src="images/tab-stops2.png">_Screenshot do final da página inicial_</img>
+<img src="../images/tab-stops2.png">_Screenshot do final da página inicial_</img>
 
 Total de _tab stops_ na página inicial do Codeforces : 363.
 
@@ -177,39 +176,39 @@ Total de erros encontrados : 189.
 ## Referências
 
 <span id="ref1"></span>
-[1][web content accessibility guidelines (wcag) 2.0](https://www.w3.org/TR/WCAG20/#contents)
+[1] [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG20/#contents)
 
 <span id="ref2"></span>
-[2][accessibility fundamentals](https://www.w3.org/WAI/fundamentals/accessibility-intro/)
+[2] [Accessibility Fundamentals](https://www.w3.org/WAI/fundamentals/accessibility-intro/)
 
 <span id="ref3"></span>
-[3][web accessibility evaluation tools list](Web Accessibility Evaluation Tools List)
+[3] [Web Accessibility Evaluation Tools List](Web Accessibility Evaluation Tools List)
 
 <span id="ref4"></span>
-[4][essential components of web accessibility](https://www.w3.org/WAI/fundamentals/components/)
+[4] [Essential Components of Web Accessibility](https://www.w3.org/WAI/fundamentals/components/)
 
 <span id="ref5"></span>
-[5][w3c accessibility standards overview](https://www.w3.org/WAI/standards-guidelines/)
+[5] [W3C Accessibility Standards Overview](https://www.w3.org/WAI/standards-guidelines/)
 
 <span id="ref6"></span>
-[6][accessibility principles](https://www.w3.org/WAI/fundamentals/accessibility-principles/)
+[6] [Accessibility Principles](https://www.w3.org/WAI/fundamentals/accessibility-principles/)
 
 <span id="ref7"></span>
-[7][easy checks – a first review of web accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/)
+[7] [Easy Checks – a First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/)
 
 <span id="ref8"></span>
-[8][tips for getting started](https://www.w3.org/WAI/tips/)
+[8] [Tips for Getting Started](https://www.w3.org/WAI/tips/)
 
 <span id="ref9"></span>
-[9][how to meet wcag (quick reference)](https://www.w3.org/WAI/WCAG21/quickref/)
+[9] [How to Meet WCAG (quick reference)](https://www.w3.org/WAI/WCAG21/quickref/)
 
 <span id="ref10"></span>
-[10][web accessibility tutorials](https://www.w3.org/WAI/tutorials/)
+[10] [Web Accessibility Tutorials](https://www.w3.org/WAI/tutorials/)
 
 <span id="ref11"></span>
-[11][dicionário priberam](https://dicionario.priberam.org/)
+[11] [Dicionário Priberam](https://dicionario.priberam.org/)
 
-[12][accessibility insights for web](https://accessibilityinsights.io/docs/en/web/overview)
+[12] [Accessibility Insights for Web](https://accessibilityinsights.io/docs/en/web/overview)
 
 ---
 

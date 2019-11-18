@@ -1,7 +1,6 @@
 <span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../images/codeforces.png)</span>
 
 ---
-
 <p align="center">
 # Acessibilidade na interação humano-computador
 </p>
@@ -84,7 +83,7 @@ Google Lighthouse para a página inicial do Codeforces, com uma nota igual a 72 
 
 ## Referências
 
-[1][google lighthouse](https://developers.google.com/web/tools/lighthouse)
+[1] [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
 ---
 
