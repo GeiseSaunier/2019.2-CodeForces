@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../../../img/favicon.ico">
-        <title>Resultados 2 - Documentação - IHC - Codeforces</title>
+        <title>Resultados 2 - IHC - Codeforces</title>
         <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../../css/base.css" rel="stylesheet">
@@ -39,16 +39,13 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="../../..">Documentação - IHC - Codeforces</a>
+                    <a class="navbar-brand" href="../../..">IHC - Codeforces</a>
                 </div>
 
                 <!-- Expanded navigation -->
                 <div class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li >
-                                <a href="../../..">Home</a>
-                            </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guia De Estilo <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
@@ -79,15 +76,6 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Artefatos <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li >
-    <a href="../../../artefatos/storyboard/">StoryBoard</a>
-</li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contexto de uso <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
@@ -113,17 +101,27 @@
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../../../concepcao/prototipo_de_papel/">Protótipo de papel</a>
+    <a href="../../../concepcao/planejamento_avaliacao/">Planejamento da avaliação</a>
 </li>
                                     
 <li >
-    <a href="../../../concepcao/planejamento_avaliacao/">Planejamento da avaliação</a>
+    <a href="../../../artefatos/storyboard/">StoryBoard</a>
 </li>
                                 </ul>
                             </li>
                             <li class="dropdown active">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Avaliação <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Formativa</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../formativa/relato-final/">Relato final</a>
+</li>
+    </ul>
+  </li>
                                     
   <li class="dropdown-submenu">
     <a href="#">Heurística</a>
@@ -174,10 +172,48 @@
     <ul class="dropdown-menu">
             
 <li >
+    <a href="../../contexto_de_uso/avaliacao_contexto_de_uso/">Avaliação Contexto de Uso</a>
+</li>
+            
+<li >
     <a href="../../contexto_de_uso/avaliacao_alexandre/">Avaliação Alexandre</a>
 </li>
     </ul>
   </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Acessibilidade <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../../acessibilidade/w3c/">Padrão W3C</a>
+</li>
+                                    
+<li >
+    <a href="../../../acessibilidade/emag/">Padrão eMAG</a>
+</li>
+                                    
+<li >
+    <a href="../../../acessibilidade/codeforces_lighthouse/">Google lighthouse</a>
+</li>
+                                    
+<li >
+    <a href="../../../acessibilidade/consolidacao_dos_resultados/">Consolidação dos resultados</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Prototipacao <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../../prototipacao/alta_fidelidade/">Alta Fidelidade</a>
+</li>
+                                    
+<li >
+    <a href="../../../concepcao/prototipo_de_papel/">Protótipo de papel</a>
+</li>
                                 </ul>
                             </li>
                         </ul>
@@ -220,39 +256,51 @@
 </div></div>
                 <div class="col-md-9" role="main">
 
-<p><span style="margin-left: 0%;"><img alt="Codeforces Logo" src="../../../images/codeforces.png" /></span></p>
+<p><span style="margin-left: 0%; padding-top: 3%;"><img alt="Codeforces Logo" src="../../../images/codeforces.png" /></span></p>
 <hr />
 <h1 id="preparacao">Preparação</h1>
-<p>Para  PREECE  (2002), usabilidade está relacionada a garantir uma fácil aprendizagem, 
-bem como possuir o uso efetivo e agradável do ponto de vista dos usuários. 
+<p>Para PREECE (2002), usabilidade está relacionada a garantir uma fácil aprendizagem,
+bem como possuir o uso efetivo e agradável do ponto de vista dos usuários.
 Isto permite que o sistema seja fácil de aprender e que ele deve ser fácil de lembrar como usar.</p>
 <blockquote>
-<p>Sobre os usuários: 
-<a href="../../../contexto_de_uso/analise_de_usuario/#perfil-do-usuario-do-codeforces">vide descrição dos usuários</a>;</p>
+<p>Sobre os usuários:
+<a href="../contexto_de_uso/analise_de_usuario/#perfil-do-usuario-do-codeforces">vide descrição dos usuários</a>;</p>
 </blockquote>
 <h2 id="tarefas-a-serem-avaliadas">Tarefas a serem avaliadas</h2>
-<p>1) Pesquisar problema</p>
-<pre><code>- Abrir o navegador ;
-- Procurar o site do Codeforces ;
-- Entrar na aba de Contests ;
-- Clicar em "Problemset" ;
-- Ir até "Filter Problems" na sidebar a direita ;
-- Aplicar as tags com os tipos de problema desejado ;
-- Clicar em "Apply" ;
-- Selecionar um problema listado na busca.
-</code></pre>
-<p>2) Adicionar amigo</p>
-<pre><code>- Abrir o navegador ;
-- Procurar o site do Codeforces ;
-- Fazer login ;
-    - Colocar email ;
-    - Colocar senha ;
-    - Entrar ;
-- Ir até a barra de pesquisa na lateral direita na parte superior ;
-- Digitar o username do usuário buscado ;
-- Clicar no usuário listado caso encontrado ;
-- Clicar na estrela ao lado do username para adicionar a amigos.
-</code></pre>
+<ol>
+<li>
+<p>Pesquisar problema</p>
+</li>
+<li>
+<p>Abrir o navegador ;</p>
+</li>
+<li>Procurar o site do Codeforces ;</li>
+<li>Entrar na aba de Contests ;</li>
+<li>Clicar em "Problemset" ;</li>
+<li>Ir até "Filter Problems" na sidebar a direita ;</li>
+<li>Aplicar as tags com os tipos de problema desejado ;</li>
+<li>Clicar em "Apply" ;</li>
+<li>
+<p>Selecionar um problema listado na busca.</p>
+</li>
+<li>
+<p>Adicionar amigo</p>
+</li>
+<li>
+<p>Abrir o navegador ;</p>
+</li>
+<li>Procurar o site do Codeforces ;</li>
+<li>Fazer login ;<ul>
+<li>Colocar email ;</li>
+<li>Colocar senha ;</li>
+<li>Entrar ;</li>
+</ul>
+</li>
+<li>Ir até a barra de pesquisa na lateral direita na parte superior ;</li>
+<li>Digitar o username do usuário buscado ;</li>
+<li>Clicar no usuário listado caso encontrado ;</li>
+<li>Clicar na estrela ao lado do username para adicionar a amigos.</li>
+</ol>
 <blockquote>
 <p>Representação da interface: <a href="http://codeforces.com"><strong>codeforces.com</strong></a></p>
 </blockquote>
@@ -277,7 +325,7 @@ Isto permite que o sistema seja fácil de aprender e que ele deve ser fácil de 
 </blockquote>
 <p><strong>Análise :</strong> Sim, o usuário é redirecionado para uma página contendo todas os problemas na categoria buscada.</p>
 <h3 id="relato-do-percurso-1">Relato do percurso 1</h3>
-<p>O usuário acessa a plataforma codeforces com o objetivo de buscar algum exercício numa categoria de interesse. Então, clica na sessão "Problemset" na menu bar e logo após, filtra o problema na categoria de interesse na sessão "Filter problems" na sidebar a direita. Após clicar em "Apply", são listados todos os problemas na categoria de interesse caso hajam. Do contrário, é informado que não há problemas na categoria almejada. </p>
+<p>O usuário acessa a plataforma codeforces com o objetivo de buscar algum exercício numa categoria de interesse. Então, clica na sessão "Problemset" na menu bar e logo após, filtra o problema na categoria de interesse na sessão "Filter problems" na sidebar a direita. Após clicar em "Apply", são listados todos os problemas na categoria de interesse caso hajam. Do contrário, é informado que não há problemas na categoria almejada.</p>
 <hr />
 <h2 id="percurso-2-adicionar-amigo">Percurso 2 - Adicionar amigo</h2>
 <p><strong>Avaliador</strong> : Bruno .</br>
@@ -304,15 +352,15 @@ Isto permite que o sistema seja fácil de aprender e que ele deve ser fácil de 
 <blockquote>
 <p>O que o usuário precisa saber <em>a priori</em> para realizar as tarefas ?</p>
 </blockquote>
-<p><strong>Análise :</strong> O usuário precisa de ter conhecimento das funcionalidades basicas de um sistema de avaliação de questões de programação, assim como acesso a um email válido para realizar o cadastro caso não possua um. </p>
+<p><strong>Análise :</strong> O usuário precisa de ter conhecimento das funcionalidades basicas de um sistema de avaliação de questões de programação, assim como acesso a um email válido para realizar o cadastro caso não possua um.</p>
 <blockquote>
 <p>O que o usuário deve aprender enquanto realiza as tarefas ?</p>
 </blockquote>
 <p><strong>Análise :</strong> A curva de aprendizado para a execução dessas tarefas são muito pequenas. Embora não seja muito claro, principalmente a maneira de se adicionar um novo amigo, não é preciso muito esforço para percorrer esses caminhos cognitivos.</p>
 <blockquote>
-<p>Sugestões de correções para os problemas encontrados </p>
+<p>Sugestões de correções para os problemas encontrados</p>
 </blockquote>
-<p><strong>Análise :</strong> Uma sessão no menu bar para "Busca de usuários" assim como no "Problemset" poderia tornar a adição de usuários mais céleres e intuitivas. </p>
+<p><strong>Análise :</strong> Uma sessão no menu bar para "Busca de usuários" assim como no "Problemset" poderia tornar a adição de usuários mais céleres e intuitivas.</p>
 <hr />
 <h2 id="versionamento-de-edicoes-desta-pagina">Versionamento de edições desta página</h2>
 <table>

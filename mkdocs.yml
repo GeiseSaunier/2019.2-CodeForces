@@ -1,7 +1,6 @@
-site_name: Documentação - IHC - Codeforces
+site_name: IHC - Codeforces
 
 nav:
-    - Home: index.md
     - Guia De Estilo:
         - 1. Introdução: guia_de_estilo/1.introducao.md
         - 2. Resultados De Análise: guia_de_estilo/2.resultados_analise.md
@@ -9,17 +8,17 @@ nav:
         - 4. Elementos De Interação: guia_de_estilo/4.elementos_interacao.md
         - 5. Elementos De Ação: guia_de_estilo/5.elementos_de_acao.md
         - 6. Vocabularios E Padrões: guia_de_estilo/6.vocabularios_e_padroes.md
-    - Artefatos:
-        - StoryBoard: artefatos/storyboard.md
     - Contexto de uso:
         - Análise de usuário: contexto_de_uso/analise_de_usuario.md
         - Análise de tarefas: contexto_de_uso/analise_de_tarefas.md
         - Características da plataforma: contexto_de_uso/caracteristicas_plataforma.md
         - Princípios gerais de projeto: contexto_de_uso/principios_gerais.md
     - Concepção/Avaliação:
-        - Protótipo de papel: concepcao/prototipo_de_papel.md
         - Planejamento da avaliação: concepcao/planejamento_avaliacao.md
+        - StoryBoard: artefatos/storyboard.md
     - Avaliação:
+        - Formativa:
+            - Relato final: avaliacao/formativa/relato-final.md
         - Heurística:
             - Resultados Erick_Fernando: avaliacao/heuristica/erick_fernando.md
             - Resultados Bruno_Eugênio: avaliacao/heuristica/bruno_eugenio.md
@@ -31,7 +30,16 @@ nav:
             - Resultados 3: avaliacao/percurso_cognitivo/geise_lorrany.md
             - Relato Final: avaliacao/percurso_cognitivo/relato_final_cognitivo.md
         - Contexto De Uso:
+            - Avaliação Contexto de Uso: avaliacao/contexto_de_uso/avaliacao_contexto_de_uso.md
             - Avaliação Alexandre: avaliacao/contexto_de_uso/avaliacao_alexandre.md
+    - Acessibilidade:
+        - Padrão W3C: acessibilidade/w3c.md
+        - Padrão eMAG: acessibilidade/emag.md
+        - Google lighthouse: acessibilidade/codeforces_lighthouse.md
+        - Consolidação dos resultados: acessibilidade/consolidacao_dos_resultados.md
+    - Prototipacao:
+        - Alta Fidelidade: prototipacao/alta_fidelidade.md
+        - Protótipo de papel: concepcao/prototipo_de_papel.md
 
 repo_url: https://github.com/IHC-2019-2/2019.2-CodeForces
 

@@ -1,4 +1,4 @@
-<span style="margin-left: 0%;">![Codeforces Logo](../images/codeforces.png)</span>
+<span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../images/codeforces.png)</span>
 
 # Protótipos De Papel 
 Relatos e resultados da avaliação 
@@ -77,6 +77,17 @@ Os objetos de avaliação são os videos onde mostram a interação de um usuár
 3. Encontrar as funções mais importantes para o modelo de negócios do site.
 4. Não. Muitas das informações estão em lugares não intuitivos
 
+## Análise comparativa com usuário
+
+Nesta atividade nós pedimos que um usuário avaliasse a interface do codeforces e realiza-se a tarefa de olhar as estatísticas do perfil, primeiro o usuário realizou a tarefa através do próprio site e depois através do protótipo de papel, o usuário se chama Marlon Mendes é estudante da Universidade de Brasília e partipava da maratona de programação competitiva, o usuário já é bem experiente na plataforma e isto foi levado em conta na hora da nossa avaliação.
+
+### Análise de interface através do site
+
+### Análise da tarefa visualzar estatisticas através do prótotipo de papel
+
+**link para o video:**
+
+[![estatistica video](https://img.youtube.com/watch?v=KmTGYix-qQs/0.jpg)](https://www.youtube.com/watch?v=KmTGYix-qQs "Protótipo de papel - Codeforces")
 
 ***
 
@@ -86,3 +97,4 @@ Os objetos de avaliação são os videos onde mostram a interação de um usuár
 | 12/10/2019 | Fernando Aguilar | Created Page| 0.1 |
 | 12/10/2019 | Fernando Aguilar | Add links to videos | 0.2 |
 | 13/10/2019 | Fernando Aguilar | Add Respostas | 1.0 |
+| 18/11/2019 | Lorrany Azevedo | Add link dos vídeos de análise do usuário | 1.1 |
