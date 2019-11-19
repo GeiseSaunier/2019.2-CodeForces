@@ -118,3 +118,4 @@ para que o usuário consiga navegar no site.**
 | Data | Autor | Descrição | Versão |
 |------|-------|-----------|--------|
 | 16/11/2019 | Erick Giffoni | Criação da página</br>Adição das referências | 0.1 |
+| 18/11/2019 | Erick Giffoni | Adição dos resultados do ASES e do Accessibility Insider for Web | 0.5 |
