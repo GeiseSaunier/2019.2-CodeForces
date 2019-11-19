@@ -84,6 +84,11 @@ Nesta atividade nós pedimos que um usuário avaliasse a interface do codeforces
 ### Análise de interface através do site
 
 ### Análise da tarefa visualzar estatisticas através do prótotipo de papel
+
+**link para o video:**
+
+[![estatistica video](https://img.youtube.com/watch?v=KmTGYix-qQs/0.jpg)](https://www.youtube.com/watch?v=KmTGYix-qQs "Protótipo de papel - Codeforces")
+
 ***
 
 ## Versionamento de edições desta página
