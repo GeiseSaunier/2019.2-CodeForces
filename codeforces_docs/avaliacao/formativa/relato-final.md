@@ -30,10 +30,7 @@ Forma de avaliação
 |Realizar Publicação|Não|Não|Sim|Sim|Sim|
 
 ## Conclusão
-*Escreve aqui eugênio*
-
-
-
+Nessa avaliação formativa foi aplicado o método de inspeção por checklist na concepção de desenvolvimento do protótipo de papel com o intuito de de identificar e corrigir problemas antes de iniciar o protótipo de alta fidelidade. Foram escolhidas 7 funcionalidades principais no qual foram submetidas a 5 critérios de aceitação. Onde a tabela gerada será utilizada para nortear a correção para o produto final.
 
 
 
@@ -45,3 +42,4 @@ Forma de avaliação
 | ---------- | ---------------- | ------------ | ------ |
 | 18/11/2019 | Erick | Created File | 0.0    |
 | 18/11/2019 | Bruno e EugÊnio |Avaliação Formativa|0.1|
+| 19/11/2019 | Bruno e EugÊnio |Avaliação Formativa|0.2|
