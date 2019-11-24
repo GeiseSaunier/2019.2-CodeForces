@@ -77,18 +77,26 @@ Os objetos de avaliação são os videos onde mostram a interação de um usuár
 3. Encontrar as funções mais importantes para o modelo de negócios do site.
 4. Não. Muitas das informações estão em lugares não intuitivos
 
-## Análise comparativa com usuário
+# Teste de usabilidade
 
-Nesta atividade nós pedimos que um usuário avaliasse a interface do codeforces e realiza-se a tarefa de olhar as estatísticas do perfil, primeiro o usuário realizou a tarefa através do próprio site e depois através do protótipo de papel, o usuário se chama Marlon Mendes é estudante da Universidade de Brasília e partipava da maratona de programação competitiva, o usuário já é bem experiente na plataforma e isto foi levado em conta na hora da nossa avaliação.
 
-### Análise de interface através do site
+O objetivo destes testes foi identificar problema na interface do codeforces, para isso nós convidamos um usuário experiente do codeforces e pedimos para que ele executasse algumas tarefas dentro do site e desse o seu feedback a respeito do site e sua interface. A entrevsta foi conduzida por um integrante de equipe e o método de avaliação utilizado foi o método de **observação** através dos testes de usabilidade e do protótipo de papel. Para registrar o teste de usabilidade nós gravamos o usuário durante a execução de tarefas no codeforces.
 
-### Análise da tarefa visualzar estatisticas através do prótotipo de papel
+> Método de observação: Permite coletar dados sobre situações reais de uso para identificar problemas que os usuários enfrentam. Nós utilizamos o metóde de teste de usabilidade que consiste em observar o usuário utilizando o sistema e relatar sua experiência de uso.
+
+### Análise de interface através do site 
+
+Subir vídeo
+
+### Análise da tarefa visualzar estatisticas através do prótotipo de papel 
 
 **link para o video:** 
 
 [![estatistica video](https://img.youtube.com/watch?v=KmTGYix-qQs/0.jpg)](https://www.youtube.com/watch?v=KmTGYix-qQs "Protótipo de papel - Codeforces")
 
+## Análise comparativa com usuário 
+
+Nesta atividade nós pedimos que um usuário avaliasse a interface do codeforces e realiza-se a tarefa de olhar as estatísticas do perfil, primeiro o usuário realizou a tarefa através do próprio site e depois através do protótipo de papel, o usuário se chama Marlon Mendes é estudante da Universidade de Brasília e partipava da maratona de programação competitiva, o usuário já é bem experiente na plataforma e isto foi levado em conta na hora da nossa avaliação.
 ***
 
 ## Versionamento de edições desta página
@@ -98,3 +106,4 @@ Nesta atividade nós pedimos que um usuário avaliasse a interface do codeforces
 | 12/10/2019 | Fernando Aguilar | Add links to videos | 0.2 |
 | 13/10/2019 | Fernando Aguilar | Add Respostas | 1.0 |
 | 18/11/2019 | Lorrany Azevedo | Add link dos vídeos de análise do usuário | 1.1 |
+| 24/11/2019 | Lorrany Azevedo | Adição de testes de usabilidade | 1.2 |
