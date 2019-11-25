@@ -80,19 +80,35 @@ Os objetos de avaliação são os videos onde mostram a interação de um usuár
 # Teste de usabilidade
 
 
-O objetivo destes testes foi identificar problema na interface do codeforces, para isso nós convidamos um usuário experiente do codeforces e pedimos para que ele executasse algumas tarefas dentro do site e desse o seu feedback a respeito do site e sua interface. A entrevsta foi conduzida por um integrante de equipe e o método de avaliação utilizado foi o método de **observação** através dos testes de usabilidade e do protótipo de papel. Para registrar o teste de usabilidade nós gravamos o usuário durante a execução de tarefas no codeforces.
+O objetivo destes testes foi identificar problema na interface do codeforces, para isso nós convidamos um usuário experiente do codeforces e pedimos para que ele executasse algumas tarefas dentro do site e desse o seu feedback a respeito do site e sua interface. A entrevsta foi conduzida por um integrante de equipe e o método de avaliação utilizado foi o método de **observação** através dos testes de usabilidade e do protótipo de papel. Para registrar o teste de usabilidade nós gravamos o usuário durante a execução de tarefas no codeforces. 
+
+O teste foi realizado apenas com um usuário, mas de acordo com Nielsen o ideal é que o mesmo seja feito pelo menos com 5 usuários, com diferentes níveis de experiência.
 
 > Método de observação: Permite coletar dados sobre situações reais de uso para identificar problemas que os usuários enfrentam. Nós utilizamos o metóde de teste de usabilidade que consiste em observar o usuário utilizando o sistema e relatar sua experiência de uso.
 
+Observações levantadas:
+
+* Quantos erros os usuários cometem nas primeiras sessões de uso? 
+</br> Como o usuário era um usuário experiente, ele não cometeu nenhum erro.
+
+* Quantos usuários conseguiram completar com sucesso
+determinadas tarefas?
+</br> 100%.
+
+* Quantas vezes os usuários consultaram a ajuda on-line ou o manual
+de usuário?</br> Nenhuma.
+
 ### Análise de interface através do site 
 
-Subir vídeo
+**link para o video:** 
+
+[![estatistica video](https://img.youtube.com/watch?v=KmTGYix-qQs.jpg)](https://www.youtube.com/watch?v=KmTGYix-qQs "Protótipo de papel - Codeforces")
 
 ### Análise da tarefa visualzar estatisticas através do prótotipo de papel 
 
 **link para o video:** 
 
-[![estatistica video](https://img.youtube.com/watch?v=KmTGYix-qQs/0.jpg)](https://www.youtube.com/watch?v=KmTGYix-qQs "Protótipo de papel - Codeforces")
+[![teste usabilidade](https://img.youtube.com/watch?v=S1o2f8wijMs&feature=youtu.be.jpg)](https://www.youtube.com/watch?v=S1o2f8wijMs&feature=youtu.be "Teste usabilidade - Codeforces")
 
 ## Análise comparativa com usuário 
 
