@@ -87,6 +87,25 @@ Quando a intervenção é sobre o desenvolvimento de sistemas, devemos articular
 
 ***
 
+# Protótipo de alta fidelidade final
+
+## Homepage
+
+<span style="margin-right: 40%;">![Home](telas/home.png)</span>
+
+## Problemset
+
+<span style="margin-right: 40%;">![Problemset](telas/problemset.png)</span>
+
+## Submitions
+
+<span style="margin-right: 40%;">![submission](telas/submission.png)</span>
+
+## Contest
+
+<span style="margin-right: 40%;">![constest](telas/contest.png)</span>
+
+
 # Fonte:
 [/ux-ui-design-de-interface ](https://www.coursera.org/lecture/ux-ui-design-de-interface/construindo-um-prototipo-de-alta-fidelidade-HWDuF)
 [A Prototipação no desenvolvimento de software](https://www.objective.com.br/a-prototipacao-no-desenvolvimento-de-software/)
