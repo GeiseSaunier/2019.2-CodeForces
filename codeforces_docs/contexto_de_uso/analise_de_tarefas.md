@@ -101,26 +101,6 @@ O método Goms tem o objetivo de analisar o desempenho de usuários realizando t
 <span style="margin-left: 0%;">![forum](./images/goms1.jpeg)</span>
 
 ***
-**7 - Encontrar um usuário**
-***
-**8 - Buscar por ajuda no site**
-***
-**9 - Ver calendário de contests**
-***
-**10 - Ver Ranking**
-***
-**11 - Utilizar a API do CodeForces**
-***
-**12 - Propor um contest/problema**
-***
-Outros: Contests no modelo ICPC
-Grupos da universidade
-visualizar seu perfil
-ver pergutas que eu fiz no fórum
-ver times que participei em contests
-Talks - enviar mensagem para usuários
-
-***
 ### Versionamento de edições desta página
 | Data | Autor | Descrição | Versão |
 |------|-------|-----------|--------|

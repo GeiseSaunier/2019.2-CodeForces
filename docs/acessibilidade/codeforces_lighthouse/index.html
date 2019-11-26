@@ -321,6 +321,49 @@ Google Lighthouse para a página inicial do Codeforces, com uma nota igual a 72 
 <p><span style="margin-left: 0%;"><img alt="Resumo da avaliacao" src="../images/resumo-lighthouse-acessibility.png" /></span>
 <span style="margin-left: 0%;"><img alt="Resumo da avaliacao" src="../images/resumo-lighthouse-acessibility2.png" /></span></p>
 <hr />
+<p>A tabela a seguir reune os principais erros encontrados nessa avaliação :</p>
+<table>
+<thead>
+<tr>
+<th align="center">Categoria do erro</th>
+<th>Descrição da categoria</th>
+<th align="left">Tipo do erro</th>
+<th align="left">Descrição do erro</th>
+<th align="center">Referência(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Contrast</td>
+<td>These are opportunities to improve the legibility of your content</td>
+<td align="left">Background and foreground colors do not have a sufficient contrast ratio</td>
+<td align="left">Low-contrast text is difficult or impossible for many users to read</td>
+<td align="center"><a href="https://web.dev/color-contrast/?utm_source=lighthouse&amp;utm_medium=extension">Learn more</a></td>
+</tr>
+<tr>
+<td align="center">Names and labels</td>
+<td>These are opportunities to improve the semantics of the controls in your application. This may enhance the experience for users of assistive technology, like a screen reader</td>
+<td align="left">Image elements do not have [alt] attributes</td>
+<td align="left">Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute</td>
+<td align="center"><a href="https://web.dev/image-alt/?utm_source=lighthouse&amp;utm_medium=extension">Learn more</a></td>
+</tr>
+<tr>
+<td align="center">Names and labels</td>
+<td>These are opportunities to improve the semantics of the controls in your application. This may enhance the experience for users of assistive technology, like a screen reader</td>
+<td align="left">Links do not have a discernible name</td>
+<td align="left">Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users</td>
+<td align="center"><a href="https://web.dev/link-name/?utm_source=lighthouse&amp;utm_medium=extension">Learn more</a></td>
+</tr>
+<tr>
+<td align="center">Tables and lists</td>
+<td>These are opportunities to to improve the experience of reading tabular or list data using assistive technology, like a screen reader</td>
+<td align="left">Lists do not contain only <code>&lt;li&gt;</code> elements and script supporting elements (<code>&lt;script&gt;</code> and <code>&lt;template&gt;</code>)</td>
+<td align="left">Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output</td>
+<td align="center"><a href="https://web.dev/list/?utm_source=lighthouse&amp;utm_medium=extension">Learn more</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
 <p><strong>Clique <a href="../codeforces_lighthouse.html">aqui</a> para visualizar a avaliação completa pelo <a href="#referencias">Google Lighthouse</a> [1]</strong></p>
 <hr />
 <h2 id="referencias">Referências</h2>
@@ -355,6 +398,12 @@ Google Lighthouse para a página inicial do Codeforces, com uma nota igual a 72 
 <td>Adição da descrição sobre a ferramenta Google Lighthouse</td>
 <td>0.2.1</td>
 </tr>
+<tr>
+<td>24/11/2019</td>
+<td>Erick Giffoni</td>
+<td>Criação da tabela com os principais erros encontrados nessa avaliação</td>
+<td>1.0</td>
+</tr>
 </tbody>
 </table></div>
         </div>
@@ -365,7 +414,7 @@ Google Lighthouse para a página inicial do Codeforces, com uma nota igual a 72 
         </footer>
         <script>
             var base_url = "../..",
-                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+                shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
         </script>
         <script src="../../js/base.js" defer></script>
         <script src="../../search/main.js" defer></script>

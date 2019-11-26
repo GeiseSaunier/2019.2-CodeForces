@@ -77,18 +77,52 @@ Os objetos de avaliação são os videos onde mostram a interação de um usuár
 3. Encontrar as funções mais importantes para o modelo de negócios do site.
 4. Não. Muitas das informações estão em lugares não intuitivos
 
-## Análise comparativa com usuário
+# Segunda versão do protótipo de papel
 
-Nesta atividade nós pedimos que um usuário avaliasse a interface do codeforces e realiza-se a tarefa de olhar as estatísticas do perfil, primeiro o usuário realizou a tarefa através do próprio site e depois através do protótipo de papel, o usuário se chama Marlon Mendes é estudante da Universidade de Brasília e partipava da maratona de programação competitiva, o usuário já é bem experiente na plataforma e isto foi levado em conta na hora da nossa avaliação.
+* Home Page
+<span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../concepcao/page1.jpg)</span>
 
-### Análise de interface através do site
+* Profile
+<span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../concepcao/page2.jpg)</span>
 
-### Análise da tarefa visualzar estatisticas através do prótotipo de papel
+* Statistics
+<span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../concepcao/page3.jpg)</span>
+## Teste de usabilidade
+
+
+O objetivo destes testes foi identificar problema na interface do codeforces, para isso nós convidamos um usuário experiente do codeforces e pedimos para que ele executasse algumas tarefas dentro do site e desse o seu feedback a respeito do site e sua interface. A entrevsta foi conduzida por um integrante de equipe e o método de avaliação utilizado foi o método de **observação** através dos testes de usabilidade e do protótipo de papel. Para registrar o teste de usabilidade nós gravamos o usuário durante a execução de tarefas no codeforces. 
+
+O teste foi realizado apenas com um usuário, mas de acordo com Nielsen o ideal é que o mesmo seja feito pelo menos com 5 usuários, com diferentes níveis de experiência.
+
+> Método de observação: Permite coletar dados sobre situações reais de uso para identificar problemas que os usuários enfrentam. Nós utilizamos o metóde de teste de usabilidade que consiste em observar o usuário utilizando o sistema e relatar sua experiência de uso.
+
+Observações levantadas:
+
+* Quantos erros os usuários cometem nas primeiras sessões de uso? 
+</br> Como o usuário era um usuário experiente, ele não cometeu nenhum erro.
+
+* Quantos usuários conseguiram completar com sucesso
+determinadas tarefas?
+</br> 100%.
+
+* Quantas vezes os usuários consultaram a ajuda on-line ou o manual
+de usuário?</br> Nenhuma.
+
+### Análise de interface através do site 
 
 **link para o video:** 
 
-[![estatistica video](https://img.youtube.com/watch?v=KmTGYix-qQs/0.jpg)](https://www.youtube.com/watch?v=KmTGYix-qQs "Protótipo de papel - Codeforces")
+[![estatistica video](https://img.youtube.com/watch?v=KmTGYix-qQs.jpg)](https://www.youtube.com/watch?v=KmTGYix-qQs "Protótipo de papel - Codeforces")
 
+### Análise da tarefa visualzar estatisticas através do prótotipo de papel 
+
+**link para o video:** 
+
+[![teste usabilidade](https://img.youtube.com/watch?v=S1o2f8wijMs&feature=youtu.be.jpg)](https://www.youtube.com/watch?v=S1o2f8wijMs&feature=youtu.be "Teste usabilidade - Codeforces")
+
+## Análise comparativa com usuário 
+
+Nesta atividade nós pedimos que um usuário avaliasse a interface do codeforces e realiza-se a tarefa de olhar as estatísticas do perfil, primeiro o usuário realizou a tarefa através do próprio site e depois através do protótipo de papel, o usuário se chama Marlon Mendes é estudante da Universidade de Brasília e partipava da maratona de programação competitiva, o usuário já é bem experiente na plataforma e isto foi levado em conta na hora da nossa avaliação.
 ***
 
 ## Versionamento de edições desta página
@@ -98,3 +132,5 @@ Nesta atividade nós pedimos que um usuário avaliasse a interface do codeforces
 | 12/10/2019 | Fernando Aguilar | Add links to videos | 0.2 |
 | 13/10/2019 | Fernando Aguilar | Add Respostas | 1.0 |
 | 18/11/2019 | Lorrany Azevedo | Add link dos vídeos de análise do usuário | 1.1 |
+| 24/11/2019 | Lorrany Azevedo | Adição de testes de usabilidade | 1.2 |
+| 25/11/2019 | Lorrany Azevedo | Segunda versão protótipo de papel | 1.3 |

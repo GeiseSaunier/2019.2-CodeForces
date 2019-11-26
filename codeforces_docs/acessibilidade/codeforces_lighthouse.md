@@ -77,6 +77,17 @@ Google Lighthouse para a página inicial do Codeforces, com uma nota igual a 72 
 
 ***
 
+A tabela a seguir reune os principais erros encontrados nessa avaliação :
+
+|Categoria do erro|Descrição da categoria|Tipo do erro|Descrição do erro|Referência(s)|
+|:------------:|--------------------------------------|:--------------------|:--------------------------------------|:------------:|
+|Contrast|These are opportunities to improve the legibility of your content|Background and foreground colors do not have a sufficient contrast ratio|Low-contrast text is difficult or impossible for many users to read|[Learn more](https://web.dev/color-contrast/?utm_source=lighthouse&utm_medium=extension)|
+|Names and labels|These are opportunities to improve the semantics of the controls in your application. This may enhance the experience for users of assistive technology, like a screen reader|Image elements do not have [alt] attributes|Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute|[Learn more](https://web.dev/image-alt/?utm_source=lighthouse&utm_medium=extension)|
+|Names and labels|These are opportunities to improve the semantics of the controls in your application. This may enhance the experience for users of assistive technology, like a screen reader|Links do not have a discernible name|Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users|[Learn more](https://web.dev/link-name/?utm_source=lighthouse&utm_medium=extension)|
+|Tables and lists|These are opportunities to to improve the experience of reading tabular or list data using assistive technology, like a screen reader|Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`)|Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output|[Learn more](https://web.dev/list/?utm_source=lighthouse&utm_medium=extension)|
+
+***
+
 **Clique [aqui](./codeforces_lighthouse.html) para visualizar a avaliação completa pelo [Google Lighthouse](#referencias) [1]**
 
 ***
@@ -93,3 +104,4 @@ Google Lighthouse para a página inicial do Codeforces, com uma nota igual a 72 
 | 16/11/2019 | Erick Giffoni | Criação da página</br>Adição das referências</br>Adição da avaliação em html pelo Google Lighthouse| 0.1 |
 | 16/11/2019 | Erick Giffoni | Adição dos objetivos da avaliação de acessibilidade | 0.2 |
 | 17/11/2019 | Erick Giffoni | Adição da descrição sobre a ferramenta Google Lighthouse | 0.2.1 |
+| 24/11/2019 | Erick Giffoni | Criação da tabela com os principais erros encontrados nessa avaliação | 1.0 |
