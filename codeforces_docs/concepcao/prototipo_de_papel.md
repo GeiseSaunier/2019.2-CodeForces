@@ -1,10 +1,10 @@
 <span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../images/codeforces.png)</span>
 
-# Protótipos De Papel 
-Relatos e resultados da avaliação 
+# Protótipos De Papel
+Relatos e resultados da avaliação
 
 ### Objetivos
-* Fazer um julgamento de valor sobre a qualidade de uso da solução de IHC e 
+* Fazer um julgamento de valor sobre a qualidade de uso da solução de IHC e
 
 * Identificar problemas na interação e na interface que prejudiquem a experiência particular do usuário durante o uso do sistema
 
@@ -39,12 +39,12 @@ Os objetos de avaliação são os videos onde mostram a interação de um usuár
 [![Visualizar Problemas video](http://img.youtube.com/vi/Nn_hkbsTcrc/0.jpg)](http://www.youtube.com/watch?v=Nn_hkbsTcrc "Visualizar Problemas - Prototipo de Papel ")
 
 
-*** 
+***
 
 ## Tabela de Perguntas a serem respondidas
-| Objetivos | Perguntas | 
+| Objetivos | Perguntas |
 |------|-------|
-| Analisar a apropriação da tecnologia | **1.** Houve variação no número de erros cometidos pelo usuário? </br>  **2.** A tecnologia pode oferecer maneiras mais interessantes para atingirem os objetivos? </br> **3.** Por que os usuários não incorporaram o sistema no seu cotidiano </br> **4.** De que maneira os usuários utilizam o sistema? </br> | 
+| Analisar a apropriação da tecnologia | **1.** Houve variação no número de erros cometidos pelo usuário? </br>  **2.** A tecnologia pode oferecer maneiras mais interessantes para atingirem os objetivos? </br> **3.** Por que os usuários não incorporaram o sistema no seu cotidiano </br> **4.** De que maneira os usuários utilizam o sistema? </br> |
 | Comparar ideias e alternativas de design | **1.** Qual das alternativas é mais eficiente e facil de aprender? </br> **2.** Qual das ideias se espera que tenha um impacto negativo menor? </br> **3.** Qual delas torna mais evidente os diferenciais da solução projetada? </br> |
 | Verificar a conformidade com um padrão | **1.** O sistema está de acrodo com os padrões de acessibilidade do W3C? </br> **2.** A interface segue o padrão do sistema operacional e da empresa?</br> **3.** Os termos da interface seguem convenções estabelecidas no domínio? </br> |
 | Identificar problemas na interação e interface | __considerando cada perfil de usuário esperado:__ </br> **1.** O usuário consegue operar o sistema? </br> **2.** Ele atinge seu objetivo com eficiencia em quanto tempo? Após cometer quantos erros? </br>  **3.** Que parte da interface e da interação o deixa insatisfeito? </br> **4.** Ele entende o que deve fazer em seguida?</br> **5.** Que problemas de IHC dificultam o usuário de alcançar seus objetivos? </br> **6.** Ele tem acesso a todas as informações oferecidas pelo sistema? </br>|
@@ -77,13 +77,52 @@ Os objetos de avaliação são os videos onde mostram a interação de um usuár
 3. Encontrar as funções mais importantes para o modelo de negócios do site.
 4. Não. Muitas das informações estão em lugares não intuitivos
 
-## Análise comparativa com usuário
+# Segunda versão do protótipo de papel
+
+* Home Page
+<span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../concepcao/page1.jpg)</span>
+
+* Profile
+<span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../concepcao/page2.jpg)</span>
+
+* Statistics
+<span style="margin-left: 0%; padding-top: 3%;">![Codeforces Logo](../concepcao/page3.jpg)</span>
+## Teste de usabilidade
+
+
+O objetivo destes testes foi identificar problema na interface do codeforces, para isso nós convidamos um usuário experiente do codeforces e pedimos para que ele executasse algumas tarefas dentro do site e desse o seu feedback a respeito do site e sua interface. A entrevsta foi conduzida por um integrante de equipe e o método de avaliação utilizado foi o método de **observação** através dos testes de usabilidade e do protótipo de papel. Para registrar o teste de usabilidade nós gravamos o usuário durante a execução de tarefas no codeforces. 
+
+O teste foi realizado apenas com um usuário, mas de acordo com Nielsen o ideal é que o mesmo seja feito pelo menos com 5 usuários, com diferentes níveis de experiência.
+
+> Método de observação: Permite coletar dados sobre situações reais de uso para identificar problemas que os usuários enfrentam. Nós utilizamos o metóde de teste de usabilidade que consiste em observar o usuário utilizando o sistema e relatar sua experiência de uso.
+
+Observações levantadas:
+
+* Quantos erros os usuários cometem nas primeiras sessões de uso? 
+</br> Como o usuário era um usuário experiente, ele não cometeu nenhum erro.
+
+* Quantos usuários conseguiram completar com sucesso
+determinadas tarefas?
+</br> 100%.
+
+* Quantas vezes os usuários consultaram a ajuda on-line ou o manual
+de usuário?</br> Nenhuma.
+
+### Análise de interface através do site 
+
+**link para o video:** 
+
+[![estatistica video](https://img.youtube.com/watch?v=KmTGYix-qQs.jpg)](https://www.youtube.com/watch?v=KmTGYix-qQs "Protótipo de papel - Codeforces")
+
+### Análise da tarefa visualzar estatisticas através do prótotipo de papel 
+
+**link para o video:** 
+
+[![teste usabilidade](https://img.youtube.com/watch?v=S1o2f8wijMs&feature=youtu.be.jpg)](https://www.youtube.com/watch?v=S1o2f8wijMs&feature=youtu.be "Teste usabilidade - Codeforces")
+
+## Análise comparativa com usuário 
 
 Nesta atividade nós pedimos que um usuário avaliasse a interface do codeforces e realiza-se a tarefa de olhar as estatísticas do perfil, primeiro o usuário realizou a tarefa através do próprio site e depois através do protótipo de papel, o usuário se chama Marlon Mendes é estudante da Universidade de Brasília e partipava da maratona de programação competitiva, o usuário já é bem experiente na plataforma e isto foi levado em conta na hora da nossa avaliação.
-
-### Análise de interface através do site
-
-### Análise da tarefa visualzar estatisticas através do prótotipo de papel
 ***
 
 ## Versionamento de edições desta página
@@ -93,3 +132,5 @@ Nesta atividade nós pedimos que um usuário avaliasse a interface do codeforces
 | 12/10/2019 | Fernando Aguilar | Add links to videos | 0.2 |
 | 13/10/2019 | Fernando Aguilar | Add Respostas | 1.0 |
 | 18/11/2019 | Lorrany Azevedo | Add link dos vídeos de análise do usuário | 1.1 |
+| 24/11/2019 | Lorrany Azevedo | Adição de testes de usabilidade | 1.2 |
+| 25/11/2019 | Lorrany Azevedo | Segunda versão protótipo de papel | 1.3 |

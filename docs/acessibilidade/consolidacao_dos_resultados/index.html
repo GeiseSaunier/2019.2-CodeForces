@@ -286,7 +286,7 @@ para que o usuário consiga navegar no site.</strong></p>
 </li>
 <li>
 <p>Encontrar os pontos negativos (as falhas) do <a href="http://codeforces.com/">Codeforces</a> em relação
-à acessibilidade ;</p>
+  à acessibilidade ;</p>
 </li>
 <li>
 <p>Consolidar os resultados encontrados para propor melhorias ao <a href="http://codeforces.com/">Codeforces</a>.</p>
@@ -296,16 +296,151 @@ para que o usuário consiga navegar no site.</strong></p>
 <h1 id="consolidacao-dos-resultados-das-avaliacoes-de-acessibilidade">Consolidação dos resultados das avaliações de acessibilidade</h1>
 <ul>
 <li>Ferramentas utilizadas :<ul>
-<li><a href="http://asesweb.governoeletronico.gov.br/ases">ASES - Avaliador e Simulador de Acessibilidade em Sítios</a></li>
-<li><a href="https://developers.google.com/web/tools/lighthouse">Google Lighthouse</a></li>
-<li>z</li>
-<li>w</li>
+<li><a href="http://asesweb.governoeletronico.gov.br/ases">ASES</a> - Avaliador e Simulador de Acessibilidade em Sítios</li>
+<li><a href="https://developers.google.com/web/tools/lighthouse">Google Lighthouse</a> - Extensão para o Chrome</li>
+<li><a href="https://accessibilityinsights.io/docs/en/web/overview">Accessibility Insights for Web</a> - Microsoft</li>
 </ul>
 </li>
 </ul>
 <hr />
 <h2 id="pontos-a-serem-melhorados-na-plataforma-codeforces">Pontos a serem melhorados na plataforma <a href="http://codeforces.com/">Codeforces</a></h2>
+<blockquote>
+<p><strong>ASES</strong></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th align="center">Recomendações do eMAG</th>
+<th align="left">Tipo do erro</th>
+<th>Quantidade de ocorrências</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Marcação</td>
+<td align="left">- <a href="http://emag.governoeletronico.gov.br/#r1.1">1.1 Respeitar os Padrões Web</a></br>- <a href="http://emag.governoeletronico.gov.br/#r1.2">1.2 Organizar o código HTML de forma lógica e semântica</a></br>- <a href="http://emag.governoeletronico.gov.br/#r1.3">1.3 Utilizar corretamente os níveis de cabeçalho</a></br>- <a href="http://emag.governoeletronico.gov.br/#r1.5">1.5 Fornecer âncoras para ir direto a um bloco de conteúdo</a></td>
+<td>- 140</br>- 1</br>- 1</br>- 1</br>Total = 143</td>
+</tr>
+<tr>
+<td align="center">Comportamento</td>
+<td align="left">- <a href="http://emag.governoeletronico.gov.br/#r2.2">2.2 Garantir que os objetos programáveis sejam acessíveis</a></td>
+<td>- 1</br>Total = 1</td>
+</tr>
+<tr>
+<td align="center">Conteúdo/Informação</td>
+<td align="left">- <a href="http://emag.governoeletronico.gov.br/#r3.5">3.5 Descrever links clara e sucintamente</a></br>- <a href="http://emag.governoeletronico.gov.br/#r3.6">3.6 Fornecer alternativa em texto para as imagens do sítio</a></br>- <a href="http://emag.governoeletronico.gov.br/#r3.10">3.10 Associar células de dados às células de cabeçalho</a></td>
+<td>- 4</br>- 111</br>- 5</br>Total = 120</td>
+</tr>
+<tr>
+<td align="center">Apresentação/Design</td>
+<td align="left">- <a href="http://emag.governoeletronico.gov.br/#r4.4">4.4 Possibilitar que o elemento com foco seja visualmente evidente</a></td>
+<td>- 1</br>Total = 1</td>
+</tr>
+<tr>
+<td align="center">Formulários</td>
+<td align="left">- <a href="http://emag.governoeletronico.gov.br/#r6.2">6.2 Associar etiquetas aos seus campos</a></td>
+<td>- 2</br>Total = 2</td>
+</tr>
+</tbody>
+</table>
 <hr />
+<p><strong>Clique <a href="../avaliacao-emag-pdf.pdf">aqui</a> para ver a avaliação completa feita pelo ASES [16].</strong></p>
+<hr />
+<blockquote>
+<p><strong>Accessibility Insights for Web</strong></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th align="center">Tipo do erro</th>
+<th align="left">Descrição do erro</th>
+<th align="center">Informações relevantes</th>
+<th>Quantidade de ocorrências</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">color-contrast</td>
+<td align="left">Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds</td>
+<td align="center">- <a href="https://dequeuniversity.com/rules/axe/3.3/color-contrast?application=msftAI">More information about color-contrast</a></br>- <a href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html">WCAG 1.4.3</a></td>
+<td>175</td>
+</tr>
+<tr>
+<td align="center">image-alt</td>
+<td align="left">Ensures <img> elements have alternate text or a role of none or presentation</td>
+<td align="center">- <a href="https://dequeuniversity.com/rules/axe/3.3/image-alt?application=msftAI">More information about image-alt</a></br>- <a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">WCAG 1.1.1</a></td>
+<td>11</td>
+</tr>
+<tr>
+<td align="center">label</td>
+<td align="left">Ensures every form element has a label</td>
+<td align="center">- <a href="https://dequeuniversity.com/rules/axe/3.3/label?application=msftAI">More information about label</a></br>- <a href="https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships">WCAG 1.3.1</a></br>- <a href="https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html">WCAG 3.3.2</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td align="center">link-name</td>
+<td align="left">Ensures links have discernible text</td>
+<td align="center">- <a href="https://dequeuniversity.com/rules/axe/3.3/link-name?application=msftAI">More information about link-name</a></br>- <a href="https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html">WCAG 2.4.4</a></br>- <a href="https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html">WCAG 4.1.2</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td align="center">list</td>
+<td align="left">Ensures that lists are structured correctly</td>
+<td align="center">- <a href="https://dequeuniversity.com/rules/axe/3.3/list?application=msftAI">More information about list</a></br>- <a href="https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships">WCAG 1.3.1</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p>Total de erros encontrados : 189.</p>
+<hr />
+<p><strong>Clique <a href="../AutomatedChecks-Codeforces.html">aqui</a> para visualizar a avaliação completa feita pela ferramenta da Microsoft [19].</strong></p>
+<hr />
+<blockquote>
+<p><strong>Google Lighthouse</strong></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th align="center">Categoria do erro</th>
+<th>Descrição da categoria</th>
+<th align="left">Tipo do erro</th>
+<th align="left">Descrição do erro</th>
+<th align="center">Referência(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Contrast</td>
+<td>These are opportunities to improve the legibility of your content</td>
+<td align="left">Background and foreground colors do not have a sufficient contrast ratio</td>
+<td align="left">Low-contrast text is difficult or impossible for many users to read</td>
+<td align="center"><a href="https://web.dev/color-contrast/?utm_source=lighthouse&amp;utm_medium=extension">Learn more</a></td>
+</tr>
+<tr>
+<td align="center">Names and labels</td>
+<td>These are opportunities to improve the semantics of the controls in your application. This may enhance the experience for users of assistive technology, like a screen reader</td>
+<td align="left">Image elements do not have [alt] attributes</td>
+<td align="left">Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute</td>
+<td align="center"><a href="https://web.dev/image-alt/?utm_source=lighthouse&amp;utm_medium=extension">Learn more</a></td>
+</tr>
+<tr>
+<td align="center">Names and labels</td>
+<td>These are opportunities to improve the semantics of the controls in your application. This may enhance the experience for users of assistive technology, like a screen reader</td>
+<td align="left">Links do not have a discernible name</td>
+<td align="left">Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users</td>
+<td align="center"><a href="https://web.dev/link-name/?utm_source=lighthouse&amp;utm_medium=extension">Learn more</a></td>
+</tr>
+<tr>
+<td align="center">Tables and lists</td>
+<td>These are opportunities to to improve the experience of reading tabular or list data using assistive technology, like a screen reader</td>
+<td align="left">Lists do not contain only <code>&lt;li&gt;</code> elements and script supporting elements (<code>&lt;script&gt;</code> and <code>&lt;template&gt;</code>)</td>
+<td align="left">Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output</td>
+<td align="center"><a href="https://web.dev/list/?utm_source=lighthouse&amp;utm_medium=extension">Learn more</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>Clique <a href="../codeforces_lighthouse.html">aqui</a> para visualizar a avaliação completa pelo <a href="#referencias">Google Lighthouse</a> [18]</strong></p>
 <h2 id="referencias">Referências</h2>
 <p><span id="ref1"></span>
 [1] <a href="https://www.w3.org/TR/WCAG20/#contents">Web Content Accessibility Guidelines (WCAG) 2.0</a></p>
@@ -343,7 +478,6 @@ para que o usuário consiga navegar no site.</strong></p>
 [17] <a href="https://dicionario.priberam.org/">Dicionário Priberam</a></p>
 <p>[18] <a href="https://developers.google.com/web/tools/lighthouse">Google Lighthouse</a></p>
 <p>[19] <a href="https://accessibilityinsights.io/docs/en/web/overview">Accessibility Insights for Web</a></p>
-<p>[19] <a href="https://accessibilityinsights.io/docs/en/web/overview">Accessibility Insights for Web</a></p>
 <hr />
 <h2 id="versionamento-de-edicoes-desta-pagina">Versionamento de edições desta página</h2>
 <table>
@@ -362,6 +496,18 @@ para que o usuário consiga navegar no site.</strong></p>
 <td>Criação da página</br>Adição das referências</td>
 <td>0.1</td>
 </tr>
+<tr>
+<td>18/11/2019</td>
+<td>Erick Giffoni</td>
+<td>Adição dos resultados do ASES e do Accessibility Insider for Web</td>
+<td>0.5</td>
+</tr>
+<tr>
+<td>24/11/2019</td>
+<td>Erick Giffoni</td>
+<td>Adição dos resultados do Google Lighthouse</td>
+<td>1.0</td>
+</tr>
 </tbody>
 </table></div>
         </div>
@@ -372,7 +518,7 @@ para que o usuário consiga navegar no site.</strong></p>
         </footer>
         <script>
             var base_url = "../..",
-                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+                shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
         </script>
         <script src="../../js/base.js" defer></script>
         <script src="../../search/main.js" defer></script>
